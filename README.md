@@ -6,7 +6,7 @@ A learning library for creators getting into AI:
 
 1. **Image prompts** — real prompts with their images, filterable by model, subject and source. Every prompt is colour-coded phrase by phrase (subject, style, light, camera, mood, format, parameters) so you can see *why* it works.
 2. **AI repos** — GitHub skills, plugins, MCP servers and agents, sorted by type of work and ranked by how fast they're gaining stars.
-3. **Workflow guides** — step-by-step recipes (coming next).
+3. **Workflow guides** — step-by-step recipes that link to real prompts and repos (`data/guides.json`).
 
 Static site: plain HTML/CSS/JS, no build step. Data lives in `data/` and is refreshed daily by a GitHub Action.
 
