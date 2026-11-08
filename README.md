@@ -1,5 +1,7 @@
 # Workbench
 
+Live site: https://colinchik84.github.io/ai-workbench/
+
 A learning library for creators getting into AI:
 
 1. **Image prompts** — real prompts with their images, filterable by model, subject and source. Every prompt is colour-coded phrase by phrase (subject, style, light, camera, mood, format, parameters) so you can see *why* it works.
