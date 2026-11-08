@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T00:00:00Z",
+  "title": "Design System: Workbench",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Deep Lagoon Cyan", "canonical": "#0e7490", "tonalRamp": ["#083344", "#164e63", "#0e7490", "#0891b2", "#06b6d4", "#67e8f9", "#cffafe", "#ecfeff"] },
+      "primary-soft": { "role": "primary", "displayName": "Pale Lagoon", "canonical": "#e0f6fb", "tonalRamp": ["#083344", "#164e63", "#0e7490", "#0891b2", "#7dd3e8", "#b9ebf5", "#e0f6fb", "#f2fbfd"] },
+      "primary-hairline": { "role": "primary", "displayName": "Lagoon Hairline", "canonical": "#7dd3e8", "tonalRamp": ["#083344", "#164e63", "#0e7490", "#0891b2", "#7dd3e8", "#b9ebf5", "#e0f6fb", "#f2fbfd"] },
+      "gradient-end": { "role": "primary", "displayName": "Signal Blue", "canonical": "#2563eb", "tonalRamp": ["#172554", "#1e3a8a", "#1d4ed8", "#2563eb", "#3b82f6", "#93c5fd", "#dbeafe", "#eff6ff"] },
+      "focus-cyan": { "role": "primary", "displayName": "Focus Cyan", "canonical": "#06b6d4", "tonalRamp": ["#083344", "#164e63", "#0e7490", "#0891b2", "#06b6d4", "#67e8f9", "#cffafe", "#ecfeff"] },
+      "canvas": { "role": "neutral", "displayName": "Cool Paper", "canonical": "#f8fafc", "tonalRamp": ["#020617", "#0f172a", "#334155", "#475569", "#64748b", "#cbd5e1", "#e2e8f0", "#f8fafc"] },
+      "panel": { "role": "neutral", "displayName": "Mist Panel", "canonical": "#f1f5f9", "tonalRamp": ["#020617", "#0f172a", "#334155", "#475569", "#64748b", "#cbd5e1", "#f1f5f9", "#f8fafc"] },
+      "surface": { "role": "neutral", "displayName": "White", "canonical": "#ffffff", "tonalRamp": ["#020617", "#0f172a", "#334155", "#475569", "#64748b", "#cbd5e1", "#f1f5f9", "#ffffff"] },
+      "ink": { "role": "neutral", "displayName": "Slate Ink", "canonical": "#0f172a", "tonalRamp": ["#020617", "#0f172a", "#334155", "#475569", "#64748b", "#cbd5e1", "#e2e8f0", "#f8fafc"] },
+      "ink-secondary": { "role": "neutral", "displayName": "Slate Secondary", "canonical": "#475569", "tonalRamp": ["#020617", "#0f172a", "#334155", "#475569", "#64748b", "#cbd5e1", "#e2e8f0", "#f8fafc"] },
+      "ink-muted": { "role": "neutral", "displayName": "Slate Muted", "canonical": "#64748b", "tonalRamp": ["#020617", "#0f172a", "#334155", "#475569", "#64748b", "#cbd5e1", "#e2e8f0", "#f8fafc"] },
+      "hairline": { "role": "neutral", "displayName": "Hairline", "canonical": "#e2e8f0", "tonalRamp": ["#020617", "#0f172a", "#334155", "#475569", "#64748b", "#cbd5e1", "#e2e8f0", "#f8fafc"] },
+      "hairline-strong": { "role": "neutral", "displayName": "Strong Hairline", "canonical": "#cbd5e1", "tonalRamp": ["#020617", "#0f172a", "#334155", "#475569", "#64748b", "#cbd5e1", "#e2e8f0", "#f8fafc"] },
+      "image-well": { "role": "neutral", "displayName": "Image Well", "canonical": "#e9eef4", "tonalRamp": ["#020617", "#0f172a", "#334155", "#475569", "#64748b", "#cbd5e1", "#e9eef4", "#f8fafc"] },
+      "note-tint": { "role": "neutral", "displayName": "Note Tint", "canonical": "#f0f9ff", "tonalRamp": ["#082f49", "#0c4a6e", "#0369a1", "#0284c7", "#0ea5e9", "#7dd3fc", "#e0f2fe", "#f0f9ff"] },
+      "note-ink": { "role": "neutral", "displayName": "Note Ink", "canonical": "#0c4a6e", "tonalRamp": ["#082f49", "#0c4a6e", "#0369a1", "#0284c7", "#0ea5e9", "#7dd3fc", "#e0f2fe", "#f0f9ff"] },
+      "role-subject": { "role": "tertiary", "displayName": "Subject Blue", "canonical": "#2563eb", "tonalRamp": ["#172554", "#1e3a8a", "#1d4ed8", "#2563eb", "#3b82f6", "#93c5fd", "#dbeafe", "#eff6ff"] },
+      "role-style": { "role": "tertiary", "displayName": "Style Violet", "canonical": "#9333ea", "tonalRamp": ["#3b0764", "#6b21a8", "#7e22ce", "#9333ea", "#a855f7", "#d8b4fe", "#f3e8ff", "#faf5ff"] },
+      "role-light": { "role": "tertiary", "displayName": "Light Amber", "canonical": "#d97706", "tonalRamp": ["#451a03", "#78350f", "#b45309", "#d97706", "#f59e0b", "#fcd34d", "#fef3c7", "#fffbeb"] },
+      "role-camera": { "role": "tertiary", "displayName": "Camera Teal", "canonical": "#0d9488", "tonalRamp": ["#042f2e", "#134e4a", "#0f766e", "#0d9488", "#14b8a6", "#5eead4", "#ccfbf1", "#f0fdfa"] },
+      "role-mood": { "role": "tertiary", "displayName": "Mood Rose", "canonical": "#e11d48", "tonalRamp": ["#4c0519", "#881337", "#be123c", "#e11d48", "#f43f5e", "#fda4af", "#ffe4e6", "#fff1f2"] },
+      "role-format": { "role": "tertiary", "displayName": "Format Slate", "canonical": "#64748b", "tonalRamp": ["#020617", "#0f172a", "#334155", "#475569", "#64748b", "#cbd5e1", "#e2e8f0", "#f8fafc"] },
+      "role-params": { "role": "tertiary", "displayName": "Params Indigo", "canonical": "#4f46e5", "tonalRamp": ["#1e1b4b", "#312e81", "#4338ca", "#4f46e5", "#6366f1", "#a5b4fc", "#e0e7ff", "#eef2ff"] },
+      "role-negative": { "role": "tertiary", "displayName": "Negative Crimson", "canonical": "#be123c", "tonalRamp": ["#4c0519", "#881337", "#be123c", "#e11d48", "#f43f5e", "#fda4af", "#ffe4e6", "#fff1f2"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "One page title per view, balanced wrap." },
+      "headline": { "displayName": "Headline", "purpose": "Section heads; the sheet title at 21px." },
+      "title": { "displayName": "Title", "purpose": "Card titles (two-line clamp); 15px repo names, 17px guide and step titles." },
+      "lead": { "displayName": "Lead", "purpose": "One-line page subtitle in muted slate, max 70ch." },
+      "body": { "displayName": "Body", "purpose": "Default text; descriptions at 13.5 to 14px in secondary slate." },
+      "label": { "displayName": "Label", "purpose": "Tags, chip counts, model pill. Tabular figures for numbers." },
+      "prompt": { "displayName": "Prompt", "purpose": "Full prompt text in the detail sheet; tall leading keeps role tints from colliding." },
+      "prompt-snippet": { "displayName": "Prompt Snippet", "purpose": "Line-clamped prompt previews on text cards and guide references." }
+    },
+    "gradients": [
+      { "name": "primary-gradient", "value": "linear-gradient(90deg, #0e7490, #2563eb)", "purpose": "The primary Search button only." }
+    ],
+    "shadows": [
+      { "name": "rest", "value": "0 1px 2px rgb(15 23 42 / .05), 0 4px 12px -2px rgb(15 23 42 / .06)", "purpose": "Every card, tip, reference block, secondary button and close button at rest." },
+      { "name": "lift", "value": "0 2px 4px rgb(15 23 42 / .06), 0 14px 28px -8px rgb(15 23 42 / .16)", "purpose": "Hover on clickable cards, with translateY(-2px)." },
+      { "name": "button", "value": "0 1px 2px rgb(15 23 42 / .12), 0 4px 10px -4px rgb(15 23 42 / .22)", "purpose": "The primary gradient button." },
+      { "name": "sheet", "value": "0 30px 80px -20px rgb(15 23 42 / .45)", "purpose": "The detail dialog over a 50% slate, 2px-blur backdrop." }
+    ],
+    "motion": [
+      { "name": "state", "value": "0.15s ease", "purpose": "Colour, border and background changes on chips, fields, buttons, switch." },
+      { "name": "lift", "value": "0.2s ease", "purpose": "Card shadow and 2px rise on hover." },
+      { "name": "sheet-in", "value": "0.28s cubic-bezier(.16, 1, .3, 1)", "purpose": "Desktop sheet: fade with 16px rise and 0.985 scale." },
+      { "name": "sheet-up", "value": "0.32s cubic-bezier(.16, 1, .3, 1)", "purpose": "Mobile bottom sheet: slides up 40px." },
+      { "name": "reduced-motion", "value": "none", "purpose": "prefers-reduced-motion disables all animation and transitions." }
+    ],
+    "breakpoints": [
+      { "name": "sheet-stack", "value": "860px" },
+      { "name": "mobile", "value": "600px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one gradient element: Search, beside the search field.",
+      "html": "<button class=\"ds-btn-primary\">Search</button>",
+      "css": ".ds-btn-primary { height: 46px; padding: 0 26px; border: 0; border-radius: 999px; background: linear-gradient(90deg, #0e7490, #2563eb); color: #fff; font: 600 15px system-ui, -apple-system, 'Segoe UI', sans-serif; cursor: pointer; box-shadow: 0 1px 2px rgb(15 23 42 / .12), 0 4px 10px -4px rgb(15 23 42 / .22); transition: filter .15s, transform .15s; } .ds-btn-primary:hover { filter: brightness(1.06); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 2px solid #06b6d4; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Load more: white pill with hairline and rest shadow.",
+      "html": "<button class=\"ds-btn-more\">Load more</button>",
+      "css": ".ds-btn-more { height: 42px; padding: 0 26px; border-radius: 999px; border: 1px solid var(--line, #e2e8f0); background: #fff; color: var(--ink-2, #475569); font: 500 15px system-ui, -apple-system, 'Segoe UI', sans-serif; cursor: pointer; box-shadow: 0 1px 2px rgb(15 23 42 / .05), 0 4px 12px -2px rgb(15 23 42 / .06); } .ds-btn-more:hover { color: #0f172a; border-color: #cbd5e1; } .ds-btn-more:focus-visible { outline: 2px solid #06b6d4; outline-offset: 2px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Pill search on the mist panel; turns white with a cyan hairline on focus.",
+      "html": "<label class=\"ds-search\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-3.5-3.5\"/></svg><input type=\"search\" placeholder=\"Search prompts: 85mm, isometric, poster\"></label>",
+      "css": ".ds-search { display: flex; align-items: center; gap: 10px; width: 420px; height: 46px; padding: 0 18px; background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 999px; color: #64748b; transition: border-color .15s, background .15s; } .ds-search:focus-within { background: #fff; border-color: #7dd3e8; } .ds-search input { border: 0; background: none; outline: none; width: 100%; color: #0f172a; font: 15px system-ui, -apple-system, 'Segoe UI', sans-serif; caret-color: #0e7490; } .ds-search input::placeholder { color: #5b6b80; }"
+    },
+    {
+      "name": "Filter Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill filters with counts; the selected chip is pale cyan with a cyan hairline.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" aria-pressed=\"true\">All models</button><button class=\"ds-chip\" aria-pressed=\"false\">GPT Image<span class=\"n\">16</span></button><button class=\"ds-chip\" aria-pressed=\"false\">FLUX<span class=\"n\">9</span></button></div>",
+      "css": ".ds-chips { display: flex; gap: 8px; flex-wrap: wrap; padding: 12px 14px; background: #f1f5f9; border-radius: 14px; } .ds-chip { height: 34px; padding: 0 14px; border-radius: 999px; border: 1px solid #e2e8f0; background: #fff; color: #475569; font: 14px system-ui, -apple-system, 'Segoe UI', sans-serif; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; transition: border-color .15s, color .15s, background .15s; } .ds-chip:hover { border-color: #cbd5e1; color: #0f172a; } .ds-chip:focus-visible { outline: 2px solid #06b6d4; outline-offset: 2px; } .ds-chip[aria-pressed=\"true\"] { background: #e0f6fb; border-color: #7dd3e8; color: #0e7490; font-weight: 500; } .ds-chip .n { font-size: 12px; color: #64748b; font-variant-numeric: tabular-nums; } .ds-chip[aria-pressed=\"true\"] .n { color: #0e7490; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky white header: wordmark left, pill links right, current view in pale cyan.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-wordmark\" href=\"#\">Workbench</a><nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Prompts</a><a href=\"#\">Repos</a><a href=\"#\">Guides</a></nav></header>",
+      "css": ".ds-header { display: flex; align-items: center; justify-content: space-between; height: 56px; padding: 0 24px; background: rgb(255 255 255 / .92); backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid #e2e8f0; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; } .ds-wordmark { font-weight: 700; font-size: 19px; letter-spacing: -.01em; color: #0f172a; text-decoration: none; } .ds-nav { display: flex; gap: 4px; } .ds-nav a { text-decoration: none; color: #475569; font-weight: 500; font-size: 14.5px; padding: 7px 14px; border-radius: 999px; } .ds-nav a:hover { color: #0f172a; background: #f1f5f9; } .ds-nav a:focus-visible { outline: 2px solid #06b6d4; outline-offset: 2px; } .ds-nav a[aria-current=\"page\"] { color: #0e7490; background: #e0f6fb; }"
+    },
+    {
+      "name": "Gallery Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Masonry image card: flush image with a glass model tag, two-line title, muted meta with SVG heart.",
+      "html": "<button class=\"ds-card\"><div class=\"ds-card-img\"><div class=\"ds-card-ph\"></div><span class=\"ds-card-tag\">GPT Image</span></div><div class=\"ds-card-body\"><p class=\"ds-card-title\">Portrait of an elderly ceramicist in her sunlit studio</p><div class=\"ds-card-meta\"><span>@maker</span><span class=\"likes\"><svg viewBox=\"0 0 24 24\" width=\"13\" height=\"13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linejoin=\"round\"><path d=\"M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z\"/></svg>1.2k</span></div></div></button>",
+      "css": ".ds-card { display: block; width: 240px; padding: 0; border: 0; text-align: left; cursor: pointer; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 2px rgb(15 23 42 / .05), 0 4px 12px -2px rgb(15 23 42 / .06); transition: box-shadow .2s, transform .2s; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; } .ds-card:hover { box-shadow: 0 2px 4px rgb(15 23 42 / .06), 0 14px 28px -8px rgb(15 23 42 / .16); transform: translateY(-2px); } .ds-card:focus-visible { outline: 2px solid #06b6d4; outline-offset: 2px; } .ds-card-img { position: relative; } .ds-card-ph { height: 200px; background: linear-gradient(160deg, #cbd5e1, #e9eef4); } .ds-card-tag { position: absolute; left: 10px; top: 10px; font-size: 12px; font-weight: 500; color: #fff; padding: 3px 9px; border-radius: 999px; background: rgb(15 23 42 / .55); backdrop-filter: blur(4px); } .ds-card-body { padding: 12px 14px 14px; } .ds-card-title { margin: 0; font-weight: 650; font-size: 14.5px; line-height: 1.4; color: #0f172a; } .ds-card-meta { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; color: #64748b; font-size: 12.5px; } .ds-card-meta .likes { display: inline-flex; align-items: center; gap: 4px; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Repo Tags",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Kind, Pick, New and generic tags, each a distinct treatment.",
+      "html": "<div class=\"ds-tags\"><span class=\"ds-tag kind\">Plugin</span><span class=\"ds-tag pick\"><svg viewBox=\"0 0 24 24\" width=\"12\" height=\"12\"><path d=\"m12 4 2.4 5 5.4.6-4 3.7 1.1 5.4L12 16l-4.9 2.7 1.1-5.4-4-3.7 5.4-.6z\" fill=\"currentColor\"/></svg>Pick</span><span class=\"ds-tag new\">New this month</span><span class=\"ds-tag\">Design</span><span class=\"ds-gain\"><svg viewBox=\"0 0 24 24\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#0e7490\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 17l6-6 4 4 6-7M14 8h6v6\"/></svg>+412 this week</span></div>",
+      "css": ".ds-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; } .ds-tag { font-size: 12px; border-radius: 999px; padding: 2px 9px; background: #f1f5f9; color: #475569; } .ds-tag.kind { background: #e0f6fb; color: #0e7490; font-weight: 500; } .ds-tag.new { background: #f1f5f9; color: #0f172a; font-weight: 600; } .ds-tag.pick { background: #fff; color: #0e7490; box-shadow: inset 0 0 0 1px #7dd3e8; font-weight: 600; display: inline-flex; align-items: center; gap: 3px; } .ds-gain { display: inline-flex; align-items: center; gap: 4px; margin-left: 8px; color: #475569; font-weight: 600; font-size: 13px; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Annotated Prompt Box",
+      "kind": "custom",
+      "refersTo": "prompt-box",
+      "description": "Signature component: toolbar with anatomy switch and Copy, mono prompt with role tints and underlines.",
+      "html": "<div class=\"ds-prompt\"><div class=\"ds-prompt-bar\"><label class=\"ds-switch\"><input type=\"checkbox\" checked>Highlight anatomy</label><span style=\"flex:1\"></span><button class=\"ds-link\">Copy</button></div><p class=\"ds-prompt-text\"><span class=\"seg\" style=\"--c:#2563eb\">Editorial portrait of an elderly ceramicist</span> <span class=\"seg\" style=\"--c:#0d9488\">shot on 85mm at f/1.8,</span> <span class=\"seg\" style=\"--c:#d97706\">soft window light from the left,</span> <span class=\"seg\" style=\"--c:#e11d48\">warm earthy palette,</span> <span class=\"seg\" style=\"--c:#9333ea\">Kinfolk magazine style,</span> <span class=\"seg\" style=\"--c:#64748b\">4:5 vertical</span></p></div>",
+      "css": ".ds-prompt { width: 460px; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; background: #fff; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; } .ds-prompt-bar { display: flex; align-items: center; gap: 12px; padding: 8px 10px 8px 14px; background: #f1f5f9; border-bottom: 1px solid #e2e8f0; font-size: 13px; color: #475569; } .ds-switch { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; } .ds-switch input { appearance: none; width: 30px; height: 18px; border-radius: 999px; background: #cbd5e1; position: relative; margin: 0; cursor: pointer; transition: background .15s; } .ds-switch input::after { content: ''; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%; background: #fff; box-shadow: 0 1px 2px rgb(0 0 0 / .2); transition: transform .15s; } .ds-switch input:checked { background: #06b6d4; } .ds-switch input:checked::after { transform: translateX(12px); } .ds-link { border: 0; background: none; color: #0e7490; font-size: 13px; padding: 4px 6px; border-radius: 6px; cursor: pointer; } .ds-link:hover { background: #e0f6fb; } .ds-link:focus-visible, .ds-switch input:focus-visible { outline: 2px solid #06b6d4; outline-offset: 2px; } .ds-prompt-text { margin: 0; padding: 14px 16px; font: 13.5px/1.9 'Cascadia Mono', Consolas, 'SF Mono', Menlo, ui-monospace, monospace; color: #0f172a; } .ds-prompt-text .seg { border-radius: 3px; padding: 1px 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; background: color-mix(in srgb, var(--c) 11%, transparent); box-shadow: inset 0 -2px 0 color-mix(in srgb, var(--c) 70%, transparent); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Annotated Gallery",
+    "overview": "Workbench plays the prompt-gallery category straight, at full craft: a cool near-white page, white rounded cards that lift gently off it, slate ink, and pill-shaped everything a hand touches (search, chips, nav, tags, buttons). The image wall is the hero; chrome is quiet so pictures and prompts carry the colour. The one place the system departs from category habit is the prompt itself, which is never an undifferentiated text blob: every phrase can be coloured by its role (subject, style, light, camera, mood, format, parameters, negative).\n\nDensity is gallery-dense, not dashboard-dense. Cards sit 18px apart in a five-column masonry wall, filters live in one soft panel directly above it, and type stays in a single system sans so the interface reads as tool rather than brand. Mono type appears only where a prompt is being shown, which makes \"this is a prompt\" legible at a glance.",
+    "keyCharacteristics": [
+      "Cool near-white canvas with white 12px cards on soft, low-contrast offset shadows.",
+      "Pill geometry for every interactive control.",
+      "One cyan accent family; a single cyan-to-blue gradient reserved for the primary button.",
+      "System sans throughout; mono only for prompt text.",
+      "Prompt-anatomy role colours are the only other hues in the system."
+    ],
+    "rules": [
+      { "name": "The Anatomy-Only Rule", "body": "Besides slate and cyan, colour exists only to label prompt roles. If a new surface needs a hue, it is a prompt role or it is cyan. The single sanctioned borrow is the Saved state of the Save button, which uses the mood rose for the filled heart.", "section": "colors" },
+      { "name": "The One Gradient Rule", "body": "The cyan-to-blue gradient (90deg, primary to gradient-end) appears on the primary Search button and nowhere else. One per view.", "section": "colors" },
+      { "name": "The Mono-Means-Prompt Rule", "body": "Monospace marks prompt text and inline code, nothing else. Never set UI labels, numbers or headings in mono.", "section": "typography" },
+      { "name": "The No-Eyebrow Rule", "body": "Headings stand alone. There are no small uppercase kicker labels above titles anywhere in the system.", "section": "typography" },
+      { "name": "The Wrap-Then-Scroll Rule", "body": "Filter chip rows wrap onto multiple lines on desktop so every option is visible; at 600px and below each row becomes a single sideways-scrolling line with the scrollbar hidden.", "section": "layout" },
+      { "name": "The Soft-Lift Rule", "body": "Clickable cards rise 2px and take the Lift shadow on hover (0.2s); nothing else moves on hover. Shadows are always soft and slate-tinted, never hard-edged or black.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep every pressable control a pill (999px) and every content container a 12 to 18px rounded rectangle.",
+      "Do show the active state of any filter or nav item as pale cyan fill, cyan hairline and cyan text.",
+      "Do keep Pick, kind and New tags visually distinct: hairline-and-star, cyan fill, and neutral panel respectively.",
+      "Do draw every icon, including hearts and stars, as an inline SVG at 1.8 stroke using currentColor.",
+      "Do use tabular figures for every count, rank, star, like and gain.",
+      "Do let chip rows wrap on desktop and scroll sideways at 600px and below.",
+      "Do keep text at 4.5:1 contrast or better against the surface it actually sits on, not just against white.",
+      "Do honour reduced motion: animations and transitions switch off entirely."
+    ],
+    "donts": [
+      "Don't use the cyan-to-blue gradient on anything but the primary button.",
+      "Don't introduce hues outside slate, cyan and the prompt-anatomy roles.",
+      "Don't set anything but prompt text and inline code in mono.",
+      "Don't put eyebrow or kicker labels above headings.",
+      "Don't use text glyphs or emoji as icons (no typed hearts or stars).",
+      "Don't colour gain numbers; the cyan lives on the icon only.",
+      "Don't use hard, black, or zero-blur offset shadows; depth is soft and slate-tinted."
+    ]
+  }
+}

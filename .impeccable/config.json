@@ -1,0 +1,54 @@
+{
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-08T10:47:50.298Z",
+        "reason": "Claude: unchosen direction-round sketch (spent hand), not shipped; user chose the opennana canon"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-11-08T10:47:50.869Z",
+        "reason": "Claude: unchosen direction-round sketch (spent hand), not shipped; user chose the opennana canon"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-vhs.html"
+        ],
+        "createdAt": "2026-11-08T10:47:51.547Z",
+        "reason": "Claude: unchosen direction-round sketch (spent hand), not shipped; user chose the opennana canon"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-memphis.html"
+        ],
+        "createdAt": "2026-11-08T10:47:52.097Z",
+        "reason": "Claude: unchosen direction-round sketch (spent hand), not shipped; user chose the opennana canon"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-11-08T10:47:52.618Z",
+        "reason": "Claude: unchosen direction-round sketch (spent hand), not shipped; user chose the opennana canon"
+      }
+    ]
+  }
+}

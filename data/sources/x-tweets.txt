@@ -1,0 +1,7 @@
+# Paste X/Twitter post URLs here, one per line, to add their prompt + image to the gallery.
+# The daily job reads each post through X's public embed endpoint (no API key needed).
+# A post is used only if it has an image AND the prompt is in the text ("Prompt: ..."),
+# in quotes, as a Midjourney line with --params, or in the image's alt text.
+#
+# Example:
+# https://x.com/someone/status/1234567890123456789

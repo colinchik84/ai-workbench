@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Workbench — Prompt Gallery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#111827;--mut:#6b7280;--line:#e5e7eb;--v:#6d28d9;--vt:#f3effc}
+html,body{width:1440px;height:900px;overflow:hidden;background:#fff;color:var(--ink);font-family:'Figtree',sans-serif}
+header{height:64px;display:flex;align-items:center;padding:0 40px;border-bottom:1px solid var(--line)}
+.logo{display:flex;align-items:center;gap:10px;font:700 20px 'Figtree';letter-spacing:-.01em;margin-right:48px}
+.logo i{width:24px;height:24px;border-radius:7px;background:var(--v);display:block;position:relative}
+.logo i::after{content:"";position:absolute;left:6px;top:6px;width:12px;height:12px;border:2px solid #fff;border-radius:3px}
+nav{display:flex;gap:6px}
+nav a{padding:8px 14px;border-radius:8px;font:600 15px 'Figtree';color:var(--mut);text-decoration:none}
+nav a.on{color:var(--v);background:var(--vt)}
+.right{margin-left:auto;font:500 13px 'Figtree';color:var(--mut)}
+.hero{padding:26px 0 0 280px;width:1440px}
+.search{display:flex;align-items:center;width:820px;height:54px;border:1.5px solid var(--line);border-radius:14px;padding:0 8px 0 18px;gap:12px;box-shadow:0 1px 2px rgba(17,24,39,.05)}
+.search svg{flex:0 0 20px}
+.search span{flex:1;font:500 16px 'Figtree';color:var(--mut)}
+.search button{height:38px;border:0;border-radius:9px;background:var(--v);color:#fff;font:600 15px 'Figtree';padding:0 22px}
+.pills{display:flex;gap:8px;margin-top:16px}
+.pills b{font:500 14px 'Figtree';padding:7px 14px;border:1px solid var(--line);border-radius:999px;color:#374151;background:#fff}
+.pills b.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+aside{position:absolute;left:40px;top:96px;width:208px}
+aside h5{font:600 12px 'Figtree';letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin:0 0 10px 10px}
+.m{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:8px;font:500 15px 'Figtree';color:#374151}
+.m::before{content:"";width:16px;height:16px;border:1.5px solid #cbd5e1;border-radius:50%}
+.m.on{background:var(--vt);color:var(--v);font-weight:600}.m.on::before{border:5px solid var(--v)}
+.rise{margin-top:26px;border-top:1px solid var(--line);padding-top:20px}
+.rp{padding:9px 10px;border-radius:8px}
+.rp b{display:block;font:600 14px 'Figtree'}
+.rp span{font:500 12.5px 'Figtree';color:var(--mut)}
+.rp u{text-decoration:none;color:var(--v);font-weight:600}
+.grid{position:absolute;left:280px;top:178px;width:1120px;column-count:4;column-gap:16px}
+.c{break-inside:avoid;margin-bottom:22px}
+.c .im{position:relative;border-radius:12px;overflow:hidden;background:#f3f4f6}
+.c img{display:block;width:100%;height:auto}
+.c .md{position:absolute;left:10px;top:10px;font:600 11.5px 'Figtree';background:rgba(255,255,255,.94);padding:4px 9px;border-radius:999px;color:var(--ink)}
+.c p{font:400 13.5px/1.45 'Figtree';color:#374151;margin-top:9px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.c .mt{display:flex;justify-content:space-between;margin-top:6px;font:500 12px 'Figtree';color:var(--mut)}
+.c .mt a{color:var(--v);font-weight:600;text-decoration:none}
+p .s{border-bottom:2px solid #6d28d9}p .l{border-bottom:2px solid #d97706}p .k{border-bottom:2px solid #0891b2}p .o{border-bottom:2px solid #db2777}p .f{border-bottom:2px solid #059669}
+.key{display:flex;gap:14px;font:500 12px 'Figtree';color:var(--mut);margin-top:12px}
+.key i{display:inline-block;width:14px;height:3px;margin-right:5px;vertical-align:middle;border-radius:2px}
+</style></head><body>
+<header><div class="logo"><i></i>Workbench</div>
+<nav><a class="on" href="#">Prompts</a><a href="#">Repos</a><a href="#">Guides</a></nav>
+<div class="right">Real AI images, with the prompts that made them</div></header>
+
+<section class="hero">
+ <div class="search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+ <span>Search prompts, e.g. “ceramicist in a sunlit studio”</span><button>Search</button></div>
+ <div class="pills"><b class="on">All</b><b>Portrait</b><b>Product</b><b>Food</b><b>Architecture</b><b>Illustration</b><b>Poster</b><b>Game art</b><b>Isometric</b><b>Character</b></div>
+</section>
+
+<aside>
+ <h5>Model</h5>
+ <div class="m on">All models</div><div class="m">GPT Image</div><div class="m">Nano Banana</div><div class="m">Midjourney</div><div class="m">FLUX</div><div class="m">SDXL</div><div class="m">Seedream</div><div class="m">Qwen Image</div>
+ <div class="rise"><h5>Rising repos today</h5>
+  <div class="rp"><b>obra/superpowers</b><span>314k ★ · <u>+797/day</u></span></div>
+  <div class="rp"><b>wheresryan22/anatomy</b><span>Isometric illustration skill · <u>+834/day</u></span></div>
+  <div class="rp"><b>VoltAgent/awesome-design-md</b><span>126k ★ · Design</span></div></div>
+</aside>
+
+<main class="grid">
+ <div class="c"><div class="im"><span class="md">GPT Image</span><img src="../../../images/gallery/ceramic-portrait.webp" alt=""></div>
+  <p><span class="s">Editorial portrait of an elderly ceramicist in her sunlit studio, hands dusted with clay</span>, <span class="k">shot on 85mm lens at f/1.8</span>, <span class="l">soft window light from the left</span>, <span class="o">warm earthy palette</span>, <span class="f">4:5 vertical</span></p>
+  <div class="mt"><span>Portrait</span><a href="#">View prompt</a></div></div>
+ <div class="c"><div class="im"><span class="md">Nano Banana</span><img src="../../../images/gallery/tidepool-city.webp" alt=""></div>
+  <p>Isometric diorama of a city built inside a tidepool, tiny streets and anemone towers.</p><div class="mt"><span>Isometric</span><a href="#">View prompt</a></div></div>
+ <div class="c"><div class="im"><span class="md">Midjourney</span><img src="../../../images/gallery/riso-poster.webp" alt=""></div>
+  <p>Risograph poster of a cyclist, pink and blue two-colour overprint, grainy halftone.</p><div class="mt"><span>Poster</span><a href="#">View prompt</a></div></div>
+ <div class="c"><div class="im"><span class="md">FLUX</span><img src="../../../images/gallery/forest-shrine.webp" alt=""></div>
+  <p>Moss-covered forest shrine at dawn, shafts of mist-filtered light, wide cinematic frame.</p><div class="mt"><span>Landscape</span><a href="#">View prompt</a></div></div>
+ <div class="c"><div class="im"><span class="md">SDXL</span><img src="../../../images/gallery/product-headphones.webp" alt=""></div>
+  <p>Over-ear headphones on a seamless backdrop, soft studio light, clean commercial product shot.</p><div class="mt"><span>Product</span><a href="#">View prompt</a></div></div>
+ <div class="c"><div class="im"><span class="md">Seedream</span><img src="../../../images/gallery/ramen-still.webp" alt=""></div>
+  <p>Steaming bowl of ramen, overhead still life, glossy broth, jammy egg, dark slate table.</p><div class="mt"><span>Food</span><a href="#">View prompt</a></div></div>
+ <div class="c"><div class="im"><span class="md">Qwen Image</span><img src="../../../images/gallery/mascot-sheet.webp" alt=""></div>
+  <p>Character sheet for a friendly mascot: front, side and back views with expression studies.</p><div class="mt"><span>Character</span><a href="#">View prompt</a></div></div>
+ <div class="c"><div class="im"><span class="md">GPT Image</span><img src="../../../images/gallery/brutalist-library.webp" alt=""></div>
+  <p>Brutalist public library, concrete reading hall, overcast daylight, architectural photograph.</p><div class="mt"><span>Architecture</span><a href="#">View prompt</a></div></div>
+</main>
+</body></html>

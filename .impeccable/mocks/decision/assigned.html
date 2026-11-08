@@ -1,0 +1,63 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;width:1440px;height:900px;overflow:hidden;background:#f1f1ee;color:#1a1a1a;font-family:Archivo,sans-serif}
+.feature{position:absolute;left:0;top:0;width:520px;height:900px;background:#1f3a8a;color:#f1f1ee;padding:56px 56px}
+.brand{font-weight:700;font-size:20px;letter-spacing:-.01em}
+.date{margin-top:6px;font-size:14px;opacity:.75}
+h1{font-weight:600;font-size:76px;line-height:.98;letter-spacing:-.035em;margin:150px 0 26px}
+.intro{font-size:18px;line-height:1.45;max-width:360px;opacity:.9}
+.rooms{position:absolute;left:56px;right:56px;bottom:56px;border-top:1px solid rgba(241,241,238,.35)}
+.rooms a{display:flex;justify-content:space-between;align-items:baseline;padding:16px 0;border-bottom:1px solid rgba(241,241,238,.35);color:inherit;text-decoration:none;font-size:24px;font-weight:500}
+.rooms a span{font-size:14px;opacity:.7;font-weight:400}
+.rooms a.here{font-weight:700}
+.wall{position:absolute;left:520px;top:0;right:0;height:900px}
+.wall::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 360px 520px at 300px 400px,rgba(255,250,235,.85),transparent 70%)}
+.topbar{position:absolute;top:44px;left:64px;right:64px;display:flex;justify-content:space-between;font-size:14px;color:#6b6a65}
+.topbar b{color:#1a1a1a;font-weight:600}
+.cl{position:absolute;left:0;right:0;top:420px;height:0}
+.work{position:absolute;box-shadow:0 18px 30px -18px rgba(0,0,0,.45),0 2px 4px rgba(0,0,0,.08)}
+.work img{display:block;width:100%;height:100%;object-fit:cover}
+.w1{left:120px;top:-210px;width:336px;height:420px}
+.w2{left:560px;top:-130px;width:260px;height:260px;opacity:.8}
+.dim{filter:brightness(.92)}
+.label{position:absolute;background:#fff;padding:14px 16px;width:220px;font-size:13px;line-height:1.4;box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.label .t{font-weight:700;font-size:15px}
+.label .m{color:#55544f}
+.label .p{font-family:"JetBrains Mono",monospace;font-size:11.5px;margin-top:10px;line-height:1.7}
+.l1{left:474px;top:110px}
+.l2{left:838px;top:70px;width:180px}
+.s{border-bottom:2px solid}
+.r-sub{border-color:#2b6cb0}.r-sty{border-color:#8a3fb8}.r-cam{border-color:#14806f}.r-lig{border-color:#c98a00}
+.floor{position:absolute;left:520px;right:0;bottom:0;height:72px;background:#b8b4aa}
+.next{position:absolute;right:64px;bottom:100px;font-size:15px;font-weight:600}
+.next span{font-weight:400;color:#6b6a65}
+.keys{position:absolute;left:64px;bottom:100px;font-size:13px;color:#6b6a65}
+.keys kbd{border:1px solid #c8c6bf;border-radius:3px;padding:1px 6px;background:#fff;font-family:inherit}
+</style></head><body>
+<section class="feature">
+  <div class="brand">Workbench</div>
+  <div class="date">Today’s hang · opened 8 November 2026</div>
+  <h1>Prompts<br>that worked.</h1>
+  <p class="intro">A daily exhibition of AI images. Every work is labelled with the exact prompt that made it, and what each phrase is doing.</p>
+  <nav class="rooms">
+    <a class="here" href="#">Room 1 · Prompts <span>90 works, 13 models</span></a>
+    <a href="#">Room 2 · Repos <span>600 tools, 12 kinds of work</span></a>
+    <a href="#">Room 3 · Guides <span>step-by-step recipes</span></a>
+  </nav>
+</section>
+<section class="wall">
+  <div class="topbar"><span><b>Room 1</b> · Portrait, product, landscape, type</span><span>All models · All sources</span></div>
+  <div class="cl">
+    <div class="work w1"><img src="../../../images/gallery/ceramic-portrait.webp" alt=""></div>
+    <div class="label l1"><div class="t">Ceramicist in her studio</div><div class="m">GPT Image · Workbench pick</div>
+      <div class="p"><span class="s r-sty">Editorial portrait</span> <span class="s r-sub">of an elderly ceramicist in her sunlit studio…</span> <span class="s r-cam">Shot on 85mm lens at f/1.8,</span> <span class="s r-lig">soft window light from the left,</span></div></div>
+    <div class="work w2 dim"><img src="../../../images/gallery/tidepool-city.webp" alt=""></div>
+    <div class="label l2"><div class="t">City inside a tide pool</div><div class="m">GPT Image</div></div>
+  </div>
+  <div class="keys"><kbd>←</kbd> <kbd>→</kbd> walk the wall · <kbd>Enter</kbd> read the label</div>
+  <div class="next">Next on the wall <span>· Brutalist library skylight →</span></div>
+</section>
+<div class="floor"></div>
+</body></html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Workbench — The Contact Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Barlow+Condensed:wght@500;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:#121212;color:#f4f2ee;font-family:'Barlow Condensed',sans-serif}
+body{position:relative}
+header{height:78px;display:flex;align-items:flex-end;padding:0 40px;border-bottom:1px solid #2c2c2c}
+.logo{font:700 30px 'Barlow Condensed';letter-spacing:.22em;padding-bottom:14px;margin-right:30px}
+.logo i{font:400 12px 'Courier Prime';color:#c9a227;letter-spacing:.1em;font-style:normal;margin-left:14px}
+nav{display:flex;gap:6px;margin-left:auto}
+nav a{display:block;padding:9px 20px 8px;border:1px solid #c9a227;border-bottom:0;color:#f4f2ee;text-decoration:none;font:700 17px 'Barlow Condensed';letter-spacing:.12em}
+nav a b{font:400 12px 'Courier Prime';color:#c9a227;margin-right:10px;letter-spacing:.04em}
+nav a.on{background:#f4f2ee;color:#121212;border-color:#f4f2ee}
+nav a.on b{color:#e0301e}
+.sheet{position:absolute;left:40px;top:96px;width:860px}
+.strip{background:#050505;margin-bottom:12px;position:relative;height:246px}
+.rb{height:28px;padding:13px 14px 0;display:grid;grid-template-columns:repeat(4,200px);gap:10px;font:400 11px 'Courier Prime';color:#c9a227;letter-spacing:.06em;
+ background:repeating-linear-gradient(90deg,transparent 0 5px,#161616 5px 15px,transparent 15px 21px) 0 3px/100% 8px no-repeat}
+.rb.b{padding-top:6px;background:repeating-linear-gradient(90deg,transparent 0 5px,#161616 5px 15px,transparent 15px 21px) 0 17px/100% 8px no-repeat}
+.rb span:nth-child(2n){text-align:right}
+.fr{display:grid;grid-template-columns:repeat(4,200px);gap:10px;padding:0 14px}
+.fr img,.fr .card{width:200px;height:190px;display:block;object-fit:cover}
+.card{background:#f4f2ee;color:#121212;padding:14px 14px;display:flex;flex-direction:column;position:relative}
+.card small{font:400 11px 'Courier Prime';letter-spacing:.06em;color:#6b6b6b}
+.card h3{font:700 25px/1 'Barlow Condensed';margin:8px 0 6px;text-transform:none;word-break:break-all}
+.card p{font:500 16px/1.15 'Barlow Condensed'}
+.card em{margin-top:auto;font:700 26px 'Barlow Condensed';color:#121212;font-style:normal;border-top:2px solid #121212;padding-top:5px}
+.card em u{text-decoration:none;color:#e0301e;font-size:19px;margin-left:8px}
+.circ{position:absolute;left:608px;top:12px;width:236px;height:218px;border:4px solid #e0301e;border-radius:52% 48% 50% 50%/50% 52% 48% 50%;transform:rotate(-2deg);pointer-events:none}
+.x{position:relative}.x::after{content:"";position:absolute;inset:0;background:linear-gradient(to top right,transparent calc(50% - 2px),#e0301e 50%,transparent calc(50% + 2px)),linear-gradient(to bottom right,transparent calc(50% - 2px),#e0301e 50%,transparent calc(50% + 2px));opacity:.85}
+.arrow{position:absolute;left:870px;top:150px}
+.margin{position:absolute;left:944px;top:96px;width:460px}
+.roll{font:400 12px 'Courier Prime';color:#c9a227;letter-spacing:.1em}
+.margin h2{font:400 33px/1.05 'Permanent Marker';color:#e0301e;margin:6px 0 16px;transform:rotate(-1.5deg)}
+.ph{display:flex;gap:12px;align-items:flex-start;margin-bottom:10px;border-left:3px solid #e0301e;padding-left:12px}
+.ph .t{flex:0 0 78px;background:#f4f2ee;color:#121212;font:700 12px 'Courier Prime';letter-spacing:.08em;padding:3px 0;text-align:center;margin-top:5px;transform:rotate(-1deg)}
+.ph .m{font:400 20px/1.22 'Permanent Marker';color:#e0301e;transform:rotate(-.6deg)}
+.ph:nth-of-type(2n) .m{transform:rotate(.7deg)}
+.ph.k{border-left-style:dotted}
+.note{font:400 24px 'Permanent Marker';color:#e0301e;transform:rotate(-3deg);margin:14px 0 0 76px}
+.label{position:absolute;left:0;top:640px;width:460px;background:#f4f2ee;color:#121212;padding:10px 14px 11px;transform:rotate(-.8deg);box-shadow:0 2px 0 #000}
+.label b{display:block;font:700 12px 'Courier Prime';letter-spacing:.1em;color:#6b6b6b;margin-bottom:3px}
+.label span{font:700 19px/1.15 'Barlow Condensed';letter-spacing:.03em}
+.foot{position:absolute;left:944px;top:800px;width:460px;font:400 11px/1.6 'Courier Prime';color:#c9a227;letter-spacing:.08em;border-top:1px solid #2c2c2c;padding-top:10px}
+</style></head><body>
+<header><div class="logo">WORKBENCH<i>CONTACT SHEET / TODAY</i></div>
+<nav><a class="on" href="#"><b>12</b>PROMPTS</a><a href="#"><b>13A</b>REPOS</a><a href="#"><b>14</b>GUIDES</a></nav></header>
+
+<main class="sheet">
+ <div class="strip"><div class="rb"><span>▸ 1 &nbsp;KODAK 5063</span><span>1A</span><span>▸ 2 &nbsp;KODAK 5063</span><span>2A</span></div>
+  <div class="fr"><img src="../../../images/gallery/ramen-still.webp" alt=""><img src="../../../images/gallery/tidepool-city.webp" alt=""><img src="../../../images/gallery/product-headphones.webp" alt=""><img src="../../../images/gallery/ceramic-portrait.webp" alt=""></div>
+  <div class="rb b"><span>▸ 3 &nbsp;KODAK 5063</span><span>3A</span><span>▸ 4 &nbsp;KODAK 5063</span><span>4A</span></div><div class="circ"></div></div>
+ <div class="strip"><div class="rb"><span>▸ 5 &nbsp;KODAK 5063</span><span>5A</span><span>▸ 6 &nbsp;KODAK 5063</span><span>6A</span></div>
+  <div class="fr"><img src="../../../images/gallery/forest-shrine.webp" alt=""><img src="../../../images/gallery/mascot-sheet.webp" alt=""><img src="../../../images/gallery/brutalist-library.webp" alt=""><span class="x"><img src="../../../images/gallery/riso-poster.webp" alt=""></span></div>
+  <div class="rb b"><span>▸ 7 &nbsp;KODAK 5063</span><span>7A</span><span>▸ 8 &nbsp;KODAK 5063</span><span>8A</span></div></div>
+ <div class="strip"><div class="rb"><span>▸ R1 &nbsp;ROLL 02 / REPOS</span><span>R1A</span><span>▸ R2</span><span>R2A</span></div>
+  <div class="fr">
+   <div class="card"><small>FASTEST RISER</small><h3>obra/<br>superpowers</h3><p>Agent skills library</p><em>314k ★<u>+797/day</u></em></div>
+   <div class="card"><small>DESIGN · SKILL</small><h3>wheresryan22/ anatomy</h3><p>Agent skill for interactive isometric illustrations</p><em>+834<u>/day</u></em></div>
+   <div class="card"><small>DESIGN</small><h3>VoltAgent/ awesome-design-md</h3><p>Design systems as markdown</p><em>126k ★</em></div>
+   <div class="card"><small>GUIDE · STEP 1 OF 5</small><h3>Recipe</h3><p>Pick a model, write the subject first, add light, then the camera.</p><em>Guides →</em></div>
+  </div>
+  <div class="rb b"><span>▸ R3</span><span>R3A</span><span>▸ R4</span><span>R4A</span></div></div>
+</main>
+
+<svg class="arrow" width="90" height="120" viewBox="0 0 90 120" fill="none" stroke="#e0301e" stroke-width="4" stroke-linecap="round"><path d="M4 92 C30 96 44 44 78 22"/><path d="M60 20 L80 20 L74 40"/></svg>
+
+<aside class="margin">
+ <div class="roll">ROLL 12 · FRAME 4 · TOP-RATED PICK</div>
+ <h2>this one. read it<br>phrase by phrase ↓</h2>
+ <div class="ph"><span class="t">SUBJECT</span><span class="m">Editorial portrait of an elderly ceramicist in her sunlit studio, hands dusted with clay, holding a half-finished vase.</span></div>
+ <div class="ph"><span class="t">CAMERA</span><span class="m">Shot on 85mm lens at f/1.8,</span></div>
+ <div class="ph"><span class="t">LIGHT</span><span class="m">soft window light from the left,</span></div>
+ <div class="ph"><span class="t">CAMERA</span><span class="m">shallow depth of field,</span></div>
+ <div class="ph"><span class="t">MOOD</span><span class="m">warm earthy palette,</span></div>
+ <div class="ph"><span class="t">STYLE</span><span class="m">Kinfolk magazine style,</span></div>
+ <div class="ph"><span class="t">FORMAT</span><span class="m">4:5 vertical</span></div>
+ <div class="note">copy the structure, not the words →</div>
+ <div class="label"><b>FILTER BY MODEL</b><span>GPT Image · Nano Banana · Midjourney · FLUX · SDXL · Seedream · Qwen Image</span></div>
+</aside>
+<div class="foot">REPOS REFRESHED DAILY · FASTEST RISERS ON ROLL 02<br>SORTED BY TYPE OF WORK: DESIGN / WEB DEV / GAME DEV / DATA &amp; ML / AUTOMATION</div>
+</body></html>

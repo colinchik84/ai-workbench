@@ -1,0 +1,86 @@
+{
+  "guides": [
+    {
+      "id": "first-great-prompt",
+      "title": "Write your first great image prompt",
+      "summary": "Build a prompt in six layers — subject, style, light, camera, mood, format — and change one layer at a time.",
+      "level": "Beginner",
+      "minutes": 10,
+      "cover": "ceramic-portrait",
+      "tools": ["Any image model"],
+      "steps": [
+        { "title": "Say what's in the picture", "body": "Start with one plain sentence: who or what, doing what, where. Concrete nouns beat adjectives — \"an elderly ceramicist holding a half-finished vase\" gives the model far more to work with than \"a beautiful artistic portrait\"." },
+        { "title": "Name the medium", "body": "Is it a photo, an oil painting, a 3D render, a flat vector? One or two words up front set everything else. A publication or genre (\"editorial portrait\", \"catalog photography\") works as shorthand for a whole look." },
+        { "title": "Describe the light", "body": "Light does most of the emotional work. Say where it comes from and what it does: \"soft window light from the left\", \"a sharp circle of afternoon sun\". Time of day (golden hour, blue hour) is a quick way in." },
+        { "title": "Place the camera", "body": "Angle and lens decide what the viewer feels. \"Overhead flat-lay\", \"low angle\", \"85mm at f/1.8\" (blurry background), \"wide-angle\" (more space, more drama). Photo terms work even for illustrations." },
+        { "title": "Set colour and mood", "body": "Pick a small palette — two or three colours — or a mood word. \"Muted greens and gold\" keeps an image coherent; \"vibrant\" on its own usually just means oversaturated." },
+        { "title": "Fix the format, then iterate", "body": "State the aspect ratio (\"4:5 vertical\", \"wide 16:9\"). Generate, then change one layer at a time so you learn what each phrase does. Open any prompt in the gallery and turn on Highlight anatomy to see these layers in real prompts.", "prompt": "ceramic-portrait" }
+      ]
+    },
+    {
+      "id": "product-photo-to-catalog",
+      "title": "Turn a phone photo of a product into a catalog shot",
+      "summary": "Use an image-editing model to restage a real product on a studio set without changing the product itself.",
+      "level": "Beginner",
+      "minutes": 15,
+      "cover": "product-headphones",
+      "tools": ["Nano Banana (Gemini)", "GPT Image"],
+      "steps": [
+        { "title": "Take a clean source photo", "body": "Shoot the product in daylight against a plain background, filling most of the frame. The model can only keep detail it can see — logos, stitching and texture should be sharp." },
+        { "title": "Upload it and lock what must not change", "body": "Start your prompt with what stays: \"Keep the product exactly as in the photo — shape, colour, logo and proportions.\" Editing models follow the first instruction most faithfully." },
+        { "title": "Describe the new set", "body": "Then describe the scene: the surface (travertine plinth, linen, wet slate), the backdrop colour, and the light. Echo the product's colours in the backdrop so the image reads as one palette.", "prompt": "product-headphones" },
+        { "title": "Generate several, keep the best", "body": "Ask for three or four versions. Compare them at full size — small text and logos are where models most often slip." },
+        { "title": "Fix details with a follow-up", "body": "Instead of starting over, reply with one change: \"same image, softer shadow\", \"move the camera lower\". The same \"say what stays first\" rule works for rooms and spaces too.", "prompt": "nano-edit" }
+      ]
+    },
+    {
+      "id": "character-turnaround",
+      "title": "Design a game character, from idea to turnaround",
+      "summary": "Go from a one-line idea to a front, side and back reference sheet you can reuse for poses or 3D.",
+      "level": "Intermediate",
+      "minutes": 20,
+      "cover": "mascot-sheet",
+      "tools": ["GPT Image", "Midjourney", "Any image model"],
+      "steps": [
+        { "title": "Write the character in one sentence", "body": "Combine a familiar thing with an unexpected one: \"a friendly robot shaped like a teapot\". If the sentence is memorable, the design usually is too." },
+        { "title": "Choose a style you can repeat", "body": "Flat vector with thick outlines, cel-shaded anime, or painted — pick one and keep the same words in every later prompt. A limited palette (three named colours) makes the character recognisable." },
+        { "title": "Ask for a character sheet", "body": "Use the words \"character sheet\" and name the views: \"three views (front, side, back), white background\". You get a turnaround in one image.", "prompt": "mascot-sheet" },
+        { "title": "Reuse the sheet as a reference", "body": "Upload the sheet with your next prompt (\"this character, waving, sitting on a shelf\") to keep it consistent. In Midjourney, character reference (--cref) does the same job." },
+        { "title": "Take it further", "body": "The turnaround is exactly what a 3D modeller — or a text-to-3D tool — needs. Check the Game dev category in Repos for tools that connect AI assistants to engines like Blender, Unity and Godot." }
+      ]
+    },
+    {
+      "id": "poster-with-text",
+      "title": "Make a poster with text that's actually readable",
+      "summary": "Models now render lettering well — if you quote the words, describe the type, and keep it short.",
+      "level": "Intermediate",
+      "minutes": 15,
+      "cover": "riso-poster",
+      "tools": ["Ideogram", "FLUX", "GPT Image"],
+      "steps": [
+        { "title": "Choose a model that handles type", "body": "Ideogram, FLUX and GPT Image are the strongest at lettering. Older Stable Diffusion models usually garble text; if you're using one, ask for no text and add it in an editor." },
+        { "title": "Quote the exact words", "body": "Put the text in quotes and say where it sits: the label reads \"NORTHBOUND ROASTERS\" in a condensed serif, with smaller text underneath.", "prompt": "flux-coffee-label" },
+        { "title": "Describe the lettering, not just the font", "body": "\"Hand-lettered script\", \"bold condensed sans\", \"small caps\" — models understand type styles better than font names." },
+        { "title": "Keep it short", "body": "One headline and one small line is reliable. Paragraphs of body text are not — leave those for your design tool.", "prompt": "ideogram-logo" },
+        { "title": "Or ask for no text at all", "body": "For illustration-led posters, \"no text\" stops the model inventing fake lettering, and leaves you clean space to set your own.", "prompt": "riso-poster" }
+      ]
+    },
+    {
+      "id": "design-skills-for-ai",
+      "title": "Give your AI assistant design skills",
+      "summary": "Skills are folders of instructions an AI agent loads when a task calls for them. Here's how to find and use them.",
+      "level": "Beginner",
+      "minutes": 15,
+      "cover": "brutalist-library",
+      "tools": ["Claude Code", "Codex", "Cursor"],
+      "steps": [
+        { "title": "Know what a skill is", "body": "A skill is a folder with a short instruction file (and sometimes scripts or examples) that teaches an agent how to do one kind of task well — making slides, following a brand, reviewing a design. The agent reads it only when it's relevant." },
+        { "title": "Start with the official set", "body": "Anthropic publishes a collection of example skills covering documents, design and more. Read a couple of their instruction files — they're plain text and show what good guidance looks like.", "repo": "anthropics/skills" },
+        { "title": "Browse by the work you do", "body": "Open Repos and pick the Design category, then set Kind to Skill. Sort by Rising to see what other people are adopting this week." },
+        { "title": "Install it the way the repo says", "body": "Each repo's README explains how to install it for your tool — usually copying a folder into your project or adding a plugin. Follow that rather than guessing; tools differ." },
+        { "title": "Ask for it by name, then review", "body": "Mention the skill in your request (\"use the design-review skill on this page\"). Check the result yourself: a skill makes the agent more consistent, not infallible." },
+        { "title": "Borrow from design systems", "body": "Collections of design-system notes can be dropped into a project so the agent matches a brand's look.", "repo": "VoltAgent/awesome-design-md" }
+      ]
+    }
+  ]
+}

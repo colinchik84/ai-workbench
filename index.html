@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workbench — AI image prompts, tools and guides</title>
+  <meta name="description" content="Browse real AI image prompts by model and subject, see what each phrase does, find GitHub skills and plugins for your AI, and follow step-by-step guides. Updated daily.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230f172a'/><path d='M8 22h16M10 22v-9l6-4 6 4v9' stroke='%2322d3ee' stroke-width='2.6' fill='none' stroke-linejoin='round'/></svg>">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-out" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 4 2.4 5 5.4.6-4 3.7 1.1 5.4L12 16l-4.9 2.7 1.1-5.4-4-3.7 5.4-.6z"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M4 17l6-6 4 4 6-7M14 8h6v6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="#/prompts" class="wordmark">Workbench</a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#/prompts" data-view="prompts">Prompts</a>
+        <a href="#/repos" data-view="repos">Repos</a>
+        <a href="#/guides" data-view="guides">Guides</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Prompts -->
+    <section id="view-prompts" class="view wrap" hidden>
+      <h1 class="page-title">Image prompt gallery</h1>
+      <p class="page-sub">Real prompts for GPT Image, Nano Banana, Midjourney, FLUX and more, each one broken down so you can see what every phrase does.</p>
+
+      <form class="searchbar" id="promptSearchForm" role="search">
+        <label class="search-field">
+          <svg class="ic"><use href="#i-search"/></svg>
+          <input id="promptSearch" type="search" placeholder="Search prompts: “85mm”, “isometric”, “poster”…" aria-label="Search prompts">
+        </label>
+        <button class="btn-primary" type="submit">Search</button>
+        <span class="count" id="promptCount"></span>
+      </form>
+
+      <div class="filter-panel">
+        <div class="filter-row">
+          <div class="chips scroll" id="sourceChips"></div>
+        </div>
+        <div class="filter-row">
+          <div class="chips scroll" id="modelChips"></div>
+        </div>
+        <div class="filter-row">
+          <div class="chips scroll" id="subjectChips"></div>
+        </div>
+      </div>
+
+      <div class="masonry" id="promptGrid"></div>
+      <p class="empty" id="promptEmpty" hidden>No prompts match. Try another model or clear the search.</p>
+      <button class="btn-more" id="promptMore" hidden>Load more</button>
+
+      <h2 class="section-head">How each model wants to be prompted</h2>
+      <div class="tips-grid" id="modelGuide"></div>
+    </section>
+
+    <!-- Repos -->
+    <section id="view-repos" class="view wrap" hidden>
+      <h1 class="page-title">AI repos</h1>
+      <p class="page-sub">Skills, plugins, MCP servers and agents that give your AI new abilities, sorted by the kind of work they help with. Updated daily from GitHub.</p>
+
+      <form class="searchbar" id="repoSearchForm" role="search">
+        <label class="search-field">
+          <svg class="ic"><use href="#i-search"/></svg>
+          <input id="repoSearch" type="search" placeholder="Search repos: “figma”, “unity”, “notion”…" aria-label="Search repos">
+        </label>
+        <button class="btn-primary" type="submit">Search</button>
+        <span class="count" id="repoCount"></span>
+      </form>
+
+      <div class="filter-panel">
+        <div class="filter-row">
+          <div class="chips scroll" id="catChips"></div>
+        </div>
+        <div class="filter-row">
+          <div class="chips scroll" id="kindChips"></div>
+          <label class="sort">Sort
+            <select id="sortSelect">
+              <option value="stars">Most stars</option>
+              <option value="rising">Rising fastest</option>
+              <option value="new">Newest</option>
+              <option value="updated">Recently updated</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <h2 class="section-head">Rising fastest <span class="section-note" id="risingNote"></span></h2>
+      <div class="rising" id="rising"></div>
+
+      <h2 class="section-head" id="repoListHead">All repos</h2>
+      <div class="repo-grid" id="repoList"></div>
+      <p class="empty" id="repoEmpty" hidden>No repos match. Try another category or clear the search.</p>
+      <button class="btn-more" id="repoMore" hidden>Load more</button>
+    </section>
+
+    <!-- Guides -->
+    <section id="view-guides" class="view wrap" hidden>
+      <div id="guideIndex">
+        <h1 class="page-title">Workflow guides</h1>
+        <p class="page-sub">Step-by-step recipes that combine prompts and tools to get a real job done, each one linked to examples you can copy.</p>
+        <div class="guide-grid" id="guideGrid"></div>
+      </div>
+      <article id="guideDetail" class="guide" hidden></article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><b>Workbench</b> · Images marked “Workbench pick” were generated for this site. Community prompts are collected daily from Civitai and X; images stay hosted at their source and link back to their creators. Repo data comes from the GitHub API.</p>
+    </div>
+  </footer>
+
+  <dialog id="sheet" class="sheet" aria-labelledby="sheetTitle">
+    <div id="sheetBody"></div>
+  </dialog>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>

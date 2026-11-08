@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Workbench — Video Store Wall</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Reenie+Beanie&family=Archivo+Narrow:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:#0d0d0f;color:#f2f2f2;font-family:'Archivo Narrow',sans-serif}
+body{position:relative;background:radial-gradient(ellipse 900px 260px at 50% 0,rgba(190,215,255,.22),transparent 70%),linear-gradient(#17171b,#0d0d0f 70%)}
+.tube{position:absolute;top:0;height:10px;width:520px;background:#eef6ff;border-radius:0 0 6px 6px;box-shadow:0 0 50px 14px rgba(190,215,255,.35)}
+header{position:absolute;top:22px;left:40px;right:40px;display:flex;align-items:center;gap:30px}
+.logo{font:400 44px/1 'Anton';letter-spacing:.06em;color:#d7261e;text-shadow:3px 3px 0 #2f6fd6}
+.logo small{display:block;font:700 12px 'Archivo Narrow';letter-spacing:.35em;color:#cfcfd4;text-shadow:none;margin-top:4px}
+nav{margin-left:auto;display:flex;gap:14px}
+nav a{display:flex;align-items:center;gap:10px;background:#050506;border:2px solid #3a3a42;padding:8px 18px 8px 10px;color:#fff;text-decoration:none;font:400 24px 'Anton';letter-spacing:.08em}
+nav a i{font:400 15px 'Anton';font-style:normal;width:28px;height:28px;border-radius:50%;background:#2f6fd6;display:grid;place-items:center}
+nav a.on{border-color:#f2c230}nav a.on i{background:#f2c230;color:#0d0d0f}
+.unit{position:absolute}
+.vh{font:400 34px/1 'Anton';letter-spacing:.1em;color:#fff;margin-bottom:8px;text-shadow:2px 2px 0 #d7261e}
+.vh.b{text-shadow:2px 2px 0 #2f6fd6}
+.sh{display:flex;align-items:flex-end;gap:3px;border-bottom:12px solid #2b2b31;box-shadow:0 14px 18px -8px #000;padding:0 8px;position:relative}
+.sp{width:42px;border-top:12px solid #d7261e;background:linear-gradient(90deg,#1b1b21,#0d0d0f 35%,#17171c);writing-mode:vertical-rl;font:400 19px/42px 'Anton';letter-spacing:.07em;padding:12px 0;white-space:nowrap;color:#fff;border-left:1px solid #26262c}
+.sp s{text-decoration:none;font:700 12px 'Archivo Narrow';letter-spacing:.1em;color:#f2c230;margin-top:12px}
+.sp.b{border-top-color:#2f6fd6}.sp.w{border-top-color:#e9e9ec}
+.sp.k{background:linear-gradient(90deg,#1a2a4d,#0d0d0f 35%,#1a2a4d)}.sp.r{background:linear-gradient(90deg,#4a1210,#0d0d0f 35%,#2a0a09)}
+.face{width:200px;background:#0d0d0f;border:2px solid #34343b;position:relative;z-index:2;margin:0 6px 0 4px;transform:translateY(-14px);box-shadow:0 10px 24px #000}
+.face img{display:block;width:100%;height:196px;object-fit:cover}
+.face .ti{background:#d7261e;font:400 25px/1 'Anton';padding:8px 10px 3px;letter-spacing:.05em}
+.face .su{background:#d7261e;font:700 11px/1.2 'Archivo Narrow';padding:0 10px 8px;letter-spacing:.06em}
+.face.bl .ti,.face.bl .su{background:#2f6fd6}
+.tag{position:absolute;top:-10px;right:-12px;background:#f2c230;color:#0d0d0f;font:400 15px 'Anton';padding:3px 10px;transform:rotate(5deg);letter-spacing:.05em;box-shadow:2px 2px 0 #000}
+.talk{position:absolute;left:106px;top:292px;z-index:5;width:210px;background:#fffdf0;color:#14141a;padding:12px 14px 10px;font:400 26px/.95 'Reenie Beanie';transform:rotate(-3deg);box-shadow:3px 5px 0 rgba(0,0,0,.6);border-top:8px solid #f2c230}
+.talk small{display:block;font:700 11px 'Archivo Narrow';letter-spacing:.1em;margin-top:5px;color:#6a6a70}
+.back{background:#050506;border:2px solid #34343b;padding:16px 18px 18px}
+.back h4{font:400 22px 'Anton';letter-spacing:.1em;color:#d7261e;margin-bottom:8px}
+.back p{font:500 17px/1.5 'Archivo Narrow';color:#e8e8ec}
+.back p span{padding:1px 4px;margin-right:1px;color:#fff}
+.a1{background:#d7261e}.a2{background:#2f6fd6}.a3{box-shadow:inset 0 -2px #f2c230}.a4{outline:1px solid #fff}.a5{background:#4a4a52}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.chips span{border:1px solid #2f6fd6;color:#b9cdf5;font:700 12px 'Archivo Narrow';letter-spacing:.12em;padding:3px 8px}
+.floor{position:absolute;left:0;right:0;bottom:0;height:62px;background:repeating-linear-gradient(90deg,#d7261e 0 2px,transparent 2px 22px),repeating-linear-gradient(0deg,#15151a 0 6px,#101014 6px 12px);border-top:3px solid #2f6fd6;display:flex;align-items:center;padding:0 40px;gap:30px;font:400 20px 'Anton';letter-spacing:.14em}
+.floor b{background:#f2c230;color:#0d0d0f;padding:2px 12px;font-weight:400;transform:rotate(-1.5deg)}
+.floor span{background:#0d0d0f;padding:2px 10px}
+</style></head><body>
+<div class="tube" style="left:80px"></div><div class="tube" style="left:760px"></div>
+<header><div class="logo">WORKBENCH VIDEO<small>A LEARNING LIBRARY FOR CREATORS LEARNING AI</small></div>
+<nav><a href="#"><i>1</i>PROMPTS</a><a class="on" href="#"><i>2</i>REPOS</a><a href="#"><i>3</i>GUIDES</a></nav></header>
+
+<section class="unit" style="left:40px;top:112px;width:880px">
+ <div style="display:flex;gap:26px">
+  <div><div class="vh">DESIGN</div>
+   <div class="sh" style="height:300px">
+    <div class="sp" style="height:268px">VOLTAGENT/AWESOME-DESIGN-MD<s>126K★</s></div>
+    <div class="sp b k" style="height:226px">ANTHROPICS/SKILLS</div>
+    <div class="face" style="height:296px"><span class="tag">+834/DAY</span><img src="../../../images/gallery/tidepool-city.webp" alt=""><div class="ti">ANATOMY</div><div class="su">WHERESRYAN22 · AGENT SKILL FOR INTERACTIVE ISOMETRIC ILLUSTRATIONS</div></div>
+    <div class="sp r" style="height:250px">COMFYANONYMOUS/COMFYUI</div></div></div>
+  <div><div class="vh b">GAME DEV</div>
+   <div class="sh" style="height:300px"><div class="sp" style="height:240px">CODING-SOLO/GODOT-MCP</div><div class="sp b" style="height:262px">COPLAYDEV/UNITY-MCP</div><div class="sp w k" style="height:212px">GAME-STUDIOS/SKILLS</div></div></div>
+  <div><div class="vh">WEB DEV</div>
+   <div class="sh" style="height:300px"><div class="sp b" style="height:286px">OBRA/SUPERPOWERS<s>314K★ +797/D</s></div><div class="sp r" style="height:244px">MICROSOFT/PLAYWRIGHT-MCP</div><div class="sp" style="height:258px">VERCEL-LABS/AGENT-SKILLS</div><div class="sp w" style="height:220px">MCP/SERVERS</div></div></div>
+ </div>
+ <div style="display:flex;gap:26px;margin-top:70px">
+  <div><div class="vh b">DATA &amp; ML</div>
+   <div class="sh" style="height:230px"><div class="sp" style="height:200px">DATALAYER/JUPYTER-MCP</div><div class="sp b r" style="height:176px">HUGGINGFACE/SKILLS</div><div class="sp w" style="height:214px">ML-EXPLORE/MLX</div></div></div>
+  <div><div class="vh">AUTOMATION</div>
+   <div class="sh" style="height:230px"><div class="sp b" style="height:210px">N8N-IO/N8N</div><div class="sp k" style="height:190px">MAKENOTION/NOTION-MCP</div><div class="sp r" style="height:224px">ACTIVEPIECES/MCP</div></div></div>
+  <div style="align-self:flex-end;font:500 14px/1.4 'Archivo Narrow';letter-spacing:.14em;color:#8e8e98;max-width:210px;padding-bottom:20px">SHELVED BY TYPE OF WORK.<br>REFRESHED DAILY.<br><span style="color:#f2c230">FASTEST RISERS GO FACE-OUT.</span></div>
+ </div>
+</section>
+<div class="talk">Staff pick: anatomy. A skill that makes interactive isometric illustrations. +834 stars a day.<small>— SHELF TALKER · REPOS</small></div>
+
+<section class="unit" style="left:960px;top:112px;width:440px">
+ <div class="vh b">PROMPTS</div>
+ <div class="chips"><span>GPT IMAGE</span><span>NANO BANANA</span><span>MIDJOURNEY</span><span>FLUX</span><span>SDXL</span><span>SEEDREAM</span><span>QWEN IMAGE</span></div>
+ <div class="sh" style="height:232px;gap:10px;padding:0 6px">
+  <div class="face" style="width:128px;height:222px;transform:none;margin:0"><img style="height:150px" src="../../../images/gallery/ceramic-portrait.webp" alt=""><div class="ti" style="font-size:17px">THE CERAMICIST</div><div class="su">PORTRAIT · 4:5</div></div>
+  <div class="face bl" style="width:128px;height:222px;transform:none;margin:0"><img style="height:150px" src="../../../images/gallery/riso-poster.webp" alt=""><div class="ti" style="font-size:17px">RISO CYCLIST</div><div class="su">POSTER · 3:4</div></div>
+  <div class="face" style="width:128px;height:222px;transform:none;margin:0"><img style="height:150px" src="../../../images/gallery/ramen-still.webp" alt=""><div class="ti" style="font-size:17px">RAMEN STILL</div><div class="su">FOOD · 1:1</div></div>
+ </div>
+ <div class="back" style="margin-top:26px"><h4>BACK OF THE CASE · THE PROMPT</h4>
+  <p><span class="a1">Editorial portrait of an elderly ceramicist in her sunlit studio, hands dusted with clay, holding a half-finished vase.</span> <span class="a2">Shot on 85mm lens at f/1.8,</span> <span class="a3">soft window light from the left,</span> <span class="a2">shallow depth of field,</span> <span class="a5">warm earthy palette,</span> <span class="a4">Kinfolk magazine style,</span> <span class="a5">4:5 vertical</span></p>
+  <p style="font-size:12px;letter-spacing:.14em;color:#8e8e98;margin-top:10px">SUBJECT · CAMERA · LIGHT · MOOD · STYLE · FORMAT</p></div>
+</section>
+<div class="floor"><b>NOW SHOWING</b><span>FRIDAY NIGHT RENTALS</span><span style="color:#2f6fd6">BE KIND, REWIND</span><span style="margin-left:auto;color:#d7261e">AISLE 3 · GUIDES →</span></div>
+</body></html>

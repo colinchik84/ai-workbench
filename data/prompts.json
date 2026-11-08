@@ -1,0 +1,260 @@
+{
+  "models": [
+    {
+      "id": "gpt-image", "name": "GPT Image", "maker": "OpenAI",
+      "tips": [
+        "Write in full sentences — it reads prompts like a brief, not a tag list.",
+        "Put exact text you want rendered in quotes: <code>a sign that says \"OPEN\"</code>.",
+        "State aspect ratio in words (\"4:5 vertical\", \"wide 16:9\").",
+        "Iterate conversationally: \"same shot, warmer light, lower camera\"."
+      ]
+    },
+    {
+      "id": "nano-banana", "name": "Nano Banana (Gemini Image)", "maker": "Google",
+      "tips": [
+        "Describe the scene as a story; it rewards narrative detail over keyword lists.",
+        "Great at editing: upload a photo and say exactly what to change and what to keep.",
+        "For consistent characters, reuse the same reference image and name the character.",
+        "Ask for photographic terms explicitly — lens, aperture, time of day."
+      ]
+    },
+    {
+      "id": "midjourney", "name": "Midjourney", "maker": "Midjourney",
+      "tips": [
+        "Front-load the subject; later words carry less weight.",
+        "Parameters go at the end: <code>--ar 3:2 --stylize 250 --chaos 10</code>.",
+        "<code>--sref</code> copies a style from an image or code; <code>--cref</code> keeps a character.",
+        "Use <code>--no</code> instead of writing \"without\" in the prompt."
+      ]
+    },
+    {
+      "id": "flux", "name": "FLUX", "maker": "Black Forest Labs",
+      "tips": [
+        "Long, plain-English descriptions work best — think art director notes.",
+        "Strong at text in images; quote it and say where it sits.",
+        "No negative prompt in most setups — describe what you want instead.",
+        "Layer the description: subject → setting → light → camera → finish."
+      ]
+    },
+    {
+      "id": "sdxl", "name": "Stable Diffusion / SDXL", "maker": "Stability AI & community",
+      "tips": [
+        "Comma-separated tags; weight with <code>(word:1.3)</code> to emphasise.",
+        "A negative prompt does real work here — list artefacts to avoid.",
+        "Checkpoints and LoRAs change everything; note which one you used.",
+        "Keep CFG around 5–7; higher makes images harsh."
+      ]
+    },
+    {
+      "id": "ideogram", "name": "Ideogram", "maker": "Ideogram",
+      "tips": [
+        "Best-in-class for typography — posters, logos, packaging.",
+        "Quote the exact words and describe the lettering style.",
+        "Pick a style preset (Design, Realistic, 3D) before tuning words.",
+        "Use Magic Prompt to expand a short idea, then edit what it wrote."
+      ]
+    },
+    {
+      "id": "imagen", "name": "Imagen", "maker": "Google",
+      "tips": [
+        "Clear photographic language: \"close-up\", \"35mm\", \"golden hour\".",
+        "Specify the medium early — photo, watercolour, 3D render.",
+        "Shorter prompts can work; add detail only where results drift.",
+        "Good at realistic hands and text; still check fine detail."
+      ]
+    }
+  ],
+
+  "subjects": ["Portrait", "Product", "Food", "Architecture", "Landscape", "Illustration", "Character", "Poster & type", "3D & miniature"],
+
+  "prompts": [
+    {
+      "id": "ceramic-portrait", "title": "Ceramicist in her studio", "model": "gpt-image", "subject": "Portrait",
+      "image": "images/gallery/ceramic-portrait.webp",
+      "segments": [
+        ["Editorial portrait", "style"],
+        ["of an elderly ceramicist in her sunlit studio, hands dusted with clay, holding a half-finished vase.", "subject"],
+        ["Shot on 85mm lens at f/1.8,", "camera"],
+        ["soft window light from the left,", "light"],
+        ["shallow depth of field,", "camera"],
+        ["warm earthy palette,", "mood"],
+        ["Kinfolk magazine style,", "style"],
+        ["4:5 vertical", "format"]
+      ],
+      "why": "Naming a real lens and aperture gets you a believable portrait background blur; the magazine reference sets the whole colour grade in two words."
+    },
+    {
+      "id": "product-headphones", "title": "Floating headphones", "model": "gpt-image", "subject": "Product",
+      "image": "images/gallery/product-headphones.webp",
+      "segments": [
+        ["Product photo", "style"],
+        ["of matte sage-green wireless headphones floating above a smooth travertine plinth,", "subject"],
+        ["soft studio lighting", "light"],
+        ["with a gentle gradient backdrop from cream to pale olive,", "mood"],
+        ["subtle contact shadow,", "light"],
+        ["minimal composition,", "format"],
+        ["commercial catalog photography,", "style"],
+        ["square", "format"]
+      ],
+      "why": "Materials (\"matte\", \"travertine\") do more than adjectives like \"beautiful\". The backdrop colours are chosen to echo the product so it reads as one palette."
+    },
+    {
+      "id": "tidepool-city", "title": "City inside a tide pool", "model": "gpt-image", "subject": "3D & miniature",
+      "image": "images/gallery/tidepool-city.webp",
+      "segments": [
+        ["Isometric miniature diorama", "style"],
+        ["of a tiny coastal city built inside a tide pool, starfish bridges, barnacle houses, sea anemone trees,", "subject"],
+        ["tilt-shift photography look,", "camera"],
+        ["bright midday light,", "light"],
+        ["highly detailed, playful,", "mood"],
+        ["square", "format"]
+      ],
+      "why": "Give the model concrete swaps (starfish → bridges) rather than \"whimsical\"; it builds the world from your nouns. Tilt-shift sells the miniature scale."
+    },
+    {
+      "id": "ramen-still", "title": "Tonkotsu ramen, top-down", "model": "gpt-image", "subject": "Food",
+      "image": "images/gallery/ramen-still.webp",
+      "segments": [
+        ["Overhead flat-lay", "camera"],
+        ["of a steaming bowl of tonkotsu ramen on a dark walnut table, chashu, soft-boiled egg, scallions, nori, chopsticks resting on the rim,", "subject"],
+        ["moody low-key lighting,", "light"],
+        ["food magazine photography,", "style"],
+        ["square", "format"]
+      ],
+      "why": "Listing the toppings means each one actually shows up. \"Overhead flat-lay\" fixes the camera angle so you don't get a random three-quarter view."
+    },
+    {
+      "id": "forest-shrine", "title": "Shrine in a cedar forest", "model": "gpt-image", "subject": "Landscape",
+      "image": "images/gallery/forest-shrine.webp",
+      "segments": [
+        ["Concept art", "style"],
+        ["of a moss-covered stone shrine deep in a misty cedar forest at dawn,", "subject"],
+        ["god rays through the canopy,", "light"],
+        ["a small fox statue at the entrance,", "subject"],
+        ["painterly digital illustration,", "style"],
+        ["muted greens and gold,", "mood"],
+        ["wide 16:9 cinematic composition", "format"]
+      ],
+      "why": "One small focal detail (the fox statue) gives a big environment a place for the eye to land. Two-colour palettes keep painterly images from going muddy."
+    },
+    {
+      "id": "mascot-sheet", "title": "Teapot robot character sheet", "model": "gpt-image", "subject": "Character",
+      "image": "images/gallery/mascot-sheet.webp",
+      "segments": [
+        ["Character sheet", "format"],
+        ["for a friendly robot mascot shaped like a teapot,", "subject"],
+        ["three views (front, side, back),", "format"],
+        ["flat vector illustration, thick clean outlines,", "style"],
+        ["limited palette of teal, coral and cream,", "mood"],
+        ["white background, game asset style", "style"]
+      ],
+      "why": "\"Character sheet\" plus naming the views gets a turnaround in one image — useful as a reference for later prompts or 3D modelling."
+    },
+    {
+      "id": "brutalist-library", "title": "Brutalist library skylight", "model": "gpt-image", "subject": "Architecture",
+      "image": "images/gallery/brutalist-library.webp",
+      "segments": [
+        ["Architectural photograph", "style"],
+        ["of a brutalist concrete library interior with a massive circular skylight, people reading on tiered wooden steps,", "subject"],
+        ["afternoon sun casting a sharp circle of light,", "light"],
+        ["wide-angle lens,", "camera"],
+        ["Architectural Digest style,", "style"],
+        ["3:2 landscape", "format"]
+      ],
+      "why": "Describing what the light does (\"a sharp circle\") beats naming the light source. People in the scene give the space a sense of scale."
+    },
+    {
+      "id": "riso-poster", "title": "Risograph cycling poster", "model": "gpt-image", "subject": "Poster & type",
+      "image": "images/gallery/riso-poster.webp",
+      "segments": [
+        ["Risograph-style poster", "style"],
+        ["of a cyclist riding through rolling hills,", "subject"],
+        ["two-color print in fluorescent pink and blue,", "mood"],
+        ["visible grain and slight misregistration,", "style"],
+        ["bold simple shapes, mid-century travel poster composition,", "style"],
+        ["3:4 vertical, no text", "format"]
+      ],
+      "why": "Print-process words (grain, misregistration) are what make it look printed rather than digital. \"No text\" stops the model inventing fake lettering."
+    },
+
+    {
+      "id": "mj-perfume", "title": "Perfume bottle in a desert", "model": "midjourney", "subject": "Product",
+      "segments": [
+        ["a faceted amber perfume bottle half-buried in rippled dunes,", "subject"],
+        ["long shadows at golden hour,", "light"],
+        ["luxury fragrance campaign, high-end editorial,", "style"],
+        ["warm monochrome sand palette", "mood"],
+        ["--ar 4:5 --stylize 300 --v 7 --no text, logo", "params"]
+      ],
+      "why": "Midjourney weights the start of the prompt most, so the subject leads. Unwanted things go in --no rather than in the sentence."
+    },
+    {
+      "id": "mj-anime-city", "title": "Rainy neon alley, anime still", "model": "midjourney", "subject": "Illustration",
+      "segments": [
+        ["anime film still, hand-painted backgrounds,", "style"],
+        ["a girl with a clear umbrella waiting at a tiny ramen stall in a narrow rainy alley,", "subject"],
+        ["neon signs reflecting in puddles,", "light"],
+        ["melancholic, quiet,", "mood"],
+        ["--ar 21:9 --niji 6 --stylize 400", "params"]
+      ],
+      "why": "--niji switches to the anime-tuned model. A very wide ratio reads as a film frame on its own."
+    },
+    {
+      "id": "flux-coffee-label", "title": "Coffee bag with real typography", "model": "flux", "subject": "Poster & type",
+      "segments": [
+        ["A kraft-paper coffee bag standing on a marble counter.", "subject"],
+        ["The front label reads \"NORTHBOUND ROASTERS\" in a condensed serif, with \"Ethiopia · Washed · 250g\" in small caps underneath.", "subject"],
+        ["Morning light from a window on the right, soft shadows.", "light"],
+        ["Shot like a Kinfolk product page, 50mm, f/4.", "camera"],
+        ["Neutral, warm tones.", "mood"]
+      ],
+      "why": "FLUX renders type well when you quote the exact words and describe the lettering. Plain sentences beat comma tags for this model."
+    },
+    {
+      "id": "sdxl-knight", "title": "Weathered knight portrait", "model": "sdxl", "subject": "Character",
+      "segments": [
+        ["masterpiece, oil painting,", "style"],
+        ["portrait of a weathered knight, scarred face, dented plate armour, (rain-soaked hair:1.2),", "subject"],
+        ["dramatic rim light, dark background,", "light"],
+        ["muted earth tones,", "mood"],
+        ["close-up, three-quarter view", "camera"]
+      ],
+      "negative": [["blurry, lowres, extra fingers, deformed hands, watermark, text, oversaturated", "negative"]],
+      "settings": "Steps 30 · CFG 6 · DPM++ 2M Karras · 832×1216",
+      "why": "Weighting with (term:1.2) nudges one detail without rewriting. The negative prompt is doing real work in SD — list the failure modes you keep seeing."
+    },
+    {
+      "id": "ideogram-logo", "title": "Bakery logo lockup", "model": "ideogram", "subject": "Poster & type",
+      "segments": [
+        ["A logo for a neighbourhood bakery called \"Rise & Crumb\",", "subject"],
+        ["hand-lettered script wordmark above a simple wheat-stalk icon,", "style"],
+        ["two colours: deep brown on cream,", "mood"],
+        ["flat vector, centred, plenty of margin", "format"]
+      ],
+      "why": "Ideogram's strength is lettering — quote the name and describe the type style. Limiting colours keeps it usable as a real logo."
+    },
+    {
+      "id": "nano-edit", "title": "Restyle a room photo", "model": "nano-banana", "subject": "Architecture",
+      "segments": [
+        ["Using the attached photo of my living room,", "subject"],
+        ["keep the walls, windows and floor exactly as they are.", "subject"],
+        ["Replace the furniture with a mid-century modern set in walnut and mustard fabric,", "style"],
+        ["add a large fiddle-leaf fig by the window,", "subject"],
+        ["late afternoon light,", "light"],
+        ["same camera angle", "camera"]
+      ],
+      "why": "For edits, say what must not change before what should. Locking the camera angle stops the model re-framing the whole room."
+    },
+    {
+      "id": "imagen-hiker", "title": "Hiker above the clouds", "model": "imagen", "subject": "Landscape",
+      "segments": [
+        ["Wide landscape photo,", "style"],
+        ["a lone hiker in a red jacket on a ridge above a sea of clouds,", "subject"],
+        ["sunrise, pink and orange sky,", "light"],
+        ["shot on 24mm, deep focus,", "camera"],
+        ["16:9", "format"]
+      ],
+      "why": "A single strong colour (the red jacket) against a soft scene creates the focal point. Deep focus keeps both hiker and horizon sharp."
+    }
+  ]
+}

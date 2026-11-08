@@ -1,0 +1,12 @@
+{
+  "_comment": "Repos always included and marked as picks, whatever their growth. Add {\"repo\": \"owner/name\", \"note\": \"why it's good\"}.",
+  "repos": [
+    { "repo": "anthropics/skills", "note": "Anthropic's official Agent Skills — documents, design, testing and more." },
+    { "repo": "anthropics/claude-code", "note": "Claude Code itself, with example plugins and hooks." },
+    { "repo": "modelcontextprotocol/servers", "note": "Reference MCP servers: filesystem, git, fetch, memory and more." },
+    { "repo": "punkpeye/awesome-mcp-servers", "note": "The big community index of MCP servers." },
+    { "repo": "hesreallyhim/awesome-claude-code", "note": "Curated commands, hooks, workflows and tools for Claude Code." },
+    { "repo": "openai/codex", "note": "OpenAI's coding agent CLI." },
+    { "repo": "google-gemini/gemini-cli", "note": "Google's terminal agent, with MCP support." }
+  ]
+}

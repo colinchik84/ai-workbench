@@ -1,0 +1,8 @@
+# local tooling
+.claude/
+.impeccable/hook.cache.json
+.impeccable/review/
+.impeccable/review*.png
+.impeccable/questions/
+.impeccable/config.local.json
+node_modules/

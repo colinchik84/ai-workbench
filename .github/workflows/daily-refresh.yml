@@ -1,0 +1,47 @@
+name: Daily refresh
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # every day at 06:17 UTC
+  workflow_dispatch:        # run by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Update rising repos
+        run: node scripts/update-repos.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update community prompts
+        run: node scripts/update-prompts.mjs
+        env:
+          # Optional. Add an X API bearer token as a repo secret to enable X search.
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+
+      - name: Commit data
+        run: |
+          git config user.name "workbench-bot"
+          git config user.email "workbench-bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Daily refresh $(date -u +%F)"
+            git push
+          fi

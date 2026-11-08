@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Workbench — Memphis Showroom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--pk:#f7a8c4;--mt:#9ee6cf;--k:#111;--y:#f6d32d;
+--sq:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='16'%3E%3Cpath d='M0 8 q3.500 -8 7 0 t7 0 t7 0 t7 0' fill='none' stroke='black' stroke-width='2.500'/%3E%3C/svg%3E")}
+html,body{width:1440px;height:900px;overflow:hidden;font-family:'Rubik',sans-serif;color:var(--k)}
+body{position:relative;background:
+ radial-gradient(circle at 12% 18%,#111 0 4px,transparent 5px) 0 0/210px 170px,
+ radial-gradient(circle at 70% 60%,#9ee6cf 0 8px,transparent 9px) 0 0/130px 150px,
+ radial-gradient(ellipse at 40% 80%,#fff 0 7px,transparent 8px) 0 0/190px 120px,
+ radial-gradient(circle at 85% 20%,#111 0 2px,transparent 3px) 0 0/90px 110px,var(--pk)}
+.mint{position:absolute;left:770px;top:0;width:670px;height:900px;clip-path:polygon(16% 0,100% 0,100% 100%,0 100%);background:
+ radial-gradient(circle at 30% 25%,#111 0 4px,transparent 5px) 0 0/190px 160px,
+ radial-gradient(circle at 60% 70%,#f7a8c4 0 9px,transparent 10px) 0 0/150px 130px,
+ radial-gradient(ellipse at 20% 80%,#fff 0 6px,transparent 7px) 0 0/170px 140px,var(--mt)}
+header{position:absolute;top:26px;left:48px;right:48px;display:flex;align-items:center;gap:30px}
+.logo{font:400 30px 'Rubik Mono One';background:#fff;border:4px solid var(--k);padding:6px 14px;transform:rotate(-2deg);box-shadow:6px 6px 0 var(--k)}
+nav{display:flex;gap:18px;margin-left:auto}
+nav a{display:flex;align-items:center;gap:10px;font:800 18px 'Rubik';text-transform:uppercase;letter-spacing:.06em;text-decoration:none;color:var(--k);background:#fff;border:4px solid var(--k);padding:10px 20px 10px 14px;box-shadow:6px 6px 0 var(--k)}
+nav a.on{background:var(--y);box-shadow:0 0 0 var(--k);transform:translate(6px,6px)}
+nav i{width:20px;height:20px;background:var(--pk);border:3px solid var(--k);border-radius:50%}
+nav a:nth-child(2) i{border-radius:0;background:var(--mt);clip-path:polygon(50% 0,100% 100%,0 100%);border:0;background:var(--k)}
+nav a:nth-child(3) i{border-radius:0;background:var(--mt)}
+h1{position:absolute;left:56px;top:128px;font:400 62px/1 'Rubik Mono One';display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+h1 span{border:4px solid var(--k);padding:8px 18px 4px;box-shadow:8px 8px 0 var(--k)}
+h1 span:nth-child(1){background:#fff;transform:rotate(-4deg)}
+h1 span:nth-child(2){background:var(--k);color:#fff;transform:rotate(2deg) translateX(40px);box-shadow:8px 8px 0 var(--mt)}
+h1 span:nth-child(3){background:var(--mt);transform:rotate(-1.5deg);font-size:50px}
+.sub{position:absolute;left:60px;top:470px;width:560px;font:500 22px/1.4 'Rubik';background:#fff;border:4px solid var(--k);padding:14px 18px;transform:rotate(1deg);box-shadow:6px 6px 0 var(--k)}
+.chips{position:absolute;left:56px;top:620px;width:680px;display:flex;flex-wrap:wrap;gap:12px}
+.chips b{font:700 16px 'Rubik';border:3px solid var(--k);padding:7px 16px;background:#fff;box-shadow:4px 4px 0 var(--k)}
+.chips b:nth-child(3n+1){border-radius:30px;transform:rotate(-2deg)}
+.chips b:nth-child(3n+2){background:var(--mt);transform:rotate(1.5deg)}
+.chips b:nth-child(3n){background:var(--pk);border-radius:4px 22px 4px 22px;transform:rotate(-1deg)}
+.tiles{position:absolute;left:56px;top:716px;display:flex;gap:26px}
+.tile{width:330px;height:140px;border:4px solid var(--k);padding:14px 18px;background:#fff;box-shadow:7px 7px 0 var(--k);position:relative;font:500 15px/1.35 'Rubik'}
+.tile h3{font:400 22px 'Rubik Mono One';margin-bottom:6px}
+.tile.r{transform:rotate(-1.5deg);border-radius:0 40px 0 0;background:var(--mt)}
+.tile.g{transform:rotate(1.5deg);background:var(--pk) var(--sq)}
+.tile.g p{background:#fff;padding:4px 8px;border:3px solid var(--k);display:inline-block}
+.tile .st{position:absolute;right:-14px;top:-14px;width:52px;height:52px;background:#fff;border:4px solid var(--k);border-radius:50%}
+.tile.g .st{border-radius:0;clip-path:polygon(50% 0,100% 100%,0 100%);border:0;background:var(--k)}
+.pl{position:absolute;text-align:center}
+.pl img{display:block;border:5px solid var(--k);box-shadow:10px 10px 0 var(--k);background:#fff}
+.pl .base{height:84px;margin:-4px -22px 0;border:5px solid var(--k);background:var(--pk) var(--sq);box-shadow:10px 10px 0 var(--k);position:relative}
+.pl .base::after{content:"";position:absolute;left:12px;right:12px;bottom:-34px;height:34px;border:5px solid var(--k);border-top:0;background:var(--mt) var(--sq)}
+.pl.m .base{background:var(--mt) var(--sq)}.pl.m .base::after{background:var(--pk) var(--sq)}
+.cap{position:absolute;left:810px;top:600px;width:340px;font:700 15px/1.35 'Rubik';background:#fff;border:4px solid var(--k);padding:8px 12px;transform:rotate(-1deg);box-shadow:5px 5px 0 var(--k)}
+.roles{position:absolute;left:1126px;top:112px;width:290px;background:#fff;border:4px solid var(--k);box-shadow:9px 9px 0 var(--k);padding:14px 16px;transform:rotate(1.5deg)}
+.roles h4{font:400 15px 'Rubik Mono One';margin-bottom:10px;letter-spacing:.02em}
+.ro{display:flex;gap:11px;align-items:flex-start;margin-bottom:11px;font:500 14px/1.3 'Rubik'}
+.ro b{display:block;font:800 12px 'Rubik';text-transform:uppercase;letter-spacing:.1em}
+.sh{flex:0 0 28px;height:28px;border:3px solid var(--k);background:var(--pk);margin-top:2px}
+.sh.c{border-radius:50%}.sh.t{border:0;background:var(--k);clip-path:polygon(50% 0,100% 100%,0 100%)}
+.sh.s{background:var(--mt)}.sh.h{border-radius:28px 28px 0 0;height:16px;margin-top:10px;background:#fff}
+.sh.z{background:var(--sq) center/20px 12px,#fff}.sh.p{border-radius:20px;height:18px;margin-top:7px;background:var(--k)}
+.go{position:absolute;left:1060px;top:726px;font:800 17px 'Rubik';text-transform:uppercase;letter-spacing:.06em;background:#fff;border:4px solid var(--k);padding:12px 20px;box-shadow:6px 6px 0 var(--k);transform:rotate(-2deg)}
+</style></head><body>
+<div class="mint"></div>
+<header><div class="logo">WORKBENCH</div>
+<nav><a class="on" href="#"><i></i>Prompts</a><a href="#"><i></i>Repos</a><a href="#"><i></i>Guides</a></nav></header>
+
+<h1><span>REAL</span><span>PROMPTS,</span><span>TAKEN APART.</span></h1>
+<p class="sub">Open a real AI image, then see which words did what: subject, style, light, camera, mood and format, each one a different shape.</p>
+<div class="chips"><b>GPT Image</b><b>Nano Banana</b><b>Midjourney</b><b>FLUX</b><b>SDXL</b><b>Seedream</b><b>Qwen Image</b></div>
+<div class="tiles">
+ <div class="tile r"><span class="st"></span><h3>REPOS</h3>obra/superpowers<br><b>314k ★ &nbsp;+797/day</b><br>Skills, plugins and MCP servers by type of work.</div>
+ <div class="tile g"><span class="st"></span><h3>GUIDES</h3><p>Step-by-step recipes for creators who don't code.</p></div>
+</div>
+
+<div class="pl" style="left:848px;top:132px;transform:rotate(-3deg)"><img src="../../../images/gallery/ceramic-portrait.webp" width="236" height="295" alt="" style="object-fit:cover"><div class="base"></div></div>
+<div class="cap">Editorial portrait of an elderly ceramicist in her sunlit studio, hands dusted with clay…</div>
+<aside class="roles"><h4>HOW THE PROMPT WORKS</h4>
+ <div class="ro"><i class="sh c"></i><div><b>Subject</b>elderly ceramicist, half-finished vase</div></div>
+ <div class="ro"><i class="sh t"></i><div><b>Style</b>Kinfolk magazine style</div></div>
+ <div class="ro"><i class="sh s"></i><div><b>Light</b>soft window light from the left</div></div>
+ <div class="ro"><i class="sh h"></i><div><b>Camera</b>85mm lens at f/1.8, shallow depth of field</div></div>
+ <div class="ro"><i class="sh z"></i><div><b>Mood</b>warm earthy palette</div></div>
+ <div class="ro"><i class="sh p"></i><div><b>Format</b>4:5 vertical</div></div>
+</aside>
+<div class="pl m" style="left:1210px;top:508px;transform:rotate(2deg)"><img src="../../../images/gallery/riso-poster.webp" width="130" height="173" alt="" style="object-fit:cover"><div class="base" style="height:70px"></div></div>
+<div class="pl m" style="left:850px;top:690px;display:none"></div>
+<div class="go">Explore all prompts →</div>
+</body></html>
