@@ -19,6 +19,7 @@
     <symbol id="i-up" viewBox="0 0 24 24"><path d="M4 17l6-6 4 4 6-7M14 8h6v6"/></symbol>
     <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></symbol>
     <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
   </svg>
 
   <header class="site-header">
@@ -98,11 +99,18 @@
         </div>
       </div>
 
-      <h2 class="section-head">Rising fastest <span class="section-note" id="risingNote"></span></h2>
-      <div class="rising" id="rising"></div>
+      <section class="chart-card" aria-labelledby="chartTitle">
+        <div class="chart-head">
+          <h2 class="chart-title" id="chartTitle">Stars gained per day</h2>
+          <p class="chart-note" id="risingNote"></p>
+        </div>
+        <div class="bar-chart" id="riseChart" role="list"></div>
+        <div class="chart-tip" id="chartTip" role="tooltip" hidden></div>
+      </section>
 
       <h2 class="section-head" id="repoListHead">All repos</h2>
-      <div class="repo-grid" id="repoList"></div>
+      <div class="repo-table-head" aria-hidden="true"><span>Repo</span><span>Stars</span><span>Per day</span></div>
+      <ol class="repo-list" id="repoList"></ol>
       <p class="empty" id="repoEmpty" hidden>No repos match. Try another category or clear the search.</p>
       <button class="btn-more" id="repoMore" hidden>Load more</button>
     </section>

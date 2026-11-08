@@ -22,10 +22,20 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
+          cache: npm
+
+      - run: npm ci
 
       - name: Update rising repos
         run: node scripts/update-repos.mjs
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Describe new repos
+        run: node scripts/describe-repos.mjs
+        env:
+          # Add an Anthropic API key as a repo secret to describe new repos automatically.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update community prompts

@@ -13,6 +13,7 @@ Static site: plain HTML/CSS/JS, no build step. Data lives in `data/` and is refr
 ## Run locally
 
 ```bash
+npm install
 node scripts/serve.mjs
 ```
 
@@ -25,6 +26,7 @@ Then open http://localhost:4321.
 | Script | Source | Needs |
 |---|---|---|
 | `scripts/update-repos.mjs` | GitHub search API | `GITHUB_TOKEN` (automatic in Actions) |
+| `scripts/describe-repos.mjs` | Claude API (Haiku 5.5): writes "what it does / what's good" for repos that don't have a description yet, cached in `data/repo-descriptions.json` | `ANTHROPIC_API_KEY` repo secret (optional; without it new repos show GitHub's own description) |
 | `scripts/update-prompts.mjs` — Civitai | Civitai public API: images with their exact prompt, model and settings | nothing |
 | `scripts/update-prompts.mjs` — X search | X API v2 recent search | `X_BEARER_TOKEN` repo secret (X API Basic tier or higher, paid) |
 | `scripts/update-prompts.mjs` — X list | Post URLs you paste into `data/sources/x-tweets.txt` | nothing |

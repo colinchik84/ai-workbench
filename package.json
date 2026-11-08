@@ -1,0 +1,14 @@
+{
+  "name": "ai-workbench",
+  "private": true,
+  "type": "module",
+  "description": "Workbench: AI prompt gallery, repo directory and workflow guides",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "update": "node scripts/update-repos.mjs && node scripts/describe-repos.mjs && node scripts/update-prompts.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "zod": "^4.6.7"
+  }
+}

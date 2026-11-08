@@ -25,7 +25,7 @@ const ROLES = [
 const SOURCES = { workbench: 'Workbench picks', civitai: 'Civitai', x: 'X' };
 
 /* ───────── shared data ───────── */
-const data = { prompts: [], models: {}, repos: [], repoMeta: null, guides: [] };
+const data = { prompts: [], models: {}, repos: [], repoMeta: null, descs: {}, history: {}, guides: [] };
 const saved = new Set(store.get('saved', []));
 
 /* ───────── routing ───────── */
@@ -252,8 +252,7 @@ function openPrompt(p) {
 }
 
 /* ═════════════ REPOS ═════════════ */
-// The rising strip already shows the fastest risers, so the full list starts by stars.
-const R = { cat: 'All', kind: 'all', sort: 'stars', q: '', limit: 30 };
+const R = { cat: 'All', kind: 'all', sort: 'stars', q: '', limit: 40 };
 const CAT_ORDER = ['Design', 'Web dev', 'Game dev', 'Data & ML', 'Coding & review', 'DevOps & cloud', 'Writing & docs', 'Automation', 'Media', 'Mobile', 'Security', 'General'];
 const SORTS = {
   rising: (a, b) => b.rate - a.rate,
@@ -261,31 +260,83 @@ const SORTS = {
   new: (a, b) => b.created_at.localeCompare(a.created_at),
   updated: (a, b) => b.pushed_at.localeCompare(a.pushed_at)
 };
-const gainText = r => (r.gained != null ? `+${fmt(r.gained)} in ${r.gainedDays}d` : `~${fmt(r.rate)}/day`);
+// Stars per day: measured from daily snapshots when we have them, otherwise the lifetime average.
+const perDay = r => (r.rate >= 100 ? fmt(Math.round(r.rate)) : r.rate >= 10 ? Math.round(r.rate) : r.rate.toFixed(1));
+const perDayNote = r => (r.rateMeasured ? `last ${r.gainedDays} day${r.gainedDays === 1 ? '' : 's'}` : 'average so far');
 
 async function initRepos() {
-  data.repoMeta = await loadJSON('data/repos.json');
-  data.repos = data.repoMeta?.repos || [];
+  const [meta, descs, history] = await Promise.all([
+    loadJSON('data/repos.json'), loadJSON('data/repo-descriptions.json'), loadJSON('data/repo-history.json')
+  ]);
+  data.repoMeta = meta;
+  data.repos = meta?.repos || [];
+  data.descs = descs || {};
+  data.history = history || {};
   if (!data.repos.length) {
-    $('#repoList').innerHTML = '<p class="empty">No repo data yet. Run <code>node scripts/update-repos.mjs</code> to fetch it.</p>';
+    $('#repoList').innerHTML = '<li class="empty">No repo data yet. Run <code>node scripts/update-repos.mjs</code> to fetch it.</li>';
     return;
   }
-  const onSearch = () => { R.q = $('#repoSearch').value.trim().toLowerCase(); R.limit = 30; renderRepos(); };
+  const onSearch = () => { R.q = $('#repoSearch').value.trim().toLowerCase(); R.limit = 40; renderRepos(); };
   $('#repoSearch').addEventListener('input', onSearch);
   $('#repoSearchForm').addEventListener('submit', e => { e.preventDefault(); onSearch(); });
   $('#sortSelect').addEventListener('change', e => { R.sort = e.target.value; renderRepos(); });
-  $('#repoMore').addEventListener('click', () => { R.limit += 30; renderRepos(); });
-  $('#risingNote').textContent = data.repos.some(r => r.rateMeasured)
-    ? 'Stars gained over the last 7 days'
-    : 'Estimated from average stars per day until a few days of daily history build up';
+  $('#repoMore').addEventListener('click', () => { R.limit += 40; renderRepos(); });
+  initChartTip();
   renderRepos();
 }
 
 function repoMatches(r, skip) {
   if (skip !== 'cat' && R.cat !== 'All' && !r.categories.includes(R.cat)) return false;
   if (skip !== 'kind' && R.kind !== 'all' && r.kind !== R.kind) return false;
-  if (R.q && !`${r.full_name} ${r.description} ${r.topics.join(' ')}`.toLowerCase().includes(R.q)) return false;
+  const d = data.descs[r.full_name];
+  if (R.q && !`${r.full_name} ${r.description} ${d?.what || ''} ${d?.good || ''} ${r.topics.join(' ')}`.toLowerCase().includes(R.q)) return false;
   return true;
+}
+
+// Daily star snapshots → a small trend line. Needs 3+ days of history to say anything.
+function sparkline(name) {
+  const pts = Object.entries(data.history[name] || {}).sort(([a], [b]) => a.localeCompare(b)).map(([, v]) => v);
+  if (pts.length < 3) return '';
+  const w = 120, h = 28, min = Math.min(...pts), max = Math.max(...pts), span = max - min || 1;
+  const xy = pts.map((v, i) => [(i / (pts.length - 1)) * (w - 4) + 2, h - 3 - ((v - min) / span) * (h - 6)]);
+  const d = xy.map(([x, y], i) => `${i ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`).join(' ');
+  const [lx, ly] = xy[xy.length - 1];
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" role="img" aria-label="Stars over the last ${pts.length} days, from ${fmt(pts[0])} to ${fmt(pts[pts.length - 1])}"><path d="${d}"/><circle cx="${lx}" cy="${ly}" r="4"/></svg>`;
+}
+
+function renderChart(list) {
+  const top = [...list].sort(SORTS.rising).slice(0, 10);
+  const max = Math.max(...top.map(r => r.rate), 1);
+  const measured = top.some(r => r.rateMeasured);
+  $('#chartTitle').textContent = `Stars gained per day${R.cat === 'All' ? '' : ` · ${R.cat}`}`;
+  $('#risingNote').textContent = measured
+    ? 'Top 10 risers, from daily star counts'
+    : 'Top 10 risers · average stars per day so far; switches to measured daily gains once the job has a few days of history';
+  $('#riseChart').innerHTML = top.map(r => `
+    <a class="bar-row" role="listitem" href="${esc(r.url)}" target="_blank" rel="noopener" data-name="${esc(r.full_name)}"
+       aria-label="${esc(r.full_name)}: ${perDay(r)} stars per day, ${fmt(r.stars)} total">
+      <span class="bar-label"><span class="owner">${esc(r.owner)}/</span><b>${esc(r.name)}</b></span>
+      <span class="bar-track"><span class="bar" style="width:${Math.max(0.5, (r.rate / max) * 82).toFixed(2)}%"></span>
+        <span class="bar-value">+${perDay(r)} <small>/day</small></span></span>
+    </a>`).join('');
+  $('#riseChart').closest('.chart-card').hidden = !top.length;
+}
+
+function initChartTip() {
+  const card = $('.chart-card'), tip = $('#chartTip');
+  const show = row => {
+    const r = data.repos.find(x => x.full_name === row.dataset.name);
+    if (!r) return;
+    tip.innerHTML = `<b>${esc(r.full_name)}</b>+${perDay(r)} stars/day (${perDayNote(r)})<br>${fmt(r.stars)} stars total · ${esc(r.kind)}`;
+    tip.hidden = false;
+    const c = card.getBoundingClientRect(), b = row.querySelector('.bar').getBoundingClientRect();
+    tip.style.left = `${Math.max(8, Math.min(b.right - c.left + 12, c.width - tip.offsetWidth - 8))}px`;
+    tip.style.top = `${b.top - c.top - tip.offsetHeight - 6}px`;
+  };
+  card.addEventListener('pointerover', e => { const row = e.target.closest('.bar-row'); if (row) show(row); });
+  card.addEventListener('focusin', e => { const row = e.target.closest('.bar-row'); if (row) show(row); });
+  card.addEventListener('pointerleave', () => (tip.hidden = true));
+  card.addEventListener('focusout', () => (tip.hidden = true));
 }
 
 function renderRepos() {
@@ -293,45 +344,42 @@ function renderRepos() {
   const cc = countBy(all.filter(r => repoMatches(r, 'cat')), r => r.categories);
   chips($('#catChips'), [{ v: 'All', label: 'All work', n: all.filter(r => repoMatches(r, 'cat')).length },
     ...CAT_ORDER.filter(c => cc[c]).map(c => ({ v: c, label: c, n: cc[c] }))
-  ], R.cat, v => { R.cat = v; R.limit = 30; renderRepos(); });
+  ], R.cat, v => { R.cat = v; R.limit = 40; renderRepos(); });
 
   const kc = countBy(all.filter(r => repoMatches(r, 'kind')), r => r.kind);
   chips($('#kindChips'), [{ v: 'all', label: 'All kinds' },
     ...Object.entries(kc).sort((a, b) => b[1] - a[1]).map(([k, n]) => ({ v: k, label: k, n }))
-  ], R.kind, v => { R.kind = v; R.limit = 30; renderRepos(); });
+  ], R.kind, v => { R.kind = v; R.limit = 40; renderRepos(); });
 
   const list = all.filter(r => repoMatches(r));
   $('#repoCount').innerHTML = `<b>${list.length}</b> repos · updated ${ago(data.repoMeta.generatedAt)}`;
-
-  const rising = [...list].sort(SORTS.rising).slice(0, 8);
-  $('#rising').innerHTML = rising.map((r, i) => `
-    <a class="rise-card" href="${esc(r.url)}" target="_blank" rel="noopener">
-      <span class="repo-name"><span class="rise-rank">${i + 1}.</span><span class="owner">${esc(r.owner)}/</span>${esc(r.name)}</span>
-      <p class="repo-desc">${esc(r.note || r.description)}</p>
-      <span class="rise-foot"><span class="tag-s kind">${esc(r.kind)}</span><span class="gain">${icon('up')}${gainText(r)}</span></span>
-    </a>`).join('');
-  $('#rising').hidden = !rising.length;
+  renderChart(list);
 
   const sorted = list.sort(SORTS[R.sort]);
   const shown = sorted.slice(0, R.limit);
   $('#repoListHead').textContent = R.cat === 'All' ? 'All repos' : `${R.cat} repos`;
-  $('#repoList').innerHTML = shown.map(r => `
-    <a class="repo-card" href="${esc(r.url)}" target="_blank" rel="noopener">
-      <span class="repo-name"><span class="owner">${esc(r.owner)}/</span>${esc(r.name)}</span>
-      <p class="repo-desc">${esc(r.note || r.description)}</p>
-      <div class="tags">
-        <span class="tag-s kind">${esc(r.kind)}</span>
-        ${r.curated ? `<span class="tag-s pick">${icon('star')}Pick</span>` : ''}
-        ${r.isNew ? '<span class="tag-s new">New this month</span>' : ''}
-        ${r.categories.map(c => `<span class="tag-s">${esc(c)}</span>`).join('')}
+  $('#repoList').innerHTML = shown.map(r => {
+    const d = data.descs[r.full_name];
+    return `<li class="repo-row">
+      <div class="repo-main">
+        <div class="repo-title">
+          <a class="repo-name" href="${esc(r.url)}" target="_blank" rel="noopener"><span class="owner">${esc(r.owner)}/</span>${esc(r.name)}</a>
+          <span class="tag-s kind">${esc(r.kind)}</span>
+          ${r.curated ? `<span class="tag-s pick">${icon('star')}Pick</span>` : ''}
+          ${r.isNew ? '<span class="tag-s new">New this month</span>' : ''}
+        </div>
+        <p class="repo-what">${esc(d?.what || r.note || r.description)}</p>
+        ${d?.good ? `<p class="repo-good">${icon('check')}<span>${esc(d.good)}</span></p>` : ''}
+        <div class="repo-meta">
+          <span>${r.categories.map(esc).join(' · ')}</span>
+          ${r.language ? `<span>${esc(r.language)}</span>` : ''}
+          <span>updated ${ago(r.pushed_at)}</span>
+        </div>
       </div>
-      <div class="repo-foot">
-        <span class="stars">${icon('star')}${fmt(r.stars)}</span>
-        <span class="gain">${icon('up')}${gainText(r)}</span>
-        <span class="spacer"></span>
-        <span>${r.language ? esc(r.language) + ' · ' : ''}${ago(r.pushed_at)}</span>
-      </div>
-    </a>`).join('');
+      <div class="repo-stars"><b>${fmt(r.stars)}</b><small>stars</small></div>
+      <div class="repo-daily"><b>+${perDay(r)}</b><small>per day · ${perDayNote(r)}</small>${sparkline(r.full_name)}</div>
+    </li>`;
+  }).join('');
   $('#repoEmpty').hidden = list.length > 0;
   $('#repoMore').hidden = sorted.length <= shown.length;
 }
