@@ -1,10 +1,288 @@
 {
- "generatedAt": "2026-11-08T10:01:58.915Z",
+ "generatedAt": "2026-11-08T11:10:29.120Z",
  "added": {
-  "civitai": 0
+  "civitai": 2,
+  "x-api": 0,
+  "x-list": 0
  },
- "total": 75,
+ "total": 77,
  "prompts": [
+  {
+   "id": "civitai-148122037",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/148122037",
+   "author": "neuroshaman",
+   "authorUrl": "https://civitai.com/user/neuroshaman",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/371cf18d-fa40-4b8a-9f19-56c71cc42185/width=640/371cf18d-fa40-4b8a-9f19-56c71cc42185.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/371cf18d-fa40-4b8a-9f19-56c71cc42185/original=true/371cf18d-fa40-4b8a-9f19-56c71cc42185.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "Oil painting captures a massive, towering sand leviathan emerging from the dunes, its titanic serpentine body arcing high into the burning desert sky. The creature's hide is ridged and ancient, armored with plates of obsidian-black scales that catch faint orange light, while its colossal head bends downward in a terrifying arc. Its jaws are wide open, revealing rows of molten, glowing teeth and a cavernous throat illuminated by internal fire. Below it, a lone robed figure stands motionless, cloaked in flowing desert fabric, their silhouette tiny against the monstrous scale of the beast. Golden sand swirls in violent spirals around them, illuminated by the fiery glow spilling from the creature's mouth, while dust storms billow in the background creating an apocalyptic, otherworldly haze.\nThe lighting is dramatic and cinematic, dominated by deep shadows and intense highlights in warm amber and burnt-sienna tones. Atmospheric volumetric sand clouds blur the horizon, giving an epic, mythical sense of scale as heat haze distorts the air above the dunes. Ultra-detailed textures define the scene: rippling sand grains, sharp obsidian scales, shimmering heat haze, floating glowing embers, and windswept robes that ripple in the heat. The composition is dynamic and monumental, evoking themes of ancient prophecy and the insignificance of man before a primordial creature, filled with a sense of awe, dread, and grandeur in the vast desert landscape.",
+   "settings": "Steps 9 · CFG 1 · Euler · 1024×1536",
+   "modelHint": "MOSS Image ",
+   "modelLabel": "MOSS Image",
+   "baseModel": "MOSS Image",
+   "likes": 514,
+   "createdAt": "2026-11-06T13:55:54.950Z",
+   "model": "moss-image",
+   "modelName": "MOSS Image",
+   "subject": "Character",
+   "segments": [
+    [
+     "Oil painting captures a massive,",
+     "style"
+    ],
+    [
+     "towering sand leviathan emerging from the dunes,",
+     "subject"
+    ],
+    [
+     "its titanic serpentine body arcing high into the burning desert sky.",
+     "subject"
+    ],
+    [
+     "The creature's hide is ridged and ancient,",
+     "subject"
+    ],
+    [
+     "armored with plates of obsidian-black scales that catch faint orange light,",
+     "light"
+    ],
+    [
+     "while its colossal head bends downward in a terrifying arc.",
+     "subject"
+    ],
+    [
+     "Its jaws are wide open,",
+     "subject"
+    ],
+    [
+     "revealing rows of molten,",
+     "subject"
+    ],
+    [
+     "glowing teeth and a cavernous throat illuminated by internal fire.",
+     "light"
+    ],
+    [
+     "Below it,",
+     "subject"
+    ],
+    [
+     "a lone robed figure stands motionless,",
+     "subject"
+    ],
+    [
+     "cloaked in flowing desert fabric,",
+     "subject"
+    ],
+    [
+     "their silhouette tiny against the monstrous scale of the beast.",
+     "subject"
+    ],
+    [
+     "Golden sand swirls in violent spirals around them,",
+     "subject"
+    ],
+    [
+     "illuminated by the fiery glow spilling from the creature's mouth,",
+     "light"
+    ],
+    [
+     "while dust storms billow in the background creating an apocalyptic,",
+     "format"
+    ],
+    [
+     "otherworldly haze.",
+     "light"
+    ],
+    [
+     "The lighting is dramatic and cinematic,",
+     "light"
+    ],
+    [
+     "dominated by deep shadows and intense highlights in warm amber and burnt-sienna tones.",
+     "mood"
+    ],
+    [
+     "Atmospheric volumetric sand clouds blur the horizon,",
+     "light"
+    ],
+    [
+     "giving an epic,",
+     "other"
+    ],
+    [
+     "mythical sense of scale as heat haze distorts the air above the dunes.",
+     "light"
+    ],
+    [
+     "Ultra-detailed textures define the scene:",
+     "subject"
+    ],
+    [
+     "rippling sand grains,",
+     "other"
+    ],
+    [
+     "sharp obsidian scales,",
+     "format"
+    ],
+    [
+     "shimmering heat haze,",
+     "light"
+    ],
+    [
+     "floating glowing embers,",
+     "light"
+    ],
+    [
+     "and windswept robes that ripple in the heat.",
+     "subject"
+    ],
+    [
+     "The composition is dynamic and monumental,",
+     "format"
+    ],
+    [
+     "evoking themes of ancient prophecy and the insignificance of man before a primordial creature,",
+     "subject"
+    ],
+    [
+     "filled with a sense of awe, dread,",
+     "subject"
+    ],
+    [
+     "and grandeur in the vast desert landscape.",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-08T11:10:29.120Z"
+  },
+  {
+   "id": "civitai-147912186",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/147912186",
+   "author": "Anon_011",
+   "authorUrl": "https://civitai.com/user/Anon_011",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48467fb5-ec36-43a6-9ccb-047114c26db0/width=640/48467fb5-ec36-43a6-9ccb-047114c26db0.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48467fb5-ec36-43a6-9ccb-047114c26db0/original=true/48467fb5-ec36-43a6-9ccb-047114c26db0.jpeg",
+   "width": 1024,
+   "height": 1024,
+   "prompt": "masterpiece, best quality, highly detailed, sharp focus,\nbroken knight wearing a realistic armor, kneeling on one knee, damaged armor, dented metal, cracked helmet,\nholding broken sword,\nground covered in swords, scattered broken blades, battlefield debris,\ndesolated desert landscape, small hill, stark midday shadows, dramatic low-angle light,\nlone figure, distant wide shot, obscured identity, closed helmet, hooded,\ndramatic lighting, high angle shot, somber atmosphere,\npost-apocalyptic, medieval fantasy, gritty\n8k, cinematic composition",
+   "settings": "Steps 25 · CFG 3.5 · euler · 1024×1024",
+   "modelHint": "Qwen ",
+   "modelLabel": "Qwen",
+   "baseModel": "Qwen",
+   "likes": 3,
+   "createdAt": "2026-11-04T13:12:52.124Z",
+   "model": "qwen-image",
+   "modelName": "Qwen Image",
+   "subject": "Character",
+   "segments": [
+    [
+     "masterpiece, best quality,",
+     "style"
+    ],
+    [
+     "highly detailed,",
+     "format"
+    ],
+    [
+     "sharp focus,",
+     "camera"
+    ],
+    [
+     "broken knight wearing a realistic armor,",
+     "style"
+    ],
+    [
+     "kneeling on one knee,",
+     "subject"
+    ],
+    [
+     "damaged armor, dented metal,",
+     "subject"
+    ],
+    [
+     "cracked helmet,",
+     "subject"
+    ],
+    [
+     "holding broken sword,",
+     "subject"
+    ],
+    [
+     "ground covered in swords,",
+     "subject"
+    ],
+    [
+     "scattered broken blades,",
+     "subject"
+    ],
+    [
+     "battlefield debris,",
+     "subject"
+    ],
+    [
+     "desolated desert landscape, small hill,",
+     "subject"
+    ],
+    [
+     "stark midday shadows,",
+     "light"
+    ],
+    [
+     "dramatic low-angle light,",
+     "camera"
+    ],
+    [
+     "lone figure,",
+     "other"
+    ],
+    [
+     "distant wide shot,",
+     "camera"
+    ],
+    [
+     "obscured identity,",
+     "other"
+    ],
+    [
+     "closed helmet, hooded,",
+     "other"
+    ],
+    [
+     "dramatic lighting,",
+     "light"
+    ],
+    [
+     "high angle shot,",
+     "camera"
+    ],
+    [
+     "somber atmosphere,",
+     "mood"
+    ],
+    [
+     "post-apocalyptic,",
+     "other"
+    ],
+    [
+     "medieval fantasy,",
+     "other"
+    ],
+    [
+     "gritty 8k,",
+     "format"
+    ],
+    [
+     "cinematic composition",
+     "format"
+    ]
+   ],
+   "addedAt": "2026-11-08T11:10:29.120Z"
+  },
   {
    "id": "civitai-147550959",
    "source": "civitai",
@@ -20,7 +298,7 @@
    "modelHint": "Krea 2 Turbo Krea 2",
    "modelLabel": "Krea 2 Turbo · Krea 2",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1494,
+   "likes": 1526,
    "createdAt": "2026-11-01T13:56:36.889Z",
    "model": "krea",
    "subject": "Architecture",
@@ -244,7 +522,7 @@
    "modelHint": "Krea 2 Turbo krea2_turbo_int8_convrot",
    "modelLabel": "Krea 2 Turbo · krea2_turbo_int8_convrot",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1483,
+   "likes": 1515,
    "createdAt": "2026-11-02T18:51:57.039Z",
    "model": "krea",
    "subject": "Poster & type",
@@ -337,7 +615,7 @@
    "modelHint": "Krea 2 Turbo kromaKrea2_opd",
    "modelLabel": "Krea 2 Turbo · kromaKrea2_opd",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1460,
+   "likes": 1481,
    "createdAt": "2026-11-01T15:50:00.000Z",
    "model": "krea",
    "subject": "Food",
@@ -481,7 +759,7 @@
    "modelHint": "Krea 2 Turbo ",
    "modelLabel": "Krea 2 Turbo",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1458,
+   "likes": 1478,
    "createdAt": "2026-11-01T16:10:26.958Z",
    "model": "krea",
    "subject": "Character",
@@ -689,7 +967,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 1421,
+   "likes": 1434,
    "createdAt": "2026-11-02T01:45:00.000Z",
    "model": "gpt-image",
    "subject": "Poster & type",
@@ -785,7 +1063,7 @@
    "modelHint": "Krea 2 Turbo kromaKrea2_opd.safetensors",
    "modelLabel": "Krea 2 Turbo · kromaKrea2_opd.safetensors",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1396,
+   "likes": 1410,
    "createdAt": "2026-11-01T16:08:32.051Z",
    "model": "krea",
    "subject": "Portrait",
@@ -937,7 +1215,7 @@
    "modelHint": "Krea 2 Turbo Krea 2 Turbo",
    "modelLabel": "Krea 2 Turbo · Krea 2 Turbo",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1348,
+   "likes": 1360,
    "createdAt": "2026-11-03T13:17:05.150Z",
    "model": "krea",
    "subject": "Landscape",
@@ -1177,7 +1455,7 @@
    "modelHint": "Krea 2 Turbo krea2TurboInt8Row_v10",
    "modelLabel": "Krea 2 Turbo · krea2TurboInt8Row_v10",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1341,
+   "likes": 1357,
    "createdAt": "2026-11-01T19:06:18.103Z",
    "model": "krea",
    "subject": "Portrait",
@@ -1334,7 +1612,7 @@
    "modelHint": "Krea 2 Turbo ",
    "modelLabel": "Krea 2 Turbo",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1326,
+   "likes": 1350,
    "createdAt": "2026-11-02T09:28:16.489Z",
    "model": "krea",
    "subject": "Character",
@@ -1427,7 +1705,7 @@
    "modelHint": "Illustrious pumpkinFoxAFurryAnthro_v1",
    "modelLabel": "Illustrious · pumpkinFoxAFurryAnthro_v1",
    "baseModel": "Illustrious",
-   "likes": 976,
+   "likes": 998,
    "createdAt": "2026-11-04T11:47:00.000Z",
    "model": "sdxl",
    "subject": "Character",
@@ -1499,7 +1777,7 @@
    "modelHint": " ",
    "modelLabel": "Unknown model",
    "baseModel": null,
-   "likes": 846,
+   "likes": 869,
    "createdAt": "2026-11-04T14:48:00.922Z",
    "model": "other",
    "subject": "Other",
@@ -1639,7 +1917,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 764,
+   "likes": 772,
    "createdAt": "2026-11-01T18:00:00.000Z",
    "model": "gpt-image",
    "subject": "Landscape",
@@ -1723,7 +2001,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 751,
+   "likes": 765,
    "createdAt": "2026-11-02T18:00:00.000Z",
    "model": "gpt-image",
    "subject": "Other",
@@ -1792,7 +2070,7 @@
    "modelHint": "MOSS Image ",
    "modelLabel": "MOSS Image",
    "baseModel": "MOSS Image",
-   "likes": 746,
+   "likes": 754,
    "createdAt": "2026-11-03T21:16:14.279Z",
    "model": "sdxl",
    "subject": "Landscape",
@@ -1868,7 +2146,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 602,
+   "likes": 604,
    "createdAt": "2026-11-01T18:00:00.000Z",
    "model": "gpt-image",
    "subject": "Other",
@@ -1908,7 +2186,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 585,
+   "likes": 590,
    "createdAt": "2026-11-04T19:00:00.000Z",
    "model": "gpt-image",
    "subject": "Character",
@@ -2017,7 +2295,7 @@
    "modelHint": "MOSS Image ",
    "modelLabel": "MOSS Image",
    "baseModel": "MOSS Image",
-   "likes": 569,
+   "likes": 578,
    "createdAt": "2026-11-04T02:36:19.017Z",
    "model": "moss-image",
    "subject": "Landscape",
@@ -2109,7 +2387,7 @@
    "modelHint": " Midjourney",
    "modelLabel": "Midjourney",
    "baseModel": null,
-   "likes": 541,
+   "likes": 547,
    "createdAt": "2026-11-03T03:51:00.000Z",
    "model": "midjourney",
    "subject": "Portrait",
@@ -2146,7 +2424,7 @@
    "modelHint": "Anima anima_baseV10",
    "modelLabel": "Anima · anima_baseV10",
    "baseModel": "Anima",
-   "likes": 536,
+   "likes": 547,
    "createdAt": "2026-11-01T14:00:17.225Z",
    "model": "anima",
    "subject": "Landscape",
@@ -2214,7 +2492,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 512,
+   "likes": 519,
    "createdAt": "2026-11-04T19:00:00.000Z",
    "model": "gpt-image",
    "subject": "Other",
@@ -2326,7 +2604,7 @@
    "modelHint": "MOSS Image MOSS-Image-SFT-4step-v2",
    "modelLabel": "MOSS Image · MOSS-Image-SFT-4step-v2",
    "baseModel": "MOSS Image",
-   "likes": 493,
+   "likes": 513,
    "createdAt": "2026-11-06T14:40:00.000Z",
    "model": "moss-image",
    "subject": "Landscape",
@@ -2392,126 +2670,6 @@
    "modelName": "MOSS Image"
   },
   {
-   "id": "civitai-147938412",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/147938412",
-   "author": "Cinnadust",
-   "authorUrl": "https://civitai.com/user/Cinnadust",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b819e121-ad89-4039-81fc-2748dab3cc56/width=640/b819e121-ad89-4039-81fc-2748dab3cc56.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b819e121-ad89-4039-81fc-2748dab3cc56/original=true/b819e121-ad89-4039-81fc-2748dab3cc56.jpeg",
-   "width": 3456,
-   "height": 6144,
-   "prompt": "amazing details, high-quality HD, shot on a Sony A7R IV, 50mm f/1.8 lens, a professional real-life photograph of a the inside of a bakery, with the focus being on the large frontal display glass revealing the city street outside, and the pov being from behind a perfect cupcake with pink frosting and a cherry on top, on display in the foreground slightly off center point. A chibi cat is standing on the other side of the display window, standing outside the bakery on the sidewalk looking in. It wears a cute little outfit. As the cat focuses its gaze onto the cupcake on display, it presses its tiny paws and face up against the glass. It's face expressing an awestruck look as it's eyes are filled with a dazzling awestruck effect. The cute and innocent atmosphere is captured perfectly. The cat is a 2D hand-drawn sketch drawn with colored gel pens. A professional image taken from a Sony A7R IV, 50mm f/1.8 lens, resembling real-life photography, natural lighting, professional photography, soft natural lighting, realistic depth of field, shallow depth of field.",
-   "settings": "3456×6144",
-   "modelHint": "OpenAI ",
-   "modelLabel": "OpenAI",
-   "baseModel": "OpenAI",
-   "likes": 446,
-   "createdAt": "2026-11-04T19:00:00.000Z",
-   "model": "gpt-image",
-   "subject": "Character",
-   "segments": [
-    [
-     "amazing details,",
-     "subject"
-    ],
-    [
-     "high-quality HD,",
-     "subject"
-    ],
-    [
-     "shot on a Sony A7R IV,",
-     "camera"
-    ],
-    [
-     "50mm f/1.8 lens,",
-     "camera"
-    ],
-    [
-     "a professional real-life photograph of a the inside of a bakery,",
-     "style"
-    ],
-    [
-     "with the focus being on the large frontal display glass revealing the city street outside,",
-     "subject"
-    ],
-    [
-     "and the pov being from behind a perfect cupcake with pink frosting and a cherry on top,",
-     "subject"
-    ],
-    [
-     "on display in the foreground slightly off center point.",
-     "subject"
-    ],
-    [
-     "A chibi cat is standing on the other side of the display window,",
-     "subject"
-    ],
-    [
-     "standing outside the bakery on the sidewalk looking in.",
-     "subject"
-    ],
-    [
-     "It wears a cute little outfit.",
-     "subject"
-    ],
-    [
-     "As the cat focuses its gaze onto the cupcake on display,",
-     "subject"
-    ],
-    [
-     "it presses its tiny paws and face up against the glass.",
-     "subject"
-    ],
-    [
-     "It's face expressing an awestruck look as it's eyes are filled with a dazzling awestruck effect.",
-     "subject"
-    ],
-    [
-     "The cute and innocent atmosphere is captured perfectly.",
-     "mood"
-    ],
-    [
-     "The cat is a 2D hand-drawn sketch drawn with colored gel pens.",
-     "style"
-    ],
-    [
-     "A professional image taken from a Sony A7R IV,",
-     "camera"
-    ],
-    [
-     "50mm f/1.8 lens,",
-     "camera"
-    ],
-    [
-     "resembling real-life photography,",
-     "style"
-    ],
-    [
-     "natural lighting,",
-     "light"
-    ],
-    [
-     "professional photography,",
-     "style"
-    ],
-    [
-     "soft natural lighting,",
-     "light"
-    ],
-    [
-     "realistic depth of field,",
-     "camera"
-    ],
-    [
-     "shallow depth of field.",
-     "camera"
-    ]
-   ],
-   "addedAt": "2026-11-08T09:58:59.583Z",
-   "modelName": "GPT Image"
-  },
-  {
    "id": "civitai-147814460",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/147814460",
@@ -2527,7 +2685,7 @@
    "modelHint": "SDXL 1.0 ",
    "modelLabel": "SDXL 1.0",
    "baseModel": "SDXL 1.0",
-   "likes": 444,
+   "likes": 451,
    "createdAt": "2026-11-03T17:05:29.089Z",
    "model": "sdxl",
    "subject": "3D & miniature",
@@ -2649,6 +2807,126 @@
    "modelName": "Stable Diffusion / SDXL"
   },
   {
+   "id": "civitai-147938412",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/147938412",
+   "author": "Cinnadust",
+   "authorUrl": "https://civitai.com/user/Cinnadust",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b819e121-ad89-4039-81fc-2748dab3cc56/width=640/b819e121-ad89-4039-81fc-2748dab3cc56.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b819e121-ad89-4039-81fc-2748dab3cc56/original=true/b819e121-ad89-4039-81fc-2748dab3cc56.jpeg",
+   "width": 3456,
+   "height": 6144,
+   "prompt": "amazing details, high-quality HD, shot on a Sony A7R IV, 50mm f/1.8 lens, a professional real-life photograph of a the inside of a bakery, with the focus being on the large frontal display glass revealing the city street outside, and the pov being from behind a perfect cupcake with pink frosting and a cherry on top, on display in the foreground slightly off center point. A chibi cat is standing on the other side of the display window, standing outside the bakery on the sidewalk looking in. It wears a cute little outfit. As the cat focuses its gaze onto the cupcake on display, it presses its tiny paws and face up against the glass. It's face expressing an awestruck look as it's eyes are filled with a dazzling awestruck effect. The cute and innocent atmosphere is captured perfectly. The cat is a 2D hand-drawn sketch drawn with colored gel pens. A professional image taken from a Sony A7R IV, 50mm f/1.8 lens, resembling real-life photography, natural lighting, professional photography, soft natural lighting, realistic depth of field, shallow depth of field.",
+   "settings": "3456×6144",
+   "modelHint": "OpenAI ",
+   "modelLabel": "OpenAI",
+   "baseModel": "OpenAI",
+   "likes": 447,
+   "createdAt": "2026-11-04T19:00:00.000Z",
+   "model": "gpt-image",
+   "subject": "Character",
+   "segments": [
+    [
+     "amazing details,",
+     "subject"
+    ],
+    [
+     "high-quality HD,",
+     "subject"
+    ],
+    [
+     "shot on a Sony A7R IV,",
+     "camera"
+    ],
+    [
+     "50mm f/1.8 lens,",
+     "camera"
+    ],
+    [
+     "a professional real-life photograph of a the inside of a bakery,",
+     "style"
+    ],
+    [
+     "with the focus being on the large frontal display glass revealing the city street outside,",
+     "subject"
+    ],
+    [
+     "and the pov being from behind a perfect cupcake with pink frosting and a cherry on top,",
+     "subject"
+    ],
+    [
+     "on display in the foreground slightly off center point.",
+     "subject"
+    ],
+    [
+     "A chibi cat is standing on the other side of the display window,",
+     "subject"
+    ],
+    [
+     "standing outside the bakery on the sidewalk looking in.",
+     "subject"
+    ],
+    [
+     "It wears a cute little outfit.",
+     "subject"
+    ],
+    [
+     "As the cat focuses its gaze onto the cupcake on display,",
+     "subject"
+    ],
+    [
+     "it presses its tiny paws and face up against the glass.",
+     "subject"
+    ],
+    [
+     "It's face expressing an awestruck look as it's eyes are filled with a dazzling awestruck effect.",
+     "subject"
+    ],
+    [
+     "The cute and innocent atmosphere is captured perfectly.",
+     "mood"
+    ],
+    [
+     "The cat is a 2D hand-drawn sketch drawn with colored gel pens.",
+     "style"
+    ],
+    [
+     "A professional image taken from a Sony A7R IV,",
+     "camera"
+    ],
+    [
+     "50mm f/1.8 lens,",
+     "camera"
+    ],
+    [
+     "resembling real-life photography,",
+     "style"
+    ],
+    [
+     "natural lighting,",
+     "light"
+    ],
+    [
+     "professional photography,",
+     "style"
+    ],
+    [
+     "soft natural lighting,",
+     "light"
+    ],
+    [
+     "realistic depth of field,",
+     "camera"
+    ],
+    [
+     "shallow depth of field.",
+     "camera"
+    ]
+   ],
+   "addedAt": "2026-11-08T09:58:59.583Z",
+   "modelName": "GPT Image"
+  },
+  {
    "id": "civitai-148037596",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/148037596",
@@ -2663,7 +2941,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 420,
+   "likes": 423,
    "createdAt": "2026-11-05T18:00:00.000Z",
    "model": "gpt-image",
    "subject": "Other",
@@ -2783,7 +3061,7 @@
    "modelHint": "SDXL 1.0 ",
    "modelLabel": "SDXL 1.0",
    "baseModel": "SDXL 1.0",
-   "likes": 320,
+   "likes": 327,
    "createdAt": "2026-11-01T21:17:52.798Z",
    "model": "sdxl",
    "subject": "Other",
@@ -2827,7 +3105,7 @@
    "modelHint": "Nano Banana ",
    "modelLabel": "Nano Banana",
    "baseModel": "Nano Banana",
-   "likes": 252,
+   "likes": 253,
    "createdAt": "2026-11-01T16:24:13.570Z",
    "model": "nano-banana",
    "subject": "Poster & type",
@@ -5332,7 +5610,7 @@
    "modelHint": "Flux.1 D flux_dev",
    "modelLabel": "Flux.1 D · flux_dev",
    "baseModel": "Flux.1 D",
-   "likes": 36,
+   "likes": 37,
    "createdAt": "2026-11-01T12:56:22.175Z",
    "model": "flux",
    "subject": "Landscape",
@@ -5724,7 +6002,7 @@
    "modelHint": "Nano Banana ",
    "modelLabel": "Nano Banana",
    "baseModel": "Nano Banana",
-   "likes": 32,
+   "likes": 34,
    "createdAt": "2026-11-02T03:08:21.978Z",
    "model": "nano-banana",
    "subject": "Architecture",
