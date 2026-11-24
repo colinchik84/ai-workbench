@@ -1,12 +1,1215 @@
 {
- "generatedAt": "2026-11-23T18:27:49.276Z",
+ "generatedAt": "2026-11-24T17:58:17.309Z",
  "added": {
-  "civitai": 24,
+  "civitai": 13,
   "x-api": 0,
   "x-list": 0
  },
- "total": 381,
+ "total": 394,
  "prompts": [
+  {
+   "id": "civitai-149567911",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149567911",
+   "author": "Deus_Irae",
+   "authorUrl": "https://civitai.com/user/Deus_Irae",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d93ac97a-38cb-4abd-90e3-df2450f5014a/width=640/d93ac97a-38cb-4abd-90e3-df2450f5014a.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d93ac97a-38cb-4abd-90e3-df2450f5014a/original=true/d93ac97a-38cb-4abd-90e3-df2450f5014a.jpeg",
+   "width": 1664,
+   "height": 2432,
+   "prompt": "A graphic storybook character illustration of a cute black rabbit mage seated cross-legged on a patterned circular rug beside a tranquil desert oasis, featuring calm turquoise water, rounded sand banks, and stylized palm trees with fan-shaped fronds—all neatly contained within a vertical rectangular illustration panel centered on a flat, solid pale-clay background; her tall black bunny ears, the wide angled rim of her white wizard hat, and the curved crescent tip of her wooden staff dynamically extend and overlap outside the frame into the plain space, while she curiously examines a glowing glass orb between her paws with large golden anime-styled eyes; rendered in clean silhouettes with tactile paper and gouache texture, using a vibrant pastel desert palette, in a flat 2D decorative picture-book art style.  <lora:Detailer-KREA2:0.75> <lora:Krea2_TextFusion_Refusal_Reduction:1> <lora:Elegance_Niji_KR2:0.5> <lora:FurryToonMix_krea2:0.3> <lora:krea2_furry_0716:0.45> <lora:NV_KR2_Vantheon_epoch_10:0.4>",
+   "negative": "blurry, lowres, pixelated, low quality, worst quality, jpeg artifacts, noise, grain, compression, chromatic aberration, out of focus, plastic skin, blurry, lowres, pixelated, low quality, worst quality, jpeg artifacts, noise, grain, compression, chromatic aberration, out of focus, plastic skin,waxy skin, over-saturated colors, warped anatomy, smeared details, over-processing, composite look",
+   "settings": "Steps 8 · CFG 1 · Euler a_simple · 1664×2432",
+   "modelHint": "Krea 2 Krea2\\sickOllie_krea2.safetensors",
+   "modelLabel": "Krea 2 · Krea2\\sickOllie_krea2.safetensors",
+   "baseModel": "Krea 2",
+   "likes": 1155,
+   "createdAt": "2026-11-19T20:40:09.396Z",
+   "model": "krea",
+   "modelName": "Krea",
+   "subject": "Landscape",
+   "segments": [
+    [
+     "A graphic storybook character illustration of a cute black rabbit mage seated cross-legged on a patterned circular rug beside a tranquil desert oasis,",
+     "subject"
+    ],
+    [
+     "featuring calm turquoise water,",
+     "mood"
+    ],
+    [
+     "rounded sand banks,",
+     "subject"
+    ],
+    [
+     "and stylized palm trees with fan-shaped fronds—all neatly contained within a vertical rectangular illustration panel centered on a flat,",
+     "format"
+    ],
+    [
+     "solid pale-clay background;",
+     "format"
+    ],
+    [
+     "her tall black bunny ears,",
+     "subject"
+    ],
+    [
+     "the wide angled rim of her white wizard hat,",
+     "light"
+    ],
+    [
+     "and the curved crescent tip of her wooden staff dynamically extend and overlap outside the frame into the plain space,",
+     "subject"
+    ],
+    [
+     "while she curiously examines a glowing glass orb between her paws with large golden anime-styled eyes;",
+     "subject"
+    ],
+    [
+     "rendered in clean silhouettes with tactile paper and gouache texture,",
+     "subject"
+    ],
+    [
+     "using a vibrant pastel desert palette,",
+     "mood"
+    ],
+    [
+     "in a flat 2D decorative picture-book art style.",
+     "style"
+    ],
+    [
+     "<lora:Detailer-KREA2:0.75> <lora:Krea2_TextFusion_Refusal_Reduction:1> <lora:Elegance_Niji_KR2:0.5> <lora:FurryToonMix_krea2:0.3> <lora:krea2_furry_0716:0.45> <lora:NV_KR2_Vantheon_epoch_10:0.4>",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149414769",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149414769",
+   "author": "strange_studios",
+   "authorUrl": "https://civitai.com/user/strange_studios",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bea5af31-63eb-4e74-9c65-683463b487cb/width=640/bea5af31-63eb-4e74-9c65-683463b487cb.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bea5af31-63eb-4e74-9c65-683463b487cb/original=true/bea5af31-63eb-4e74-9c65-683463b487cb.jpeg",
+   "width": 2048,
+   "height": 3072,
+   "prompt": "Cinematic wide-angle shot of a majestic, intricate gothic castle crafted from shimmering azure stone, centered in the frame. In the foreground, a diverse company of elite knights in ornate cobalt-colored plate armor stand in perfect formation, with hands placed firmly over their hearts. Above the castle, a massive, majestic blue dragon with translucent wings soars through a twilight sky. The scene is bathed in a cool, ethereal blue bioluminescent glow, with tattered blue banners fluttering in the wind. Photorealistic, 8k resolution, dramatic volumetric lighting, epic fantasy aesthetic, highly detailed textures, cinematic depth of field.",
+   "settings": "Steps 8 · CFG 1 · Euler · 1024×1536",
+   "modelHint": "Krea 2 krea2SATIORImitationOf_krea2SATIorv3_fp8",
+   "modelLabel": "Krea 2 · krea2SATIORImitationOf_krea2SATIorv3_fp8",
+   "baseModel": "Krea 2",
+   "likes": 1067,
+   "createdAt": "2026-11-18T22:00:00.000Z",
+   "model": "krea",
+   "modelName": "Krea",
+   "subject": "Character",
+   "segments": [
+    [
+     "Cinematic wide-angle shot of a majestic,",
+     "camera"
+    ],
+    [
+     "intricate gothic castle crafted from shimmering azure stone,",
+     "format"
+    ],
+    [
+     "centered in the frame.",
+     "format"
+    ],
+    [
+     "In the foreground,",
+     "subject"
+    ],
+    [
+     "a diverse company of elite knights in ornate cobalt-colored plate armor stand in perfect formation,",
+     "subject"
+    ],
+    [
+     "with hands placed firmly over their hearts.",
+     "subject"
+    ],
+    [
+     "Above the castle, a massive,",
+     "subject"
+    ],
+    [
+     "majestic blue dragon with translucent wings soars through a twilight sky.",
+     "subject"
+    ],
+    [
+     "The scene is bathed in a cool,",
+     "mood"
+    ],
+    [
+     "ethereal blue bioluminescent glow,",
+     "light"
+    ],
+    [
+     "with tattered blue banners fluttering in the wind.",
+     "subject"
+    ],
+    [
+     "Photorealistic,",
+     "style"
+    ],
+    [
+     "8k resolution,",
+     "format"
+    ],
+    [
+     "dramatic volumetric lighting,",
+     "light"
+    ],
+    [
+     "epic fantasy aesthetic,",
+     "style"
+    ],
+    [
+     "highly detailed textures,",
+     "format"
+    ],
+    [
+     "cinematic depth of field.",
+     "camera"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149529367",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149529367",
+   "author": "Moonbear_AIArt",
+   "authorUrl": "https://civitai.com/user/Moonbear_AIArt",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5ce640b-3dc8-41c3-a6c4-a2c2ac3effbc/width=640/b5ce640b-3dc8-41c3-a6c4-a2c2ac3effbc.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b5ce640b-3dc8-41c3-a6c4-a2c2ac3effbc/original=true/b5ce640b-3dc8-41c3-a6c4-a2c2ac3effbc.jpeg",
+   "width": 1416,
+   "height": 1824,
+   "prompt": "Breathtaking fine art editorial photography, an extraordinarily beautiful woman with flowing dark hair, luminous eyes, elegant facial features and a powerful unwavering gaze, intimate cinematic portrait. She wears a minimalist black sculptural dress with subtle golden jewelry. A translucent wall of smoky glass separates her from the viewer, fractured into delicate branching cracks, while her face remains completely untouched and flawless. Brilliant orange light bursts through the fractures, illuminating her face with radiant amber highlights and casting intricate reflections across her skin. One hand rests gently against the glass, fingers gracefully extended, her expression confident, composed and fearless. Deep charcoal background, glowing orange particles suspended in darkness, sophisticated chiaroscuro, rich cinematic shadows, stunning light refraction, luxurious high fashion photography, exceptional realistic textures, dramatic visual storytelling through symbolism, strong emotional presence. Elegant vertical poster composition with generous negative space. Large perfectly readable ivory headline at the top: \"Orange the World 2026\". Directly underneath, smaller elegant orange typography: \"Art for Dignity\". Only these two text elements, no logos, no graphic violence. <lora:HollowlightCinematicDreamRealism:0.75>,",
+   "settings": "Steps 8 · CFG 1 · Euler · 1050×1350",
+   "modelHint": "Krea 2 Turbo krea2_turbo_fp8_scaled",
+   "modelLabel": "Krea 2 Turbo · krea2_turbo_fp8_scaled",
+   "baseModel": "Krea 2 Turbo",
+   "likes": 896,
+   "createdAt": "2026-11-19T11:46:50.672Z",
+   "model": "krea",
+   "modelName": "Krea",
+   "subject": "Poster & type",
+   "segments": [
+    [
+     "Breathtaking fine art editorial photography,",
+     "style"
+    ],
+    [
+     "an extraordinarily beautiful woman with flowing dark hair,",
+     "subject"
+    ],
+    [
+     "luminous eyes,",
+     "subject"
+    ],
+    [
+     "elegant facial features and a powerful unwavering gaze,",
+     "subject"
+    ],
+    [
+     "intimate cinematic portrait.",
+     "style"
+    ],
+    [
+     "She wears a minimalist black sculptural dress with subtle golden jewelry.",
+     "format"
+    ],
+    [
+     "A translucent wall of smoky glass separates her from the viewer,",
+     "subject"
+    ],
+    [
+     "fractured into delicate branching cracks,",
+     "subject"
+    ],
+    [
+     "while her face remains completely untouched and flawless.",
+     "subject"
+    ],
+    [
+     "Brilliant orange light bursts through the fractures,",
+     "light"
+    ],
+    [
+     "illuminating her face with radiant amber highlights and casting intricate reflections across her skin.",
+     "light"
+    ],
+    [
+     "One hand rests gently against the glass,",
+     "subject"
+    ],
+    [
+     "fingers gracefully extended,",
+     "subject"
+    ],
+    [
+     "her expression confident,",
+     "subject"
+    ],
+    [
+     "composed and fearless.",
+     "subject"
+    ],
+    [
+     "Deep charcoal background,",
+     "format"
+    ],
+    [
+     "glowing orange particles suspended in darkness,",
+     "light"
+    ],
+    [
+     "sophisticated chiaroscuro,",
+     "light"
+    ],
+    [
+     "rich cinematic shadows,",
+     "light"
+    ],
+    [
+     "stunning light refraction,",
+     "light"
+    ],
+    [
+     "luxurious high fashion photography,",
+     "style"
+    ],
+    [
+     "exceptional realistic textures,",
+     "style"
+    ],
+    [
+     "dramatic visual storytelling through symbolism,",
+     "mood"
+    ],
+    [
+     "strong emotional presence.",
+     "other"
+    ],
+    [
+     "Elegant vertical poster composition with generous negative space.",
+     "format"
+    ],
+    [
+     "Large perfectly readable ivory headline at the top:",
+     "subject"
+    ],
+    [
+     "\"Orange the World 2026\".",
+     "other"
+    ],
+    [
+     "Directly underneath,",
+     "other"
+    ],
+    [
+     "smaller elegant orange typography:",
+     "other"
+    ],
+    [
+     "\"Art for Dignity\".",
+     "style"
+    ],
+    [
+     "Only these two text elements, no logos,",
+     "subject"
+    ],
+    [
+     "no graphic violence.",
+     "other"
+    ],
+    [
+     "<lora:HollowlightCinematicDreamRealism:0.75>,",
+     "other"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149692961",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149692961",
+   "author": "Wired1",
+   "authorUrl": "https://civitai.com/user/Wired1",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3393a4cf-d56f-42fe-a890-117d67744d50/width=640/3393a4cf-d56f-42fe-a890-117d67744d50.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3393a4cf-d56f-42fe-a890-117d67744d50/original=true/3393a4cf-d56f-42fe-a890-117d67744d50.jpeg",
+   "width": 1664,
+   "height": 2496,
+   "prompt": "Cinematic anime illustration, dimensional painted shading, richly detailed surroundings, warm intimate atmosphere, high contrast between amber firelight and cold blue winter twilight. Inside a small stone cottage at the edge of a snowy forest, an adult woman curls up comfortably in a deep, worn armchair beside a crackling fireplace. She wears an oversized wool sweater and thick knitted socks, her legs tucked beneath a soft blanket. An open book rests in her lap, one hand loosely holding its pages, a sleeping cat nestled against her side. Her expression is peaceful and slightly drowsy.\nA steaming ceramic mug sits within easy reach on a small wooden side table cluttered with a few well-read books. A second empty armchair is drawn close beside hers, angled toward the hearth, with another mug waiting on a little table. Tall bookshelves crowded with mismatched books, exposed wooden beams, rough stone walls, a woven rug, and a basket of firewood give the room a comfortably lived-in feeling. Soft firelight illuminates her face, the cat’s fur, and the folds of the blanket.\nThrough a large window beside the chairs, gentle snow falls over a small cottage garden and dark evergreen trees. Frost gathers along the edges of the glass, the snowy landscape glowing pale blue in the fading daylight. Medium-wide composition viewed from within the room, the woman and fireplace forming the main focus, the window framing the winter forest beyond. Quiet domestic warmth, sheltered and unhurried, subtle magical storybook charm, finely detailed textures, beautiful atmospheric lighting.",
+   "settings": "Steps 10 · CFG 1 · Euler · 1664×2496",
+   "modelHint": "Krea 2 vxpKrea2Nsfw_beta31INT8",
+   "modelLabel": "Krea 2 · vxpKrea2Nsfw_beta31INT8",
+   "baseModel": "Krea 2",
+   "likes": 882,
+   "createdAt": "2026-11-21T22:00:00.000Z",
+   "model": "krea",
+   "modelName": "Krea",
+   "subject": "Architecture",
+   "segments": [
+    [
+     "Cinematic anime illustration,",
+     "style"
+    ],
+    [
+     "dimensional painted shading,",
+     "style"
+    ],
+    [
+     "richly detailed surroundings,",
+     "subject"
+    ],
+    [
+     "warm intimate atmosphere,",
+     "mood"
+    ],
+    [
+     "high contrast between amber firelight and cold blue winter twilight.",
+     "subject"
+    ],
+    [
+     "Inside a small stone cottage at the edge of a snowy forest,",
+     "subject"
+    ],
+    [
+     "an adult woman curls up comfortably in a deep,",
+     "subject"
+    ],
+    [
+     "worn armchair beside a crackling fireplace.",
+     "subject"
+    ],
+    [
+     "She wears an oversized wool sweater and thick knitted socks,",
+     "subject"
+    ],
+    [
+     "her legs tucked beneath a soft blanket.",
+     "subject"
+    ],
+    [
+     "An open book rests in her lap,",
+     "subject"
+    ],
+    [
+     "one hand loosely holding its pages,",
+     "subject"
+    ],
+    [
+     "a sleeping cat nestled against her side.",
+     "subject"
+    ],
+    [
+     "Her expression is peaceful and slightly drowsy.",
+     "mood"
+    ],
+    [
+     "A steaming ceramic mug sits within easy reach on a small wooden side table cluttered with a few well-read books.",
+     "subject"
+    ],
+    [
+     "A second empty armchair is drawn close beside hers,",
+     "subject"
+    ],
+    [
+     "angled toward the hearth,",
+     "subject"
+    ],
+    [
+     "with another mug waiting on a little table.",
+     "subject"
+    ],
+    [
+     "Tall bookshelves crowded with mismatched books,",
+     "subject"
+    ],
+    [
+     "exposed wooden beams,",
+     "other"
+    ],
+    [
+     "rough stone walls, a woven rug,",
+     "subject"
+    ],
+    [
+     "and a basket of firewood give the room a comfortably lived-in feeling.",
+     "subject"
+    ],
+    [
+     "Soft firelight illuminates her face,",
+     "subject"
+    ],
+    [
+     "the cat’s fur,",
+     "other"
+    ],
+    [
+     "and the folds of the blanket.",
+     "subject"
+    ],
+    [
+     "Through a large window beside the chairs,",
+     "subject"
+    ],
+    [
+     "gentle snow falls over a small cottage garden and dark evergreen trees.",
+     "subject"
+    ],
+    [
+     "Frost gathers along the edges of the glass,",
+     "subject"
+    ],
+    [
+     "the snowy landscape glowing pale blue in the fading daylight.",
+     "light"
+    ],
+    [
+     "Medium-wide composition viewed from within the room,",
+     "format"
+    ],
+    [
+     "the woman and fireplace forming the main focus,",
+     "camera"
+    ],
+    [
+     "the window framing the winter forest beyond.",
+     "camera"
+    ],
+    [
+     "Quiet domestic warmth,",
+     "other"
+    ],
+    [
+     "sheltered and unhurried,",
+     "other"
+    ],
+    [
+     "subtle magical storybook charm,",
+     "other"
+    ],
+    [
+     "finely detailed textures,",
+     "other"
+    ],
+    [
+     "beautiful atmospheric lighting.",
+     "light"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149480193",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149480193",
+   "author": "thecorruptme",
+   "authorUrl": "https://civitai.com/user/thecorruptme",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48f32c0c-2c88-4e23-9739-58061d8f3290/width=640/48f32c0c-2c88-4e23-9739-58061d8f3290.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48f32c0c-2c88-4e23-9739-58061d8f3290/original=true/48f32c0c-2c88-4e23-9739-58061d8f3290.jpeg",
+   "width": 1440,
+   "height": 1920,
+   "prompt": "<lora:Afterlight_v1:0.4><lora:training_12100319-20261002235453934-1nna:1><lora:training_191944-20260706120033379:1><lora:TextFusion_Refusal_Reduction Krea2:1><lora:pjred_r32:1.2><lora:training_12100319-20261113090930523-1yzd:1>\npjred, DARKWERKS, gothic, dark fantasy, detailed brushwork, oil painting,  A 4:3 waist-up cel-shaded illustration of a red-robed wizard casually showing off his gold rings. His hooded head sits on the right half of the frame. Two tiny pale-white eyes peer out from the pitch-black hood opening, widely spaced and barely luminous. A broad fold of bright scarlet cloth frames the black interior and rises to a soft triangular peak, fully visible in the frame.\nOn the left, the wizard holds his right hand upright close to the viewer, wrist straight, back of the hand facing the camera so the ring faces are clearly visible. His four fingers extend upward at slightly different heights with relaxed gaps between them. The thumb angles inward toward his chest. His hand has smooth ivory-white skin, rounded fingertips, short pale nails, and a few crisp ink lines across the knuckles. Thick polished gold bands sit low on his fingers. One carries a small emerald, another a ruby, and a chunky round gold signet catches the light. His scarlet sleeve bunches loosely around a stack of gold bangles. His opposite forearm rests horizontally across his chest beneath layered gold chains.\nClean black ink contours, bold flat scarlet and vermilion, angular burgundy cel shadows, and bright frontal light that keeps the entire raised hand readable. Small white glints on the gold. Plain light-gray background. The wizard holds the pose with the easy confidence of someone who knows you’ve already noticed the jewelry.",
+   "settings": "Steps 9 · CFG 1 · Euler · 1440×1920",
+   "modelHint": "Krea 2 Turbo krea2Turbo_v10_bf16",
+   "modelLabel": "Krea 2 Turbo · krea2Turbo_v10_bf16",
+   "baseModel": "Krea 2 Turbo",
+   "likes": 844,
+   "createdAt": "2026-11-19T00:02:27.397Z",
+   "model": "krea",
+   "modelName": "Krea",
+   "subject": "Architecture",
+   "segments": [
+    [
+     "<lora:Afterlight_v1:0.4><lora:training_12100319-20261002235453934-1nna:1><lora:training_191944-20260706120033379:1><lora:TextFusion_Refusal_Reduction Krea2:1><lora:pjred_r32:1.2><lora:training_12100319-20261113090930523-1yzd:1> pjred,",
+     "subject"
+    ],
+    [
+     "DARKWERKS, gothic, dark fantasy,",
+     "subject"
+    ],
+    [
+     "detailed brushwork,",
+     "subject"
+    ],
+    [
+     "oil painting,",
+     "style"
+    ],
+    [
+     "A 4:3 waist-up cel-shaded illustration of a red-robed wizard casually showing off his gold rings.",
+     "style"
+    ],
+    [
+     "His hooded head sits on the right half of the frame.",
+     "subject"
+    ],
+    [
+     "Two tiny pale-white eyes peer out from the pitch-black hood opening,",
+     "subject"
+    ],
+    [
+     "widely spaced and barely luminous.",
+     "subject"
+    ],
+    [
+     "A broad fold of bright scarlet cloth frames the black interior and rises to a soft triangular peak,",
+     "subject"
+    ],
+    [
+     "fully visible in the frame. On the left,",
+     "subject"
+    ],
+    [
+     "the wizard holds his right hand upright close to the viewer,",
+     "subject"
+    ],
+    [
+     "wrist straight,",
+     "subject"
+    ],
+    [
+     "back of the hand facing the camera so the ring faces are clearly visible.",
+     "subject"
+    ],
+    [
+     "His four fingers extend upward at slightly different heights with relaxed gaps between them.",
+     "subject"
+    ],
+    [
+     "The thumb angles inward toward his chest.",
+     "subject"
+    ],
+    [
+     "His hand has smooth ivory-white skin,",
+     "subject"
+    ],
+    [
+     "rounded fingertips,",
+     "other"
+    ],
+    [
+     "short pale nails,",
+     "other"
+    ],
+    [
+     "and a few crisp ink lines across the knuckles.",
+     "style"
+    ],
+    [
+     "Thick polished gold bands sit low on his fingers.",
+     "subject"
+    ],
+    [
+     "One carries a small emerald,",
+     "subject"
+    ],
+    [
+     "another a ruby,",
+     "other"
+    ],
+    [
+     "and a chunky round gold signet catches the light.",
+     "light"
+    ],
+    [
+     "His scarlet sleeve bunches loosely around a stack of gold bangles.",
+     "subject"
+    ],
+    [
+     "His opposite forearm rests horizontally across his chest beneath layered gold chains.",
+     "subject"
+    ],
+    [
+     "Clean black ink contours,",
+     "style"
+    ],
+    [
+     "bold flat scarlet and vermilion,",
+     "subject"
+    ],
+    [
+     "angular burgundy cel shadows,",
+     "light"
+    ],
+    [
+     "and bright frontal light that keeps the entire raised hand readable.",
+     "light"
+    ],
+    [
+     "Small white glints on the gold.",
+     "subject"
+    ],
+    [
+     "Plain light-gray background.",
+     "light"
+    ],
+    [
+     "The wizard holds the pose with the easy confidence of someone who knows you’ve already noticed the jewelry.",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149643539",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149643539",
+   "author": "DiabolicX",
+   "authorUrl": "https://civitai.com/user/DiabolicX",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ea921857-dc54-4129-959d-c3ec9a329373/width=640/ea921857-dc54-4129-959d-c3ec9a329373.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ea921857-dc54-4129-959d-c3ec9a329373/original=true/ea921857-dc54-4129-959d-c3ec9a329373.jpeg",
+   "width": 3584,
+   "height": 4608,
+   "prompt": "Draft ink dbx,Dark graphic novel illustration and gritty concept art, bold black ink outlines, scratched armor textures. A futuristic cyber-ninja crouched on the edge of a towering skyscraper gargoyle at night, looking down over a sprawling cyberpunk megacity shrouded in rain and neon haze, glowing katana strapped across his back. Warm orange and crimson holographic signs illuminating one side of his sleek carbon mask against deep teal night fog and dark slate shadows, dramatic bird's-eye cinematic perspective.",
+   "settings": "Steps 20 · CFG 1 · Euler · 896×1152",
+   "modelHint": "Krea 2 Turbo krea2TurboOfficialComfy_krea2TurboBf16",
+   "modelLabel": "Krea 2 Turbo · krea2TurboOfficialComfy_krea2TurboBf16",
+   "baseModel": "Krea 2 Turbo",
+   "likes": 823,
+   "createdAt": "2026-11-20T22:00:00.000Z",
+   "model": "krea",
+   "modelName": "Krea",
+   "subject": "Architecture",
+   "segments": [
+    [
+     "Draft ink dbx,Dark graphic novel illustration and gritty concept art,",
+     "style"
+    ],
+    [
+     "bold black ink outlines,",
+     "style"
+    ],
+    [
+     "scratched armor textures.",
+     "subject"
+    ],
+    [
+     "A futuristic cyber-ninja crouched on the edge of a towering skyscraper gargoyle at night,",
+     "light"
+    ],
+    [
+     "looking down over a sprawling cyberpunk megacity shrouded in rain and neon haze,",
+     "light"
+    ],
+    [
+     "glowing katana strapped across his back.",
+     "light"
+    ],
+    [
+     "Warm orange and crimson holographic signs illuminating one side of his sleek carbon mask against deep teal night fog and dark slate shadows,",
+     "light"
+    ],
+    [
+     "dramatic bird's-eye cinematic perspective.",
+     "mood"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149387084",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149387084",
+   "author": "Bunnykiin",
+   "authorUrl": "https://civitai.com/user/Bunnykiin",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9478f69c-baaf-42b7-877b-66c3d29ceab5/width=640/9478f69c-baaf-42b7-877b-66c3d29ceab5.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9478f69c-baaf-42b7-877b-66c3d29ceab5/original=true/9478f69c-baaf-42b7-877b-66c3d29ceab5.jpeg",
+   "width": 1008,
+   "height": 1344,
+   "prompt": "Create a vertical 2-koma manga comic ,with a clean layout and border: one smaller panel on top, and one large full-width panel occupying the entire bottom half.\n1st panel (top  half): Ayumi from the character reference is holding and look at almost fully open disc case with cover from first reference image on right side. Use a slightly tilted Dutch-angle camera, looking toward from the front. Her eyes are fixed on the disc case. Her expression is visibly concerned and increasingly bewildered, as if she's discovering something unbelievable. white background.\n2nd panel (bottom half): pov holding a open empty disc case of GTA VI game",
+   "settings": "GPT-Image-2.5-sunburst · 1008×1344",
+   "modelHint": "OpenAI ",
+   "modelLabel": "OpenAI",
+   "baseModel": "OpenAI",
+   "likes": 334,
+   "createdAt": "2026-11-18T02:10:24.851Z",
+   "model": "gpt-image",
+   "modelName": "GPT Image",
+   "subject": "Illustration",
+   "segments": [
+    [
+     "Create a vertical 2-koma manga comic ,with a clean layout and border:",
+     "format"
+    ],
+    [
+     "one smaller panel on top,",
+     "subject"
+    ],
+    [
+     "and one large full-width panel occupying the entire bottom half.",
+     "subject"
+    ],
+    [
+     "1st panel (top half):",
+     "subject"
+    ],
+    [
+     "Ayumi from the character reference is holding and look at almost fully open disc case with cover from first reference image on right side.",
+     "subject"
+    ],
+    [
+     "Use a slightly tilted Dutch-angle camera,",
+     "camera"
+    ],
+    [
+     "looking toward from the front.",
+     "subject"
+    ],
+    [
+     "Her eyes are fixed on the disc case.",
+     "subject"
+    ],
+    [
+     "Her expression is visibly concerned and increasingly bewildered,",
+     "subject"
+    ],
+    [
+     "as if she's discovering something unbelievable.",
+     "subject"
+    ],
+    [
+     "white background.",
+     "format"
+    ],
+    [
+     "2nd panel (bottom half):",
+     "other"
+    ],
+    [
+     "pov holding a open empty disc case of GTA VI game",
+     "camera"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149795993",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149795993",
+   "author": "Ai_0_iA",
+   "authorUrl": "https://civitai.com/user/Ai_0_iA",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40c1fd3a-ced1-41fb-b190-8cd3982394fa/width=640/40c1fd3a-ced1-41fb-b190-8cd3982394fa.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/40c1fd3a-ced1-41fb-b190-8cd3982394fa/original=true/40c1fd3a-ced1-41fb-b190-8cd3982394fa.jpeg",
+   "width": 768,
+   "height": 1344,
+   "prompt": "ikebana_world, marigolds, coriander, stone vase",
+   "negative": "worst quality, bad anatomy, watermark, jpeg artifact,\nextra fingers, bad hands, fused limbs, blurry, lowres,",
+   "settings": "Steps 25 · CFG 3.5 · Euler a · 768×1344",
+   "modelHint": "SDXL 1.0 ",
+   "modelLabel": "SDXL 1.0",
+   "baseModel": "SDXL 1.0",
+   "likes": 49,
+   "createdAt": "2026-11-21T22:54:04.565Z",
+   "model": "sdxl",
+   "modelName": "Stable Diffusion / SDXL",
+   "subject": "Other",
+   "segments": [
+    [
+     "ikebana_world, marigolds, coriander, stone vase",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-150031210",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/150031210",
+   "author": "keepernobody",
+   "authorUrl": "https://civitai.com/user/keepernobody",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63e3d3a9-0955-45d9-b97e-a9acd7ec39d9/width=640/63e3d3a9-0955-45d9-b97e-a9acd7ec39d9.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/63e3d3a9-0955-45d9-b97e-a9acd7ec39d9/original=true/63e3d3a9-0955-45d9-b97e-a9acd7ec39d9.jpeg",
+   "width": 896,
+   "height": 1200,
+   "prompt": "Create a cinematic, 2-panel comic strip 1st being a pov of talking to  a axolotl sitting in a horse and carriage like in skyrim saying \"Hey, you. You’re finally awake. You were trying to get featured on the homepage, right? Walked right into the ignored section\" then 2nd panel is a pov of the other side of the same seat talking to a jawa and the jawa is saying while looking to the left \"D**n you Stormcloaks. Civitai was fine until you came along.\"",
+   "settings": "GoogleNanoBanana21 · 896×1200",
+   "modelHint": "Nano Banana ",
+   "modelLabel": "Nano Banana",
+   "baseModel": "Nano Banana",
+   "likes": 22,
+   "createdAt": "2026-11-24T02:21:10.071Z",
+   "model": "nano-banana",
+   "modelName": "Nano Banana (Gemini Image)",
+   "subject": "Illustration",
+   "segments": [
+    [
+     "Create a cinematic,",
+     "style"
+    ],
+    [
+     "2-panel comic strip 1st being a pov of talking to a axolotl sitting in a horse and carriage like in skyrim saying \"Hey,",
+     "subject"
+    ],
+    [
+     "you.",
+     "subject"
+    ],
+    [
+     "You’re finally awake.",
+     "subject"
+    ],
+    [
+     "You were trying to get featured on the homepage, right?",
+     "subject"
+    ],
+    [
+     "Walked right into the ignored section\" then 2nd panel is a pov of the other side of the same seat talking to a jawa and the jawa is saying while looking to the left \"D**n you Stormcloaks.",
+     "subject"
+    ],
+    [
+     "Civitai was fine until you came along.\"",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149914814",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149914814",
+   "author": "schmede",
+   "authorUrl": "https://civitai.com/user/schmede",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d63edcc-74c4-4acd-8968-6f0297e0f452/width=640/7d63edcc-74c4-4acd-8968-6f0297e0f452.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7d63edcc-74c4-4acd-8968-6f0297e0f452/original=true/7d63edcc-74c4-4acd-8968-6f0297e0f452.jpeg",
+   "width": 2560,
+   "height": 1440,
+   "prompt": "Draconia as Screaming Mantis (MGS4 Beauty and the Beast Unit), photoreal, helmet off, six mechanical spider arms with red-light puppet strings and two marionette dolls, hovering in a dark command centre, cold eerie stare. Close medium shot from the knees up.",
+   "settings": "2560×1440",
+   "modelHint": "Seedream ",
+   "modelLabel": "Seedream",
+   "baseModel": "Seedream",
+   "likes": 20,
+   "createdAt": "2026-11-23T00:55:59.267Z",
+   "model": "seedream",
+   "modelName": "Seedream",
+   "subject": "Other",
+   "segments": [
+    [
+     "Draconia as Screaming Mantis (MGS4 Beauty and the Beast Unit),",
+     "subject"
+    ],
+    [
+     "photoreal, helmet off,",
+     "subject"
+    ],
+    [
+     "six mechanical spider arms with red-light puppet strings and two marionette dolls,",
+     "light"
+    ],
+    [
+     "hovering in a dark command centre,",
+     "subject"
+    ],
+    [
+     "cold eerie stare.",
+     "mood"
+    ],
+    [
+     "Close medium shot from the knees up.",
+     "camera"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149430167",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149430167",
+   "author": "dunttaco",
+   "authorUrl": "https://civitai.com/user/dunttaco",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fde96b36-f8cf-443a-afde-08dd54235504/width=640/fde96b36-f8cf-443a-afde-08dd54235504.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fde96b36-f8cf-443a-afde-08dd54235504/original=true/fde96b36-f8cf-443a-afde-08dd54235504.jpeg",
+   "width": 1024,
+   "height": 1024,
+   "prompt": "an abstract amorphous form with no fixed shape, swirling and shifting mass, organic flowing silhouette, intricate detailed texture covering its entire surface, dramatic lighting, contrasting background, highly detailed, cinematic composition, masterpiece",
+   "negative": "blurry, low detail, low quality, deformed, distorted, flat lighting, dull colors, washed out, plain background, cartoon, sketch, watermark, text, signature, extra limbs, disfigured, bad anatomy",
+   "settings": "Steps 30 · CFG 7 · Euler a · 1024×1024",
+   "modelHint": "SDXL 1.0 ",
+   "modelLabel": "SDXL 1.0",
+   "baseModel": "SDXL 1.0",
+   "likes": 20,
+   "createdAt": "2026-11-18T12:33:26.340Z",
+   "model": "sdxl",
+   "modelName": "Stable Diffusion / SDXL",
+   "subject": "Other",
+   "segments": [
+    [
+     "an abstract amorphous form with no fixed shape,",
+     "subject"
+    ],
+    [
+     "swirling and shifting mass,",
+     "subject"
+    ],
+    [
+     "organic flowing silhouette,",
+     "subject"
+    ],
+    [
+     "intricate detailed texture covering its entire surface,",
+     "format"
+    ],
+    [
+     "dramatic lighting,",
+     "light"
+    ],
+    [
+     "contrasting background,",
+     "format"
+    ],
+    [
+     "highly detailed,",
+     "format"
+    ],
+    [
+     "cinematic composition,",
+     "format"
+    ],
+    [
+     "masterpiece",
+     "style"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149939039",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149939039",
+   "author": "samson4617",
+   "authorUrl": "https://civitai.com/user/samson4617",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad40b0e0-b021-4e14-95d3-9ab82a829676/width=640/ad40b0e0-b021-4e14-95d3-9ab82a829676.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad40b0e0-b021-4e14-95d3-9ab82a829676/original=true/ad40b0e0-b021-4e14-95d3-9ab82a829676.jpeg",
+   "width": 2752,
+   "height": 1536,
+   "prompt": "An ultra high quality remake of the source image, with the composition unchanged.",
+   "settings": "GoogleNanoBanana21 · 2752×1536",
+   "modelHint": "Nano Banana ",
+   "modelLabel": "Nano Banana",
+   "baseModel": "Nano Banana",
+   "likes": 19,
+   "createdAt": "2026-11-23T05:44:26.994Z",
+   "model": "nano-banana",
+   "modelName": "Nano Banana (Gemini Image)",
+   "subject": "Other",
+   "segments": [
+    [
+     "An ultra high quality remake of the source image,",
+     "subject"
+    ],
+    [
+     "with the composition unchanged.",
+     "format"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
+  {
+   "id": "civitai-149933420",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149933420",
+   "author": "rebeliantBob",
+   "authorUrl": "https://civitai.com/user/rebeliantBob",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5306a176-69e0-47c6-b76a-02bdf8bc04fd/width=640/5306a176-69e0-47c6-b76a-02bdf8bc04fd.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5306a176-69e0-47c6-b76a-02bdf8bc04fd/original=true/5306a176-69e0-47c6-b76a-02bdf8bc04fd.jpeg",
+   "width": 3840,
+   "height": 2688,
+   "prompt": "Use the uploaded image as the exact source image. Perform a subtle photographic integration refinement, NOT a redesign or recreation.\nABSOLUTE PRIORITY: preserve the original image and every existing visual detail.\nDo not change, regenerate, reinterpret, replace, beautify or modify any person or object.\nSTRICTLY PRESERVE:\nAll six people, their exact identities, faces, facial features, expressions, ages and hairstyles.\nEvery person's exact pose, body proportions, anatomy, hand positions and gaze direction.\nAll clothing, jewelry, watches, accessories and shoes.\nThe man's exact relaxed crossed-leg pose and facial expression.\nThe five women's individual positions, leaning poses and admiring expressions.\nThe white sofa, turquoise cushions, furniture, plants, windows, framed pictures and entire background.\nOriginal composition, framing, perspective and spatial relationships.\nTHE ONLY PERMITTED IMPROVEMENT:\nMake the existing photographic elements look as if they were captured together in one real photograph, using one camera and one lighting environment.\nSubtly harmonize the existing illumination, ambient light, color temperature, tonal transitions and natural shadow relationships.\nImprove the visual integration between the seated man, the sofa and the five women behind it. Make existing contact shadows and transitions between foreground and background appear naturally photographic.\nDo not add new shadows that alter the appearance of people or objects. Do not change lighting in a way that modifies facial features, clothing colors or object details.\nNo new elements. Nothing removed. Nothing repositioned. No cropping. No changes to anatomy.\nThe result must remain unmistakably the same original photograph, with only a subtle improvement in photographic coherence.",
+   "settings": "Steps 25 · CFG 3.5 · Euler · 1216×832",
+   "modelHint": "Qwen ",
+   "modelLabel": "Qwen",
+   "baseModel": "Qwen",
+   "likes": 1,
+   "createdAt": "2026-11-23T04:36:51.484Z",
+   "model": "qwen-image",
+   "modelName": "Qwen Image",
+   "subject": "Portrait",
+   "segments": [
+    [
+     "Use the uploaded image as the exact source image.",
+     "subject"
+    ],
+    [
+     "Perform a subtle photographic integration refinement,",
+     "subject"
+    ],
+    [
+     "NOT a redesign or recreation.",
+     "subject"
+    ],
+    [
+     "ABSOLUTE PRIORITY:",
+     "subject"
+    ],
+    [
+     "preserve the original image and every existing visual detail.",
+     "subject"
+    ],
+    [
+     "Do not change, regenerate, reinterpret, replace,",
+     "subject"
+    ],
+    [
+     "beautify or modify any person or object.",
+     "subject"
+    ],
+    [
+     "STRICTLY PRESERVE:",
+     "subject"
+    ],
+    [
+     "All six people,",
+     "subject"
+    ],
+    [
+     "their exact identities, faces,",
+     "subject"
+    ],
+    [
+     "facial features, expressions,",
+     "subject"
+    ],
+    [
+     "ages and hairstyles.",
+     "subject"
+    ],
+    [
+     "Every person's exact pose,",
+     "subject"
+    ],
+    [
+     "body proportions, anatomy,",
+     "subject"
+    ],
+    [
+     "hand positions and gaze direction. All clothing, jewelry, watches,",
+     "subject"
+    ],
+    [
+     "accessories and shoes.",
+     "subject"
+    ],
+    [
+     "The man's exact relaxed crossed-leg pose and facial expression.",
+     "subject"
+    ],
+    [
+     "The five women's individual positions,",
+     "subject"
+    ],
+    [
+     "leaning poses and admiring expressions.",
+     "subject"
+    ],
+    [
+     "The white sofa,",
+     "subject"
+    ],
+    [
+     "turquoise cushions, furniture, plants, windows,",
+     "subject"
+    ],
+    [
+     "framed pictures and entire background.",
+     "format"
+    ],
+    [
+     "Original composition,",
+     "format"
+    ],
+    [
+     "framing,",
+     "camera"
+    ],
+    [
+     "perspective and spatial relationships.",
+     "other"
+    ],
+    [
+     "THE ONLY PERMITTED IMPROVEMENT:",
+     "other"
+    ],
+    [
+     "Make the existing photographic elements look as if they were captured together in one real photograph,",
+     "subject"
+    ],
+    [
+     "using one camera and one lighting environment.",
+     "light"
+    ],
+    [
+     "Subtly harmonize the existing illumination,",
+     "subject"
+    ],
+    [
+     "ambient light,",
+     "light"
+    ],
+    [
+     "color temperature,",
+     "mood"
+    ],
+    [
+     "tonal transitions and natural shadow relationships.",
+     "light"
+    ],
+    [
+     "Improve the visual integration between the seated man,",
+     "subject"
+    ],
+    [
+     "the sofa and the five women behind it.",
+     "subject"
+    ],
+    [
+     "Make existing contact shadows and transitions between foreground and background appear naturally photographic.",
+     "light"
+    ],
+    [
+     "Do not add new shadows that alter the appearance of people or objects.",
+     "light"
+    ],
+    [
+     "Do not change lighting in a way that modifies facial features,",
+     "light"
+    ],
+    [
+     "clothing colors or object details.",
+     "mood"
+    ],
+    [
+     "No new elements.",
+     "other"
+    ],
+    [
+     "Nothing removed.",
+     "other"
+    ],
+    [
+     "Nothing repositioned. No cropping.",
+     "other"
+    ],
+    [
+     "No changes to anatomy.",
+     "other"
+    ],
+    [
+     "The result must remain unmistakably the same original photograph,",
+     "style"
+    ],
+    [
+     "with only a subtle improvement in photographic coherence.",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-24T17:58:17.309Z"
+  },
   {
    "id": "civitai-149496085",
    "source": "civitai",
@@ -22,7 +1225,7 @@
    "modelHint": "Krea 2 Turbo ",
    "modelLabel": "Krea 2 Turbo",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1251,
+   "likes": 1505,
    "createdAt": "2026-11-19T04:45:00.000Z",
    "model": "krea",
    "modelName": "Krea",
@@ -86,7 +1289,7 @@
    "modelHint": "Krea 2 Turbo kroma-v0.3.1-turbo-opd-W8A8",
    "modelLabel": "Krea 2 Turbo · kroma-v0.3.1-turbo-opd-W8A8",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1198,
+   "likes": 1364,
    "createdAt": "2026-11-18T22:00:00.000Z",
    "model": "krea",
    "modelName": "Krea",
@@ -584,127 +1787,6 @@
    "addedAt": "2026-11-23T18:27:49.276Z"
   },
   {
-   "id": "civitai-148604236",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/148604236",
-   "author": "Experimental_dAIver",
-   "authorUrl": "https://civitai.com/user/Experimental_dAIver",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c3d51cad-8eb6-48cd-a16c-5741788326c9/width=640/c3d51cad-8eb6-48cd-a16c-5741788326c9.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c3d51cad-8eb6-48cd-a16c-5741788326c9/original=true/c3d51cad-8eb6-48cd-a16c-5741788326c9.jpeg",
-   "width": 1992,
-   "height": 3154,
-   "prompt": "ral-gouache-ink, <|artist|>fkey<|/artist|>, ta86_inkriot, graphic cel shading, bold black outlines, DarkAtmosCE, sumiink, ink splatter, brush strokes, rice paper background, ink wash painting, @yumingli, painterly, soft brushwork, dramatic lighting,, A slender female figure sits on an invisible surface against a pure black background, her body rendered as a near-black silhouette with soft dissolving edges. Long white-blue hair flows down past her shoulders and pools around her legs, glowing from within with cool light; fine cyan filigree swirls appear as liquid ink along several strands. Small clusters of pale blue flowers rest in her hair and float nearby, some trailing thin luminous threads. Her eyes glow with soft blue-white light. Wisps of pale blue mist and tiny particles rise around her lower body and the ends of her hair. Visible ink-wash textures and fluid liquid stroke edges define the transition between the dark silhouette and the glowing hair and flowers. Cool inner light from the hair and eyes creates strong contrast against the black void. The atmosphere is quiet, weightless and melancholic dark fairytale.",
-   "negative": "worst quality, bad anatomy, watermark, jpeg artifact, blurry, deformed, extra limbs, extra fingers, mutated hands, photorealistic, photography, realistic photo, 3d render, cgi",
-   "settings": "Steps 11 · CFG 1.1 · Euler · 1992×3154",
-   "modelHint": " juggernaut_moss_v1_turbo_int8_convrot.safetensors",
-   "modelLabel": "juggernaut_moss_v1_turbo_int8_convrot.safetensors",
-   "baseModel": null,
-   "likes": 630,
-   "createdAt": "2026-11-17T19:43:00.000Z",
-   "model": "other",
-   "modelName": "Other",
-   "subject": "Illustration",
-   "segments": [
-    [
-     "ral-gouache-ink,",
-     "style"
-    ],
-    [
-     "<|artist|>fkey<|/artist|>, ta86_inkriot,",
-     "subject"
-    ],
-    [
-     "graphic cel shading,",
-     "subject"
-    ],
-    [
-     "bold black outlines, DarkAtmosCE, sumiink,",
-     "subject"
-    ],
-    [
-     "ink splatter,",
-     "style"
-    ],
-    [
-     "brush strokes,",
-     "subject"
-    ],
-    [
-     "rice paper background,",
-     "format"
-    ],
-    [
-     "ink wash painting,",
-     "style"
-    ],
-    [
-     "@yumingli, painterly,",
-     "subject"
-    ],
-    [
-     "soft brushwork,",
-     "subject"
-    ],
-    [
-     "dramatic lighting,,",
-     "light"
-    ],
-    [
-     "A slender female figure sits on an invisible surface against a pure black background,",
-     "format"
-    ],
-    [
-     "her body rendered as a near-black silhouette with soft dissolving edges.",
-     "subject"
-    ],
-    [
-     "Long white-blue hair flows down past her shoulders and pools around her legs,",
-     "subject"
-    ],
-    [
-     "glowing from within with cool light;",
-     "light"
-    ],
-    [
-     "fine cyan filigree swirls appear as liquid ink along several strands.",
-     "style"
-    ],
-    [
-     "Small clusters of pale blue flowers rest in her hair and float nearby,",
-     "subject"
-    ],
-    [
-     "some trailing thin luminous threads.",
-     "subject"
-    ],
-    [
-     "Her eyes glow with soft blue-white light.",
-     "light"
-    ],
-    [
-     "Wisps of pale blue mist and tiny particles rise around her lower body and the ends of her hair.",
-     "subject"
-    ],
-    [
-     "Visible ink-wash textures and fluid liquid stroke edges define the transition between the dark silhouette and the glowing hair and flowers.",
-     "subject"
-    ],
-    [
-     "Cool inner light from the hair and eyes creates strong contrast against the black void.",
-     "subject"
-    ],
-    [
-     "The atmosphere is quiet,",
-     "mood"
-    ],
-    [
-     "weightless and melancholic dark fairytale.",
-     "mood"
-    ]
-   ],
-   "addedAt": "2026-11-23T18:27:49.276Z"
-  },
-  {
    "id": "civitai-149646983",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149646983",
@@ -719,7 +1801,7 @@
    "modelHint": "MOSS Image juggernaut_moss_turbo_v1_int8_convrot",
    "modelLabel": "MOSS Image · juggernaut_moss_turbo_v1_int8_convrot",
    "baseModel": "MOSS Image",
-   "likes": 618,
+   "likes": 841,
    "createdAt": "2026-11-20T13:59:32.302Z",
    "model": "moss-image",
    "modelName": "MOSS Image",
@@ -953,6 +2035,127 @@
    "addedAt": "2026-11-23T18:27:49.276Z"
   },
   {
+   "id": "civitai-148604236",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/148604236",
+   "author": "Experimental_dAIver",
+   "authorUrl": "https://civitai.com/user/Experimental_dAIver",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c3d51cad-8eb6-48cd-a16c-5741788326c9/width=640/c3d51cad-8eb6-48cd-a16c-5741788326c9.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c3d51cad-8eb6-48cd-a16c-5741788326c9/original=true/c3d51cad-8eb6-48cd-a16c-5741788326c9.jpeg",
+   "width": 1992,
+   "height": 3154,
+   "prompt": "ral-gouache-ink, <|artist|>fkey<|/artist|>, ta86_inkriot, graphic cel shading, bold black outlines, DarkAtmosCE, sumiink, ink splatter, brush strokes, rice paper background, ink wash painting, @yumingli, painterly, soft brushwork, dramatic lighting,, A slender female figure sits on an invisible surface against a pure black background, her body rendered as a near-black silhouette with soft dissolving edges. Long white-blue hair flows down past her shoulders and pools around her legs, glowing from within with cool light; fine cyan filigree swirls appear as liquid ink along several strands. Small clusters of pale blue flowers rest in her hair and float nearby, some trailing thin luminous threads. Her eyes glow with soft blue-white light. Wisps of pale blue mist and tiny particles rise around her lower body and the ends of her hair. Visible ink-wash textures and fluid liquid stroke edges define the transition between the dark silhouette and the glowing hair and flowers. Cool inner light from the hair and eyes creates strong contrast against the black void. The atmosphere is quiet, weightless and melancholic dark fairytale.",
+   "negative": "worst quality, bad anatomy, watermark, jpeg artifact, blurry, deformed, extra limbs, extra fingers, mutated hands, photorealistic, photography, realistic photo, 3d render, cgi",
+   "settings": "Steps 11 · CFG 1.1 · Euler · 1992×3154",
+   "modelHint": " juggernaut_moss_v1_turbo_int8_convrot.safetensors",
+   "modelLabel": "juggernaut_moss_v1_turbo_int8_convrot.safetensors",
+   "baseModel": null,
+   "likes": 783,
+   "createdAt": "2026-11-17T19:43:00.000Z",
+   "model": "other",
+   "modelName": "Other",
+   "subject": "Illustration",
+   "segments": [
+    [
+     "ral-gouache-ink,",
+     "style"
+    ],
+    [
+     "<|artist|>fkey<|/artist|>, ta86_inkriot,",
+     "subject"
+    ],
+    [
+     "graphic cel shading,",
+     "subject"
+    ],
+    [
+     "bold black outlines, DarkAtmosCE, sumiink,",
+     "subject"
+    ],
+    [
+     "ink splatter,",
+     "style"
+    ],
+    [
+     "brush strokes,",
+     "subject"
+    ],
+    [
+     "rice paper background,",
+     "format"
+    ],
+    [
+     "ink wash painting,",
+     "style"
+    ],
+    [
+     "@yumingli, painterly,",
+     "subject"
+    ],
+    [
+     "soft brushwork,",
+     "subject"
+    ],
+    [
+     "dramatic lighting,,",
+     "light"
+    ],
+    [
+     "A slender female figure sits on an invisible surface against a pure black background,",
+     "format"
+    ],
+    [
+     "her body rendered as a near-black silhouette with soft dissolving edges.",
+     "subject"
+    ],
+    [
+     "Long white-blue hair flows down past her shoulders and pools around her legs,",
+     "subject"
+    ],
+    [
+     "glowing from within with cool light;",
+     "light"
+    ],
+    [
+     "fine cyan filigree swirls appear as liquid ink along several strands.",
+     "style"
+    ],
+    [
+     "Small clusters of pale blue flowers rest in her hair and float nearby,",
+     "subject"
+    ],
+    [
+     "some trailing thin luminous threads.",
+     "subject"
+    ],
+    [
+     "Her eyes glow with soft blue-white light.",
+     "light"
+    ],
+    [
+     "Wisps of pale blue mist and tiny particles rise around her lower body and the ends of her hair.",
+     "subject"
+    ],
+    [
+     "Visible ink-wash textures and fluid liquid stroke edges define the transition between the dark silhouette and the glowing hair and flowers.",
+     "subject"
+    ],
+    [
+     "Cool inner light from the hair and eyes creates strong contrast against the black void.",
+     "subject"
+    ],
+    [
+     "The atmosphere is quiet,",
+     "mood"
+    ],
+    [
+     "weightless and melancholic dark fairytale.",
+     "mood"
+    ]
+   ],
+   "addedAt": "2026-11-23T18:27:49.276Z"
+  },
+  {
    "id": "civitai-149281554",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149281554",
@@ -1002,110 +2205,6 @@
    "addedAt": "2026-11-23T18:27:49.276Z"
   },
   {
-   "id": "civitai-149832359",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149832359",
-   "author": "Eva4321",
-   "authorUrl": "https://civitai.com/user/Eva4321",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b8f304c-9be4-464a-9e05-eb5dd364187e/width=640/8b8f304c-9be4-464a-9e05-eb5dd364187e.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b8f304c-9be4-464a-9e05-eb5dd364187e/original=true/8b8f304c-9be4-464a-9e05-eb5dd364187e.jpeg",
-   "width": 1024,
-   "height": 1536,
-   "prompt": "draw a picture of cute and slightly pudgy cat wearing a FBI jacket over body armor. He's kicking in a door. This is from the prospective inside the house. There is dust flying around. THe door is kicked off its hinges. The cat is on his hind leg kicking in the door. The cat yells \"Open up! FBI\" The caption on the image overlaying the image says \"Every time you close a door with a cat.\"",
-   "settings": "GPT-Image-2.5-flare · 1024×1536",
-   "modelHint": "OpenAI ",
-   "modelLabel": "OpenAI",
-   "baseModel": "OpenAI",
-   "likes": 246,
-   "createdAt": "2026-11-22T21:15:00.000Z",
-   "model": "gpt-image",
-   "modelName": "GPT Image",
-   "subject": "Architecture",
-   "segments": [
-    [
-     "draw a picture of cute and slightly pudgy cat wearing a FBI jacket over body armor.",
-     "subject"
-    ],
-    [
-     "He's kicking in a door.",
-     "subject"
-    ],
-    [
-     "This is from the prospective inside the house.",
-     "subject"
-    ],
-    [
-     "There is dust flying around.",
-     "subject"
-    ],
-    [
-     "THe door is kicked off its hinges.",
-     "subject"
-    ],
-    [
-     "The cat is on his hind leg kicking in the door.",
-     "subject"
-    ],
-    [
-     "The cat yells \"Open up!",
-     "subject"
-    ],
-    [
-     "FBI\" The caption on the image overlaying the image says \"Every time you close a door with a cat.\"",
-     "subject"
-    ]
-   ],
-   "addedAt": "2026-11-23T18:27:49.276Z"
-  },
-  {
-   "id": "civitai-149730210",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149730210",
-   "author": "Eva4321",
-   "authorUrl": "https://civitai.com/user/Eva4321",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6970e9ee-d53f-48e3-b455-eb8f9bb797e5/width=640/6970e9ee-d53f-48e3-b455-eb8f9bb797e5.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6970e9ee-d53f-48e3-b455-eb8f9bb797e5/original=true/6970e9ee-d53f-48e3-b455-eb8f9bb797e5.jpeg",
-   "width": 1024,
-   "height": 1536,
-   "prompt": "draw a picture of cute and slightly pudgy cat waiting at the airport. They are looking at their phone and holding up a sign that says \"Cat Family\". The cat has a bored expression while waiting. He's in a group with other cats bored and holding up signs for their families. They don't have lugagge. The caption at the top overlaying the image says \"Waiting to pick up your family at the airport\"",
-   "settings": "GPT-Image-2.5-flare · 1024×1536",
-   "modelHint": "OpenAI ",
-   "modelLabel": "OpenAI",
-   "baseModel": "OpenAI",
-   "likes": 242,
-   "createdAt": "2026-11-21T21:15:00.000Z",
-   "model": "gpt-image",
-   "modelName": "GPT Image",
-   "subject": "Other",
-   "segments": [
-    [
-     "draw a picture of cute and slightly pudgy cat waiting at the airport.",
-     "subject"
-    ],
-    [
-     "They are looking at their phone and holding up a sign that says \"Cat Family\".",
-     "subject"
-    ],
-    [
-     "The cat has a bored expression while waiting.",
-     "subject"
-    ],
-    [
-     "He's in a group with other cats bored and holding up signs for their families.",
-     "subject"
-    ],
-    [
-     "They don't have lugagge.",
-     "other"
-    ],
-    [
-     "The caption at the top overlaying the image says \"Waiting to pick up your family at the airport\"",
-     "subject"
-    ]
-   ],
-   "addedAt": "2026-11-23T18:27:49.276Z"
-  },
-  {
    "id": "civitai-149816808",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149816808",
@@ -1120,7 +2219,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 240,
+   "likes": 438,
    "createdAt": "2026-11-22T03:02:25.974Z",
    "model": "gpt-image",
    "modelName": "GPT Image",
@@ -1170,6 +2269,110 @@
    "addedAt": "2026-11-23T18:27:49.276Z"
   },
   {
+   "id": "civitai-149730210",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149730210",
+   "author": "Eva4321",
+   "authorUrl": "https://civitai.com/user/Eva4321",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6970e9ee-d53f-48e3-b455-eb8f9bb797e5/width=640/6970e9ee-d53f-48e3-b455-eb8f9bb797e5.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6970e9ee-d53f-48e3-b455-eb8f9bb797e5/original=true/6970e9ee-d53f-48e3-b455-eb8f9bb797e5.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "draw a picture of cute and slightly pudgy cat waiting at the airport. They are looking at their phone and holding up a sign that says \"Cat Family\". The cat has a bored expression while waiting. He's in a group with other cats bored and holding up signs for their families. They don't have lugagge. The caption at the top overlaying the image says \"Waiting to pick up your family at the airport\"",
+   "settings": "GPT-Image-2.5-flare · 1024×1536",
+   "modelHint": "OpenAI ",
+   "modelLabel": "OpenAI",
+   "baseModel": "OpenAI",
+   "likes": 397,
+   "createdAt": "2026-11-21T21:15:00.000Z",
+   "model": "gpt-image",
+   "modelName": "GPT Image",
+   "subject": "Other",
+   "segments": [
+    [
+     "draw a picture of cute and slightly pudgy cat waiting at the airport.",
+     "subject"
+    ],
+    [
+     "They are looking at their phone and holding up a sign that says \"Cat Family\".",
+     "subject"
+    ],
+    [
+     "The cat has a bored expression while waiting.",
+     "subject"
+    ],
+    [
+     "He's in a group with other cats bored and holding up signs for their families.",
+     "subject"
+    ],
+    [
+     "They don't have lugagge.",
+     "other"
+    ],
+    [
+     "The caption at the top overlaying the image says \"Waiting to pick up your family at the airport\"",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-23T18:27:49.276Z"
+  },
+  {
+   "id": "civitai-149832359",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149832359",
+   "author": "Eva4321",
+   "authorUrl": "https://civitai.com/user/Eva4321",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b8f304c-9be4-464a-9e05-eb5dd364187e/width=640/8b8f304c-9be4-464a-9e05-eb5dd364187e.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b8f304c-9be4-464a-9e05-eb5dd364187e/original=true/8b8f304c-9be4-464a-9e05-eb5dd364187e.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "draw a picture of cute and slightly pudgy cat wearing a FBI jacket over body armor. He's kicking in a door. This is from the prospective inside the house. There is dust flying around. THe door is kicked off its hinges. The cat is on his hind leg kicking in the door. The cat yells \"Open up! FBI\" The caption on the image overlaying the image says \"Every time you close a door with a cat.\"",
+   "settings": "GPT-Image-2.5-flare · 1024×1536",
+   "modelHint": "OpenAI ",
+   "modelLabel": "OpenAI",
+   "baseModel": "OpenAI",
+   "likes": 324,
+   "createdAt": "2026-11-22T21:15:00.000Z",
+   "model": "gpt-image",
+   "modelName": "GPT Image",
+   "subject": "Architecture",
+   "segments": [
+    [
+     "draw a picture of cute and slightly pudgy cat wearing a FBI jacket over body armor.",
+     "subject"
+    ],
+    [
+     "He's kicking in a door.",
+     "subject"
+    ],
+    [
+     "This is from the prospective inside the house.",
+     "subject"
+    ],
+    [
+     "There is dust flying around.",
+     "subject"
+    ],
+    [
+     "THe door is kicked off its hinges.",
+     "subject"
+    ],
+    [
+     "The cat is on his hind leg kicking in the door.",
+     "subject"
+    ],
+    [
+     "The cat yells \"Open up!",
+     "subject"
+    ],
+    [
+     "FBI\" The caption on the image overlaying the image says \"Every time you close a door with a cat.\"",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-23T18:27:49.276Z"
+  },
+  {
    "id": "civitai-149866884",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149866884",
@@ -1198,50 +2401,6 @@
    "addedAt": "2026-11-23T18:27:49.276Z"
   },
   {
-   "id": "civitai-149819595",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149819595",
-   "author": "LawOfAI",
-   "authorUrl": "https://civitai.com/user/LawOfAI",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caadd431-4784-406f-9dbf-7a8fd3d03fda/width=640/caadd431-4784-406f-9dbf-7a8fd3d03fda.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caadd431-4784-406f-9dbf-7a8fd3d03fda/original=true/caadd431-4784-406f-9dbf-7a8fd3d03fda.jpeg",
-   "width": 928,
-   "height": 1152,
-   "prompt": "in an art style as seen in picture 1, slowpoke is featured in a bedroom holding a copy of a video game with cover art as seen in picture 2 and an xbox 360 controller. an xbox 360 is connected to a TV, a speech bubble says \"Time to play GTA\" a bag of Doritos is spilled on the floor, discard cans of mountain dew are in the room.",
-   "settings": "GoogleNanoBanana2 · 928×1152",
-   "modelHint": "Nano Banana ",
-   "modelLabel": "Nano Banana",
-   "baseModel": "Nano Banana",
-   "likes": 74,
-   "createdAt": "2026-11-22T13:50:00.000Z",
-   "model": "nano-banana",
-   "modelName": "Nano Banana (Gemini Image)",
-   "subject": "Architecture",
-   "segments": [
-    [
-     "in an art style as seen in picture 1,",
-     "style"
-    ],
-    [
-     "slowpoke is featured in a bedroom holding a copy of a video game with cover art as seen in picture 2 and an xbox 360 controller.",
-     "subject"
-    ],
-    [
-     "an xbox 360 is connected to a TV,",
-     "subject"
-    ],
-    [
-     "a speech bubble says \"Time to play GTA\" a bag of Doritos is spilled on the floor,",
-     "subject"
-    ],
-    [
-     "discard cans of mountain dew are in the room.",
-     "subject"
-    ]
-   ],
-   "addedAt": "2026-11-23T18:27:49.276Z"
-  },
-  {
    "id": "civitai-149956358",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149956358",
@@ -1257,7 +2416,7 @@
    "modelHint": "SDXL 1.0 animagineXLV31_v30",
    "modelLabel": "SDXL 1.0 · animagineXLV31_v30",
    "baseModel": "SDXL 1.0",
-   "likes": 41,
+   "likes": 151,
    "createdAt": "2026-11-23T10:02:04.968Z",
    "model": "sdxl",
    "modelName": "Stable Diffusion / SDXL",
@@ -1391,6 +2550,50 @@
    "addedAt": "2026-11-23T18:27:49.276Z"
   },
   {
+   "id": "civitai-149819595",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149819595",
+   "author": "LawOfAI",
+   "authorUrl": "https://civitai.com/user/LawOfAI",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caadd431-4784-406f-9dbf-7a8fd3d03fda/width=640/caadd431-4784-406f-9dbf-7a8fd3d03fda.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/caadd431-4784-406f-9dbf-7a8fd3d03fda/original=true/caadd431-4784-406f-9dbf-7a8fd3d03fda.jpeg",
+   "width": 928,
+   "height": 1152,
+   "prompt": "in an art style as seen in picture 1, slowpoke is featured in a bedroom holding a copy of a video game with cover art as seen in picture 2 and an xbox 360 controller. an xbox 360 is connected to a TV, a speech bubble says \"Time to play GTA\" a bag of Doritos is spilled on the floor, discard cans of mountain dew are in the room.",
+   "settings": "GoogleNanoBanana2 · 928×1152",
+   "modelHint": "Nano Banana ",
+   "modelLabel": "Nano Banana",
+   "baseModel": "Nano Banana",
+   "likes": 86,
+   "createdAt": "2026-11-22T13:50:00.000Z",
+   "model": "nano-banana",
+   "modelName": "Nano Banana (Gemini Image)",
+   "subject": "Architecture",
+   "segments": [
+    [
+     "in an art style as seen in picture 1,",
+     "style"
+    ],
+    [
+     "slowpoke is featured in a bedroom holding a copy of a video game with cover art as seen in picture 2 and an xbox 360 controller.",
+     "subject"
+    ],
+    [
+     "an xbox 360 is connected to a TV,",
+     "subject"
+    ],
+    [
+     "a speech bubble says \"Time to play GTA\" a bag of Doritos is spilled on the floor,",
+     "subject"
+    ],
+    [
+     "discard cans of mountain dew are in the room.",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-23T18:27:49.276Z"
+  },
+  {
    "id": "civitai-149798810",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149798810",
@@ -1405,7 +2608,7 @@
    "modelHint": "Flux.1 D lyh_reniji_00001_",
    "modelLabel": "Flux.1 D · lyh_reniji_00001_",
    "baseModel": "Flux.1 D",
-   "likes": 29,
+   "likes": 38,
    "createdAt": "2026-11-21T23:34:54.257Z",
    "model": "flux",
    "modelName": "FLUX",
@@ -1613,7 +2816,7 @@
    "modelHint": "Flux.1 D ",
    "modelLabel": "Flux.1 D",
    "baseModel": "Flux.1 D",
-   "likes": 25,
+   "likes": 28,
    "createdAt": "2026-11-22T08:51:53.209Z",
    "model": "flux",
    "modelName": "FLUX",
@@ -1731,6 +2934,58 @@
    "addedAt": "2026-11-23T18:27:49.276Z"
   },
   {
+   "id": "civitai-149914813",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149914813",
+   "author": "schmede",
+   "authorUrl": "https://civitai.com/user/schmede",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c6fb533-451c-4c1a-8954-1535af0541ee/width=640/9c6fb533-451c-4c1a-8954-1535af0541ee.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c6fb533-451c-4c1a-8954-1535af0541ee/original=true/9c6fb533-451c-4c1a-8954-1535af0541ee.jpeg",
+   "width": 2560,
+   "height": 1440,
+   "prompt": "Daphne as Crying Wolf (MGS4 Beauty and the Beast Unit), photoreal, armoured bodysuit, hand on the giant four-legged armoured wolf exoskeleton with railgun beside her, snowy misty forest at dawn, a single tear, sorrowful look. Close medium shot from the knees up.",
+   "settings": "2560×1440",
+   "modelHint": "Seedream ",
+   "modelLabel": "Seedream",
+   "baseModel": "Seedream",
+   "likes": 25,
+   "createdAt": "2026-11-23T00:55:56.927Z",
+   "model": "seedream",
+   "modelName": "Seedream",
+   "subject": "Landscape",
+   "segments": [
+    [
+     "Daphne as Crying Wolf (MGS4 Beauty and the Beast Unit), photoreal,",
+     "subject"
+    ],
+    [
+     "armoured bodysuit,",
+     "subject"
+    ],
+    [
+     "hand on the giant four-legged armoured wolf exoskeleton with railgun beside her,",
+     "subject"
+    ],
+    [
+     "snowy misty forest at dawn,",
+     "light"
+    ],
+    [
+     "a single tear,",
+     "other"
+    ],
+    [
+     "sorrowful look.",
+     "other"
+    ],
+    [
+     "Close medium shot from the knees up.",
+     "camera"
+    ]
+   ],
+   "addedAt": "2026-11-23T18:27:49.276Z"
+  },
+  {
    "id": "civitai-149410214",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149410214",
@@ -1799,6 +3054,50 @@
     [
      "detailxl",
      "other"
+    ]
+   ],
+   "addedAt": "2026-11-23T18:27:49.276Z"
+  },
+  {
+   "id": "civitai-149816279",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149816279",
+   "author": "mheaney47256",
+   "authorUrl": "https://civitai.com/user/mheaney47256",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f16c7b7d-7496-4238-bb4c-06b9b850af70/width=640/f16c7b7d-7496-4238-bb4c-06b9b850af70.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f16c7b7d-7496-4238-bb4c-06b9b850af70/original=true/f16c7b7d-7496-4238-bb4c-06b9b850af70.jpeg",
+   "width": 1200,
+   "height": 896,
+   "prompt": "Generate an image in the style of the anime Konosuba:God's Blessing on This Wonderful World! of Megumin, one of the characters from said anime, holding a large sign that reads \"Please gimme Gold Buzz!\" with a small heart below the writing. She has a look of sadness.",
+   "settings": "GoogleNanoBanana21 · 1200×896",
+   "modelHint": "Nano Banana ",
+   "modelLabel": "Nano Banana",
+   "baseModel": "Nano Banana",
+   "likes": 24,
+   "createdAt": "2026-11-22T02:56:41.401Z",
+   "model": "nano-banana",
+   "modelName": "Nano Banana (Gemini Image)",
+   "subject": "Illustration",
+   "segments": [
+    [
+     "Generate an image in the style of the anime Konosuba:God's Blessing on This Wonderful World!",
+     "style"
+    ],
+    [
+     "of Megumin,",
+     "subject"
+    ],
+    [
+     "one of the characters from said anime,",
+     "style"
+    ],
+    [
+     "holding a large sign that reads \"Please gimme Gold Buzz!\" with a small heart below the writing.",
+     "subject"
+    ],
+    [
+     "She has a look of sadness.",
+     "subject"
     ]
    ],
    "addedAt": "2026-11-23T18:27:49.276Z"
@@ -1976,58 +3275,6 @@
    "addedAt": "2026-11-23T18:27:49.276Z"
   },
   {
-   "id": "civitai-149914813",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149914813",
-   "author": "schmede",
-   "authorUrl": "https://civitai.com/user/schmede",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c6fb533-451c-4c1a-8954-1535af0541ee/width=640/9c6fb533-451c-4c1a-8954-1535af0541ee.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9c6fb533-451c-4c1a-8954-1535af0541ee/original=true/9c6fb533-451c-4c1a-8954-1535af0541ee.jpeg",
-   "width": 2560,
-   "height": 1440,
-   "prompt": "Daphne as Crying Wolf (MGS4 Beauty and the Beast Unit), photoreal, armoured bodysuit, hand on the giant four-legged armoured wolf exoskeleton with railgun beside her, snowy misty forest at dawn, a single tear, sorrowful look. Close medium shot from the knees up.",
-   "settings": "2560×1440",
-   "modelHint": "Seedream ",
-   "modelLabel": "Seedream",
-   "baseModel": "Seedream",
-   "likes": 21,
-   "createdAt": "2026-11-23T00:55:56.927Z",
-   "model": "seedream",
-   "modelName": "Seedream",
-   "subject": "Landscape",
-   "segments": [
-    [
-     "Daphne as Crying Wolf (MGS4 Beauty and the Beast Unit), photoreal,",
-     "subject"
-    ],
-    [
-     "armoured bodysuit,",
-     "subject"
-    ],
-    [
-     "hand on the giant four-legged armoured wolf exoskeleton with railgun beside her,",
-     "subject"
-    ],
-    [
-     "snowy misty forest at dawn,",
-     "light"
-    ],
-    [
-     "a single tear,",
-     "other"
-    ],
-    [
-     "sorrowful look.",
-     "other"
-    ],
-    [
-     "Close medium shot from the knees up.",
-     "camera"
-    ]
-   ],
-   "addedAt": "2026-11-23T18:27:49.276Z"
-  },
-  {
    "id": "civitai-149652906",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149652906",
@@ -2123,50 +3370,6 @@
     [
      "high level of detail.",
      "other"
-    ]
-   ],
-   "addedAt": "2026-11-23T18:27:49.276Z"
-  },
-  {
-   "id": "civitai-149816279",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149816279",
-   "author": "mheaney47256",
-   "authorUrl": "https://civitai.com/user/mheaney47256",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f16c7b7d-7496-4238-bb4c-06b9b850af70/width=640/f16c7b7d-7496-4238-bb4c-06b9b850af70.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f16c7b7d-7496-4238-bb4c-06b9b850af70/original=true/f16c7b7d-7496-4238-bb4c-06b9b850af70.jpeg",
-   "width": 1200,
-   "height": 896,
-   "prompt": "Generate an image in the style of the anime Konosuba:God's Blessing on This Wonderful World! of Megumin, one of the characters from said anime, holding a large sign that reads \"Please gimme Gold Buzz!\" with a small heart below the writing. She has a look of sadness.",
-   "settings": "GoogleNanoBanana21 · 1200×896",
-   "modelHint": "Nano Banana ",
-   "modelLabel": "Nano Banana",
-   "baseModel": "Nano Banana",
-   "likes": 19,
-   "createdAt": "2026-11-22T02:56:41.401Z",
-   "model": "nano-banana",
-   "modelName": "Nano Banana (Gemini Image)",
-   "subject": "Illustration",
-   "segments": [
-    [
-     "Generate an image in the style of the anime Konosuba:God's Blessing on This Wonderful World!",
-     "style"
-    ],
-    [
-     "of Megumin,",
-     "subject"
-    ],
-    [
-     "one of the characters from said anime,",
-     "style"
-    ],
-    [
-     "holding a large sign that reads \"Please gimme Gold Buzz!\" with a small heart below the writing.",
-     "subject"
-    ],
-    [
-     "She has a look of sadness.",
-     "subject"
     ]
    ],
    "addedAt": "2026-11-23T18:27:49.276Z"
@@ -2847,7 +4050,7 @@
    "modelHint": "Anima waiANIMA_v10Base10",
    "modelLabel": "Anima · waiANIMA_v10Base10",
    "baseModel": "Anima",
-   "likes": 794,
+   "likes": 1054,
    "createdAt": "2026-11-20T08:45:26.023Z",
    "model": "anima",
    "modelName": "Anima",
@@ -3052,6 +4255,186 @@
     [
      "dappled sunlight, warm lighting",
      "light"
+    ]
+   ],
+   "addedAt": "2026-11-22T14:45:34.686Z"
+  },
+  {
+   "id": "civitai-149701111",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149701111",
+   "author": "AureneStellaris",
+   "authorUrl": "https://civitai.com/user/AureneStellaris",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16b02be5-6aed-4cb9-8d59-357d22e26cac/width=640/16b02be5-6aed-4cb9-8d59-357d22e26cac.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16b02be5-6aed-4cb9-8d59-357d22e26cac/original=true/16b02be5-6aed-4cb9-8d59-357d22e26cac.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "Create an original two-panel colored anime koma featuring Yellowthing, with a funny hand-drawn anime fanart aesthetic.\nPanel 1 – The Perfect Burger: Yellowthing proudly holds an enormous, ridiculously tall stacked hamburger with both hands. It is beautifully assembled with multiple beef patties, cheese, lettuce, tomato, onions, and sauces, all visibly layered. Her golden eyes sparkle with excitement, her cheeks are slightly flushed, and she wears an enormous happy grin. Dramatic sparkles and emphasis lines make the burger look like a legendary feast.\nPanel 2 – The Disaster: Yellowthing takes an enormous bite from the burger, eyes squeezed shut in anticipation. But almost all the ingredients have slipped out from between the buns! Lettuce, tomato, cheese, patties, and sauce are falling everywhere, leaving her biting mostly into the empty top and bottom buns. Despite the disaster, she is still trying to eat it, with an absurdly determined expression.\nArt style: Colored, hand-drawn cartoony anime manga illustration, expressive sketch-like linework, vibrant colors, soft cel shading, exaggerated facial expressions, dynamic emphasis lines, and playful visual comedy. Make it look like someone personally drew and colored an anime comic. no text,\nUse clear black panel borders, consistent character design, and excellent comedic timing. Do not use monochrome, grayscale, or photorealism.",
+   "settings": "GPT-Image-2.5-sunburst · 1024×1536",
+   "modelHint": "OpenAI ",
+   "modelLabel": "OpenAI",
+   "baseModel": "OpenAI",
+   "likes": 519,
+   "createdAt": "2026-11-21T01:07:31.255Z",
+   "model": "gpt-image",
+   "modelName": "GPT Image",
+   "subject": "Food",
+   "segments": [
+    [
+     "Create an original two-panel colored anime koma featuring Yellowthing,",
+     "style"
+    ],
+    [
+     "with a funny hand-drawn anime fanart aesthetic.",
+     "style"
+    ],
+    [
+     "Panel 1 – The Perfect Burger:",
+     "subject"
+    ],
+    [
+     "Yellowthing proudly holds an enormous,",
+     "subject"
+    ],
+    [
+     "ridiculously tall stacked hamburger with both hands.",
+     "subject"
+    ],
+    [
+     "It is beautifully assembled with multiple beef patties, cheese,",
+     "subject"
+    ],
+    [
+     "lettuce, tomato, onions, and sauces,",
+     "subject"
+    ],
+    [
+     "all visibly layered.",
+     "subject"
+    ],
+    [
+     "Her golden eyes sparkle with excitement,",
+     "subject"
+    ],
+    [
+     "her cheeks are slightly flushed,",
+     "subject"
+    ],
+    [
+     "and she wears an enormous happy grin.",
+     "subject"
+    ],
+    [
+     "Dramatic sparkles and emphasis lines make the burger look like a legendary feast.",
+     "mood"
+    ],
+    [
+     "Panel 2 – The Disaster:",
+     "subject"
+    ],
+    [
+     "Yellowthing takes an enormous bite from the burger,",
+     "subject"
+    ],
+    [
+     "eyes squeezed shut in anticipation.",
+     "subject"
+    ],
+    [
+     "But almost all the ingredients have slipped out from between the buns!",
+     "subject"
+    ],
+    [
+     "Lettuce, tomato, cheese, patties,",
+     "subject"
+    ],
+    [
+     "and sauce are falling everywhere,",
+     "subject"
+    ],
+    [
+     "leaving her biting mostly into the empty top and bottom buns.",
+     "subject"
+    ],
+    [
+     "Despite the disaster,",
+     "subject"
+    ],
+    [
+     "she is still trying to eat it,",
+     "subject"
+    ],
+    [
+     "with an absurdly determined expression.",
+     "subject"
+    ],
+    [
+     "Art style:",
+     "style"
+    ],
+    [
+     "Colored,",
+     "other"
+    ],
+    [
+     "hand-drawn cartoony anime manga illustration,",
+     "style"
+    ],
+    [
+     "expressive sketch-like linework,",
+     "style"
+    ],
+    [
+     "vibrant colors,",
+     "mood"
+    ],
+    [
+     "soft cel shading,",
+     "other"
+    ],
+    [
+     "exaggerated facial expressions,",
+     "other"
+    ],
+    [
+     "dynamic emphasis lines,",
+     "other"
+    ],
+    [
+     "and playful visual comedy.",
+     "mood"
+    ],
+    [
+     "Make it look like someone personally drew and colored an anime comic.",
+     "style"
+    ],
+    [
+     "no text,",
+     "format"
+    ],
+    [
+     "Use clear black panel borders,",
+     "subject"
+    ],
+    [
+     "consistent character design,",
+     "other"
+    ],
+    [
+     "and excellent comedic timing.",
+     "other"
+    ],
+    [
+     "Do not use monochrome,",
+     "mood"
+    ],
+    [
+     "grayscale,",
+     "other"
+    ],
+    [
+     "or photorealism.",
+     "other"
     ]
    ],
    "addedAt": "2026-11-22T14:45:34.686Z"
@@ -3269,186 +4652,6 @@
    "addedAt": "2026-11-22T14:45:34.686Z"
   },
   {
-   "id": "civitai-149701111",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149701111",
-   "author": "AureneStellaris",
-   "authorUrl": "https://civitai.com/user/AureneStellaris",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16b02be5-6aed-4cb9-8d59-357d22e26cac/width=640/16b02be5-6aed-4cb9-8d59-357d22e26cac.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/16b02be5-6aed-4cb9-8d59-357d22e26cac/original=true/16b02be5-6aed-4cb9-8d59-357d22e26cac.jpeg",
-   "width": 1024,
-   "height": 1536,
-   "prompt": "Create an original two-panel colored anime koma featuring Yellowthing, with a funny hand-drawn anime fanart aesthetic.\nPanel 1 – The Perfect Burger: Yellowthing proudly holds an enormous, ridiculously tall stacked hamburger with both hands. It is beautifully assembled with multiple beef patties, cheese, lettuce, tomato, onions, and sauces, all visibly layered. Her golden eyes sparkle with excitement, her cheeks are slightly flushed, and she wears an enormous happy grin. Dramatic sparkles and emphasis lines make the burger look like a legendary feast.\nPanel 2 – The Disaster: Yellowthing takes an enormous bite from the burger, eyes squeezed shut in anticipation. But almost all the ingredients have slipped out from between the buns! Lettuce, tomato, cheese, patties, and sauce are falling everywhere, leaving her biting mostly into the empty top and bottom buns. Despite the disaster, she is still trying to eat it, with an absurdly determined expression.\nArt style: Colored, hand-drawn cartoony anime manga illustration, expressive sketch-like linework, vibrant colors, soft cel shading, exaggerated facial expressions, dynamic emphasis lines, and playful visual comedy. Make it look like someone personally drew and colored an anime comic. no text,\nUse clear black panel borders, consistent character design, and excellent comedic timing. Do not use monochrome, grayscale, or photorealism.",
-   "settings": "GPT-Image-2.5-sunburst · 1024×1536",
-   "modelHint": "OpenAI ",
-   "modelLabel": "OpenAI",
-   "baseModel": "OpenAI",
-   "likes": 391,
-   "createdAt": "2026-11-21T01:07:31.255Z",
-   "model": "gpt-image",
-   "modelName": "GPT Image",
-   "subject": "Food",
-   "segments": [
-    [
-     "Create an original two-panel colored anime koma featuring Yellowthing,",
-     "style"
-    ],
-    [
-     "with a funny hand-drawn anime fanart aesthetic.",
-     "style"
-    ],
-    [
-     "Panel 1 – The Perfect Burger:",
-     "subject"
-    ],
-    [
-     "Yellowthing proudly holds an enormous,",
-     "subject"
-    ],
-    [
-     "ridiculously tall stacked hamburger with both hands.",
-     "subject"
-    ],
-    [
-     "It is beautifully assembled with multiple beef patties, cheese,",
-     "subject"
-    ],
-    [
-     "lettuce, tomato, onions, and sauces,",
-     "subject"
-    ],
-    [
-     "all visibly layered.",
-     "subject"
-    ],
-    [
-     "Her golden eyes sparkle with excitement,",
-     "subject"
-    ],
-    [
-     "her cheeks are slightly flushed,",
-     "subject"
-    ],
-    [
-     "and she wears an enormous happy grin.",
-     "subject"
-    ],
-    [
-     "Dramatic sparkles and emphasis lines make the burger look like a legendary feast.",
-     "mood"
-    ],
-    [
-     "Panel 2 – The Disaster:",
-     "subject"
-    ],
-    [
-     "Yellowthing takes an enormous bite from the burger,",
-     "subject"
-    ],
-    [
-     "eyes squeezed shut in anticipation.",
-     "subject"
-    ],
-    [
-     "But almost all the ingredients have slipped out from between the buns!",
-     "subject"
-    ],
-    [
-     "Lettuce, tomato, cheese, patties,",
-     "subject"
-    ],
-    [
-     "and sauce are falling everywhere,",
-     "subject"
-    ],
-    [
-     "leaving her biting mostly into the empty top and bottom buns.",
-     "subject"
-    ],
-    [
-     "Despite the disaster,",
-     "subject"
-    ],
-    [
-     "she is still trying to eat it,",
-     "subject"
-    ],
-    [
-     "with an absurdly determined expression.",
-     "subject"
-    ],
-    [
-     "Art style:",
-     "style"
-    ],
-    [
-     "Colored,",
-     "other"
-    ],
-    [
-     "hand-drawn cartoony anime manga illustration,",
-     "style"
-    ],
-    [
-     "expressive sketch-like linework,",
-     "style"
-    ],
-    [
-     "vibrant colors,",
-     "mood"
-    ],
-    [
-     "soft cel shading,",
-     "other"
-    ],
-    [
-     "exaggerated facial expressions,",
-     "other"
-    ],
-    [
-     "dynamic emphasis lines,",
-     "other"
-    ],
-    [
-     "and playful visual comedy.",
-     "mood"
-    ],
-    [
-     "Make it look like someone personally drew and colored an anime comic.",
-     "style"
-    ],
-    [
-     "no text,",
-     "format"
-    ],
-    [
-     "Use clear black panel borders,",
-     "subject"
-    ],
-    [
-     "consistent character design,",
-     "other"
-    ],
-    [
-     "and excellent comedic timing.",
-     "other"
-    ],
-    [
-     "Do not use monochrome,",
-     "mood"
-    ],
-    [
-     "grayscale,",
-     "other"
-    ],
-    [
-     "or photorealism.",
-     "other"
-    ]
-   ],
-   "addedAt": "2026-11-22T14:45:34.686Z"
-  },
-  {
    "id": "civitai-149620047",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149620047",
@@ -3503,7 +4706,7 @@
    "modelHint": "Nano Banana ",
    "modelLabel": "Nano Banana",
    "baseModel": "Nano Banana",
-   "likes": 63,
+   "likes": 65,
    "createdAt": "2026-11-21T05:15:00.000Z",
    "model": "nano-banana",
    "modelName": "Nano Banana (Gemini Image)",
@@ -3552,7 +4755,7 @@
    "modelHint": "SDXL 1.0 ",
    "modelLabel": "SDXL 1.0",
    "baseModel": "SDXL 1.0",
-   "likes": 63,
+   "likes": 64,
    "createdAt": "2026-11-18T18:40:25.770Z",
    "model": "sdxl",
    "modelName": "Stable Diffusion / SDXL",
@@ -3664,7 +4867,7 @@
    "modelHint": "Nano Banana ",
    "modelLabel": "Nano Banana",
    "baseModel": "Nano Banana",
-   "likes": 35,
+   "likes": 38,
    "createdAt": "2026-11-21T22:00:00.000Z",
    "model": "nano-banana",
    "modelName": "Nano Banana (Gemini Image)",
@@ -3720,7 +4923,7 @@
    "modelHint": "SDXL 1.0 ",
    "modelLabel": "SDXL 1.0",
    "baseModel": "SDXL 1.0",
-   "likes": 31,
+   "likes": 32,
    "createdAt": "2026-11-20T15:31:15.328Z",
    "model": "sdxl",
    "modelName": "Stable Diffusion / SDXL",
@@ -4012,7 +5215,7 @@
    "modelHint": "Flux.1 D ",
    "modelLabel": "Flux.1 D",
    "baseModel": "Flux.1 D",
-   "likes": 22,
+   "likes": 24,
    "createdAt": "2026-11-20T13:32:55.324Z",
    "model": "flux",
    "modelName": "FLUX",
@@ -4837,123 +6040,6 @@
    "addedAt": "2026-11-21T14:48:56.187Z"
   },
   {
-   "id": "civitai-149090586",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149090586",
-   "author": "JustSpectoR",
-   "authorUrl": "https://civitai.com/user/JustSpectoR",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/468487ea-ccf0-4688-84a6-f90a50c90799/width=640/468487ea-ccf0-4688-84a6-f90a50c90799.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/468487ea-ccf0-4688-84a6-f90a50c90799/original=true/468487ea-ccf0-4688-84a6-f90a50c90799.jpeg",
-   "width": 1248,
-   "height": 1824,
-   "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high detail, absurdres, newest, flat colours, jaggy lines, safe for work,\n\n1female, solo, furry, anthro dragon, (adult), curved horns,\nPrincess Ember \\(mlp\\), brillinat red eyes,\nlooking forward, smile, smoke coming out of mouth, arms crossed,\ngolden shoulderguard, metallic chestplate,\nbright orange background, fire pattern background, black border, outside border, vibrant background,\ndutch angle, upper body",
-   "negative": "lowres, (worst quality, bad quality:1.2), bad anatomy, sketch, jpeg artifacts, signature, watermark, old, oldest, censored, bar_censor, Abs, text, horns, hair, markings, missing pupils, young, low quality, worst quality, normal quality, text, signature, jpeg artifacts, bad anatomy, early, copyright name, watermark, artist name,  text, signature, ((horns)), lazyneg, two tone body, 4 fingers, text, watermark, logo, patreon,",
-   "settings": "Steps 25 · CFG 5 · Euler a · 1248×1824",
-   "modelHint": "Illustrious urn:air:sdxl:checkpoint:civitai:1261882@2700844",
-   "modelLabel": "Illustrious · urn:air:sdxl:checkpoint:civitai:1261882@2700844",
-   "baseModel": "Illustrious",
-   "likes": 590,
-   "createdAt": "2026-11-15T12:46:22.200Z",
-   "model": "sdxl",
-   "modelName": "Stable Diffusion / SDXL",
-   "subject": "Character",
-   "segments": [
-    [
-     "masterpiece, best quality,",
-     "style"
-    ],
-    [
-     "amazing quality,",
-     "subject"
-    ],
-    [
-     "very aesthetic,",
-     "style"
-    ],
-    [
-     "high detail,",
-     "subject"
-    ],
-    [
-     "absurdres,",
-     "format"
-    ],
-    [
-     "newest,",
-     "subject"
-    ],
-    [
-     "flat colours,",
-     "mood"
-    ],
-    [
-     "jaggy lines,",
-     "subject"
-    ],
-    [
-     "safe for work, 1female, solo, furry,",
-     "subject"
-    ],
-    [
-     "anthro dragon, (adult), curved horns,",
-     "subject"
-    ],
-    [
-     "Princess Ember \\(mlp\\),",
-     "subject"
-    ],
-    [
-     "brillinat red eyes,",
-     "subject"
-    ],
-    [
-     "looking forward, smile,",
-     "other"
-    ],
-    [
-     "smoke coming out of mouth, arms crossed,",
-     "subject"
-    ],
-    [
-     "golden shoulderguard,",
-     "other"
-    ],
-    [
-     "metallic chestplate,",
-     "other"
-    ],
-    [
-     "bright orange background,",
-     "format"
-    ],
-    [
-     "fire pattern background,",
-     "format"
-    ],
-    [
-     "black border,",
-     "other"
-    ],
-    [
-     "outside border,",
-     "other"
-    ],
-    [
-     "vibrant background,",
-     "format"
-    ],
-    [
-     "dutch angle,",
-     "camera"
-    ],
-    [
-     "upper body",
-     "other"
-    ]
-   ],
-   "addedAt": "2026-11-21T14:48:56.187Z"
-  },
-  {
    "id": "civitai-149646087",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149646087",
@@ -4968,7 +6054,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 583,
+   "likes": 782,
    "createdAt": "2026-11-20T13:43:34.938Z",
    "model": "gpt-image",
    "modelName": "GPT Image",
@@ -5130,6 +6216,123 @@
    "addedAt": "2026-11-21T14:48:56.187Z"
   },
   {
+   "id": "civitai-149090586",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149090586",
+   "author": "JustSpectoR",
+   "authorUrl": "https://civitai.com/user/JustSpectoR",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/468487ea-ccf0-4688-84a6-f90a50c90799/width=640/468487ea-ccf0-4688-84a6-f90a50c90799.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/468487ea-ccf0-4688-84a6-f90a50c90799/original=true/468487ea-ccf0-4688-84a6-f90a50c90799.jpeg",
+   "width": 1248,
+   "height": 1824,
+   "prompt": "masterpiece, best quality, amazing quality, very aesthetic, high detail, absurdres, newest, flat colours, jaggy lines, safe for work,\n\n1female, solo, furry, anthro dragon, (adult), curved horns,\nPrincess Ember \\(mlp\\), brillinat red eyes,\nlooking forward, smile, smoke coming out of mouth, arms crossed,\ngolden shoulderguard, metallic chestplate,\nbright orange background, fire pattern background, black border, outside border, vibrant background,\ndutch angle, upper body",
+   "negative": "lowres, (worst quality, bad quality:1.2), bad anatomy, sketch, jpeg artifacts, signature, watermark, old, oldest, censored, bar_censor, Abs, text, horns, hair, markings, missing pupils, young, low quality, worst quality, normal quality, text, signature, jpeg artifacts, bad anatomy, early, copyright name, watermark, artist name,  text, signature, ((horns)), lazyneg, two tone body, 4 fingers, text, watermark, logo, patreon,",
+   "settings": "Steps 25 · CFG 5 · Euler a · 1248×1824",
+   "modelHint": "Illustrious urn:air:sdxl:checkpoint:civitai:1261882@2700844",
+   "modelLabel": "Illustrious · urn:air:sdxl:checkpoint:civitai:1261882@2700844",
+   "baseModel": "Illustrious",
+   "likes": 590,
+   "createdAt": "2026-11-15T12:46:22.200Z",
+   "model": "sdxl",
+   "modelName": "Stable Diffusion / SDXL",
+   "subject": "Character",
+   "segments": [
+    [
+     "masterpiece, best quality,",
+     "style"
+    ],
+    [
+     "amazing quality,",
+     "subject"
+    ],
+    [
+     "very aesthetic,",
+     "style"
+    ],
+    [
+     "high detail,",
+     "subject"
+    ],
+    [
+     "absurdres,",
+     "format"
+    ],
+    [
+     "newest,",
+     "subject"
+    ],
+    [
+     "flat colours,",
+     "mood"
+    ],
+    [
+     "jaggy lines,",
+     "subject"
+    ],
+    [
+     "safe for work, 1female, solo, furry,",
+     "subject"
+    ],
+    [
+     "anthro dragon, (adult), curved horns,",
+     "subject"
+    ],
+    [
+     "Princess Ember \\(mlp\\),",
+     "subject"
+    ],
+    [
+     "brillinat red eyes,",
+     "subject"
+    ],
+    [
+     "looking forward, smile,",
+     "other"
+    ],
+    [
+     "smoke coming out of mouth, arms crossed,",
+     "subject"
+    ],
+    [
+     "golden shoulderguard,",
+     "other"
+    ],
+    [
+     "metallic chestplate,",
+     "other"
+    ],
+    [
+     "bright orange background,",
+     "format"
+    ],
+    [
+     "fire pattern background,",
+     "format"
+    ],
+    [
+     "black border,",
+     "other"
+    ],
+    [
+     "outside border,",
+     "other"
+    ],
+    [
+     "vibrant background,",
+     "format"
+    ],
+    [
+     "dutch angle,",
+     "camera"
+    ],
+    [
+     "upper body",
+     "other"
+    ]
+   ],
+   "addedAt": "2026-11-21T14:48:56.187Z"
+  },
+  {
    "id": "civitai-149155856",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149155856",
@@ -5253,7 +6456,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 222,
+   "likes": 242,
    "createdAt": "2026-11-20T09:03:58.249Z",
    "model": "gpt-image",
    "modelName": "GPT Image",
@@ -5469,7 +6672,7 @@
    "modelHint": "Flux.1 D ",
    "modelLabel": "Flux.1 D",
    "baseModel": "Flux.1 D",
-   "likes": 36,
+   "likes": 37,
    "createdAt": "2026-11-20T16:48:31.917Z",
    "model": "flux",
    "modelName": "FLUX",
@@ -5687,6 +6890,55 @@
    "addedAt": "2026-11-21T14:48:56.187Z"
   },
   {
+   "id": "civitai-149514447",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149514447",
+   "author": "Omega_Xlll",
+   "authorUrl": "https://civitai.com/user/Omega_Xlll",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ef0a903-5628-46a3-a8bf-3c49ceb149ba/width=640/6ef0a903-5628-46a3-a8bf-3c49ceb149ba.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ef0a903-5628-46a3-a8bf-3c49ceb149ba/original=true/6ef0a903-5628-46a3-a8bf-3c49ceb149ba.jpeg",
+   "width": 904,
+   "height": 1616,
+   "prompt": "anime artwork {__00_MasterPrompt/Land_OldMastersMix_MixBiomes_10k_Seed-4687033__,|__OmegaXlll/SurrealLandscape/SurrealCreatorLandscape__,|__OmegaXlll/SeascapesLandscape/Seascape_creator__,}\n<lora:RetroAnimeFluxV1:0.45>\n<lora:RM_Artistify_v1.0M:0.65>\n<lora:Classic_Anime_Colors:0.4> CAICO . anime style, key visual, vibrant, studio anime,  highly detailed",
+   "negative": "photo, deformed, black and white, realism, disfigured, low contrast",
+   "settings": "Steps 20 · CFG 1 · Euler · 672×1200",
+   "modelHint": "Flux.1 D lyhAnime_korIl01",
+   "modelLabel": "Flux.1 D · lyhAnime_korIl01",
+   "baseModel": "Flux.1 D",
+   "likes": 23,
+   "createdAt": "2026-11-20T02:23:00.000Z",
+   "model": "flux",
+   "modelName": "FLUX",
+   "subject": "Illustration",
+   "segments": [
+    [
+     "anime artwork {__00_MasterPrompt/Land_OldMastersMix_MixBiomes_10k_Seed-4687033__,|__OmegaXlll/SurrealLandscape/SurrealCreatorLandscape__,|__OmegaXlll/SeascapesLandscape/Seascape_creator__,} <lora:RetroAnimeFluxV1:0.45> <lora:RM_Artistify_v1.0M:0.65> <lora:Classic_Anime_Colors:0.4> CAICO .",
+     "style"
+    ],
+    [
+     "anime style,",
+     "style"
+    ],
+    [
+     "key visual,",
+     "subject"
+    ],
+    [
+     "vibrant,",
+     "mood"
+    ],
+    [
+     "studio anime,",
+     "style"
+    ],
+    [
+     "highly detailed",
+     "format"
+    ]
+   ],
+   "addedAt": "2026-11-21T14:48:56.187Z"
+  },
+  {
    "id": "civitai-148897058",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/148897058",
@@ -5879,107 +7131,6 @@
    "addedAt": "2026-11-21T14:48:56.187Z"
   },
   {
-   "id": "civitai-149514447",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149514447",
-   "author": "Omega_Xlll",
-   "authorUrl": "https://civitai.com/user/Omega_Xlll",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ef0a903-5628-46a3-a8bf-3c49ceb149ba/width=640/6ef0a903-5628-46a3-a8bf-3c49ceb149ba.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ef0a903-5628-46a3-a8bf-3c49ceb149ba/original=true/6ef0a903-5628-46a3-a8bf-3c49ceb149ba.jpeg",
-   "width": 904,
-   "height": 1616,
-   "prompt": "anime artwork {__00_MasterPrompt/Land_OldMastersMix_MixBiomes_10k_Seed-4687033__,|__OmegaXlll/SurrealLandscape/SurrealCreatorLandscape__,|__OmegaXlll/SeascapesLandscape/Seascape_creator__,}\n<lora:RetroAnimeFluxV1:0.45>\n<lora:RM_Artistify_v1.0M:0.65>\n<lora:Classic_Anime_Colors:0.4> CAICO . anime style, key visual, vibrant, studio anime,  highly detailed",
-   "negative": "photo, deformed, black and white, realism, disfigured, low contrast",
-   "settings": "Steps 20 · CFG 1 · Euler · 672×1200",
-   "modelHint": "Flux.1 D lyhAnime_korIl01",
-   "modelLabel": "Flux.1 D · lyhAnime_korIl01",
-   "baseModel": "Flux.1 D",
-   "likes": 20,
-   "createdAt": "2026-11-20T02:23:00.000Z",
-   "model": "flux",
-   "modelName": "FLUX",
-   "subject": "Illustration",
-   "segments": [
-    [
-     "anime artwork {__00_MasterPrompt/Land_OldMastersMix_MixBiomes_10k_Seed-4687033__,|__OmegaXlll/SurrealLandscape/SurrealCreatorLandscape__,|__OmegaXlll/SeascapesLandscape/Seascape_creator__,} <lora:RetroAnimeFluxV1:0.45> <lora:RM_Artistify_v1.0M:0.65> <lora:Classic_Anime_Colors:0.4> CAICO .",
-     "style"
-    ],
-    [
-     "anime style,",
-     "style"
-    ],
-    [
-     "key visual,",
-     "subject"
-    ],
-    [
-     "vibrant,",
-     "mood"
-    ],
-    [
-     "studio anime,",
-     "style"
-    ],
-    [
-     "highly detailed",
-     "format"
-    ]
-   ],
-   "addedAt": "2026-11-21T14:48:56.187Z"
-  },
-  {
-   "id": "civitai-148995376",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/148995376",
-   "author": "KaosEngine",
-   "authorUrl": "https://civitai.com/user/KaosEngine",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7664728-24a4-449a-8d82-5373bee045aa/width=640/f7664728-24a4-449a-8d82-5373bee045aa.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7664728-24a4-449a-8d82-5373bee045aa/original=true/f7664728-24a4-449a-8d82-5373bee045aa.jpeg",
-   "width": 896,
-   "height": 1200,
-   "prompt": "remove the helmet to reveal a small woman's head: light skin, freckles, orange hair in a single long braid, bright green eyes, maid's headband. keep the head small and proportional to the original helmet (smaller than the original helmet)",
-   "settings": "GoogleNanoBanana2Lite · 896×1200",
-   "modelHint": "Nano Banana ",
-   "modelLabel": "Nano Banana",
-   "baseModel": "Nano Banana",
-   "likes": 19,
-   "createdAt": "2026-11-14T16:09:51.505Z",
-   "model": "nano-banana",
-   "modelName": "Nano Banana (Gemini Image)",
-   "subject": "Portrait",
-   "segments": [
-    [
-     "remove the helmet to reveal a small woman's head:",
-     "subject"
-    ],
-    [
-     "light skin,",
-     "light"
-    ],
-    [
-     "freckles,",
-     "subject"
-    ],
-    [
-     "orange hair in a single long braid,",
-     "subject"
-    ],
-    [
-     "bright green eyes,",
-     "other"
-    ],
-    [
-     "maid's headband.",
-     "other"
-    ],
-    [
-     "keep the head small and proportional to the original helmet (smaller than the original helmet)",
-     "subject"
-    ]
-   ],
-   "addedAt": "2026-11-21T14:48:56.187Z"
-  },
-  {
    "id": "civitai-149412151",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149412151",
@@ -5994,7 +7145,7 @@
    "modelHint": "Seedream ",
    "modelLabel": "Seedream",
    "baseModel": "Seedream",
-   "likes": 19,
+   "likes": 20,
    "createdAt": "2026-11-18T07:56:00.445Z",
    "model": "seedream",
    "modelName": "Seedream",
@@ -6160,6 +7311,58 @@
    "addedAt": "2026-11-21T14:48:56.187Z"
   },
   {
+   "id": "civitai-148995376",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/148995376",
+   "author": "KaosEngine",
+   "authorUrl": "https://civitai.com/user/KaosEngine",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7664728-24a4-449a-8d82-5373bee045aa/width=640/f7664728-24a4-449a-8d82-5373bee045aa.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f7664728-24a4-449a-8d82-5373bee045aa/original=true/f7664728-24a4-449a-8d82-5373bee045aa.jpeg",
+   "width": 896,
+   "height": 1200,
+   "prompt": "remove the helmet to reveal a small woman's head: light skin, freckles, orange hair in a single long braid, bright green eyes, maid's headband. keep the head small and proportional to the original helmet (smaller than the original helmet)",
+   "settings": "GoogleNanoBanana2Lite · 896×1200",
+   "modelHint": "Nano Banana ",
+   "modelLabel": "Nano Banana",
+   "baseModel": "Nano Banana",
+   "likes": 19,
+   "createdAt": "2026-11-14T16:09:51.505Z",
+   "model": "nano-banana",
+   "modelName": "Nano Banana (Gemini Image)",
+   "subject": "Portrait",
+   "segments": [
+    [
+     "remove the helmet to reveal a small woman's head:",
+     "subject"
+    ],
+    [
+     "light skin,",
+     "light"
+    ],
+    [
+     "freckles,",
+     "subject"
+    ],
+    [
+     "orange hair in a single long braid,",
+     "subject"
+    ],
+    [
+     "bright green eyes,",
+     "other"
+    ],
+    [
+     "maid's headband.",
+     "other"
+    ],
+    [
+     "keep the head small and proportional to the original helmet (smaller than the original helmet)",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-21T14:48:56.187Z"
+  },
+  {
    "id": "civitai-149412160",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149412160",
@@ -6174,7 +7377,7 @@
    "modelHint": "Seedream ",
    "modelLabel": "Seedream",
    "baseModel": "Seedream",
-   "likes": 18,
+   "likes": 19,
    "createdAt": "2026-11-18T07:56:01.067Z",
    "model": "seedream",
    "modelName": "Seedream",
@@ -7316,6 +8519,42 @@
    "addedAt": "2026-11-20T15:38:51.443Z"
   },
   {
+   "id": "civitai-149495647",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149495647",
+   "author": "domff85",
+   "authorUrl": "https://civitai.com/user/domff85",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de12b02e-7bf9-4757-aa68-69636df88b87/width=640/de12b02e-7bf9-4757-aa68-69636df88b87.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de12b02e-7bf9-4757-aa68-69636df88b87/original=true/de12b02e-7bf9-4757-aa68-69636df88b87.jpeg",
+   "width": 1024,
+   "height": 1024,
+   "prompt": "make a cute cotton candy like pink creature, with very cute eyes and an open mouth in wonderment. it is wearing a pink conical birthday hat with a hopefully and happy expression.",
+   "settings": "GPT-Image-2.5-sunburst · 1024×1024",
+   "modelHint": "OpenAI ",
+   "modelLabel": "OpenAI",
+   "baseModel": "OpenAI",
+   "likes": 1013,
+   "createdAt": "2026-11-19T22:00:00.000Z",
+   "model": "gpt-image",
+   "modelName": "GPT Image",
+   "subject": "Character",
+   "segments": [
+    [
+     "make a cute cotton candy like pink creature,",
+     "subject"
+    ],
+    [
+     "with very cute eyes and an open mouth in wonderment.",
+     "subject"
+    ],
+    [
+     "it is wearing a pink conical birthday hat with a hopefully and happy expression.",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-20T15:38:51.443Z"
+  },
+  {
    "id": "civitai-149239778",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149239778",
@@ -7409,42 +8648,6 @@
    "addedAt": "2026-11-20T15:38:51.443Z"
   },
   {
-   "id": "civitai-149495647",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149495647",
-   "author": "domff85",
-   "authorUrl": "https://civitai.com/user/domff85",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de12b02e-7bf9-4757-aa68-69636df88b87/width=640/de12b02e-7bf9-4757-aa68-69636df88b87.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/de12b02e-7bf9-4757-aa68-69636df88b87/original=true/de12b02e-7bf9-4757-aa68-69636df88b87.jpeg",
-   "width": 1024,
-   "height": 1024,
-   "prompt": "make a cute cotton candy like pink creature, with very cute eyes and an open mouth in wonderment. it is wearing a pink conical birthday hat with a hopefully and happy expression.",
-   "settings": "GPT-Image-2.5-sunburst · 1024×1024",
-   "modelHint": "OpenAI ",
-   "modelLabel": "OpenAI",
-   "baseModel": "OpenAI",
-   "likes": 895,
-   "createdAt": "2026-11-19T22:00:00.000Z",
-   "model": "gpt-image",
-   "modelName": "GPT Image",
-   "subject": "Character",
-   "segments": [
-    [
-     "make a cute cotton candy like pink creature,",
-     "subject"
-    ],
-    [
-     "with very cute eyes and an open mouth in wonderment.",
-     "subject"
-    ],
-    [
-     "it is wearing a pink conical birthday hat with a hopefully and happy expression.",
-     "subject"
-    ]
-   ],
-   "addedAt": "2026-11-20T15:38:51.443Z"
-  },
-  {
    "id": "civitai-149372714",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149372714",
@@ -7460,7 +8663,7 @@
    "modelHint": "MOSS Image mossImage_sft_pruned_int8.safetensors",
    "modelLabel": "MOSS Image · mossImage_sft_pruned_int8.safetensors",
    "baseModel": "MOSS Image",
-   "likes": 725,
+   "likes": 824,
    "createdAt": "2026-11-17T23:12:29.759Z",
    "model": "moss-image",
    "modelName": "MOSS Image",
@@ -8024,7 +9227,7 @@
    "modelHint": "Seedream ",
    "modelLabel": "Seedream",
    "baseModel": "Seedream",
-   "likes": 24,
+   "likes": 25,
    "createdAt": "2026-11-19T22:10:05.979Z",
    "model": "seedream",
    "modelName": "Seedream",
@@ -8232,7 +9435,7 @@
    "modelHint": "Seedream ",
    "modelLabel": "Seedream",
    "baseModel": "Seedream",
-   "likes": 18,
+   "likes": 19,
    "createdAt": "2026-11-18T07:56:00.209Z",
    "model": "seedream",
    "modelName": "Seedream",
@@ -8414,6 +9617,38 @@
    "addedAt": "2026-11-20T15:38:51.443Z"
   },
   {
+   "id": "civitai-149564158",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149564158",
+   "author": "jsphndrsn385",
+   "authorUrl": "https://civitai.com/user/jsphndrsn385",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d973271a-892f-4448-8da6-70599f779818/width=640/d973271a-892f-4448-8da6-70599f779818.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d973271a-892f-4448-8da6-70599f779818/original=true/d973271a-892f-4448-8da6-70599f779818.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "Enhance but keep the same image essentially Making her wear a School uniform.\nSame Split View",
+   "settings": "Steps 27 · CFG 4 · euler · 832×1216",
+   "modelHint": "Qwen ",
+   "modelLabel": "Qwen",
+   "baseModel": "Qwen",
+   "likes": 2,
+   "createdAt": "2026-11-19T19:48:53.358Z",
+   "model": "qwen-image",
+   "modelName": "Qwen Image",
+   "subject": "Other",
+   "segments": [
+    [
+     "Enhance but keep the same image essentially Making her wear a School uniform.",
+     "subject"
+    ],
+    [
+     "Same Split View",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-20T15:38:51.443Z"
+  },
+  {
    "id": "civitai-149580191",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149580191",
@@ -8565,38 +9800,6 @@
     [
      "practical light source in the shadows\"}]}} <lora:Qwen-Image-Lightning-4steps-V2.0:0.7> <lora:midjourneypastel8q_d16a8e4:1.0>",
      "light"
-    ]
-   ],
-   "addedAt": "2026-11-20T15:38:51.443Z"
-  },
-  {
-   "id": "civitai-149564158",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149564158",
-   "author": "jsphndrsn385",
-   "authorUrl": "https://civitai.com/user/jsphndrsn385",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d973271a-892f-4448-8da6-70599f779818/width=640/d973271a-892f-4448-8da6-70599f779818.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d973271a-892f-4448-8da6-70599f779818/original=true/d973271a-892f-4448-8da6-70599f779818.jpeg",
-   "width": 832,
-   "height": 1216,
-   "prompt": "Enhance but keep the same image essentially Making her wear a School uniform.\nSame Split View",
-   "settings": "Steps 27 · CFG 4 · euler · 832×1216",
-   "modelHint": "Qwen ",
-   "modelLabel": "Qwen",
-   "baseModel": "Qwen",
-   "likes": 1,
-   "createdAt": "2026-11-19T19:48:53.358Z",
-   "model": "qwen-image",
-   "modelName": "Qwen Image",
-   "subject": "Other",
-   "segments": [
-    [
-     "Enhance but keep the same image essentially Making her wear a School uniform.",
-     "subject"
-    ],
-    [
-     "Same Split View",
-     "subject"
     ]
    ],
    "addedAt": "2026-11-20T15:38:51.443Z"
@@ -9530,7 +10733,7 @@
    "modelHint": "Flux.1 D ",
    "modelLabel": "Flux.1 D",
    "baseModel": "Flux.1 D",
-   "likes": 46,
+   "likes": 50,
    "createdAt": "2026-11-18T08:20:32.586Z",
    "model": "flux",
    "modelName": "FLUX",
