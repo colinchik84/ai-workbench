@@ -1,99 +1,637 @@
 {
- "generatedAt": "2026-11-27T16:50:58.015Z",
+ "generatedAt": "2026-11-28T15:42:34.182Z",
  "added": {
-  "civitai": 21,
+  "civitai": 8,
   "x-api": 0,
   "x-list": 0
  },
- "total": 451,
+ "total": 459,
  "prompts": [
   {
-   "id": "civitai-149799116",
+   "id": "civitai-149770626",
    "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149799116",
-   "author": "KuroKenzo",
-   "authorUrl": "https://civitai.com/user/KuroKenzo",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a933edc-db94-4f49-8e03-de5107d9f160/width=640/6a933edc-db94-4f49-8e03-de5107d9f160.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a933edc-db94-4f49-8e03-de5107d9f160/original=true/6a933edc-db94-4f49-8e03-de5107d9f160.jpeg",
-   "width": 1376,
-   "height": 2048,
-   "prompt": "Dark atmospheric oil painting of one single giant rusted-metal serpent train coiling upward out of desolate urban ruins. Its segmented armored freight-car body ends in a massive open mechanical jaw lined with mangled metal teeth, red glass eyes, with a tiny hooded cultist in flowing crimson robes standing atop its metal skull in a calm, commanding posture with arms raised. Visual style: detailed traditional oil painting fused with 1980s retro-anime dark fantasy OVA art, crisp painted edges, strong rim lighting separating foreground from background, dramatic chiaroscuro lighting, vast atmospheric perspective, towering monumental scale, bleak dystopian atmosphere, sublime awe mixed with creeping dread, sharp silhouette definition, grim painterly anime realism.",
-   "settings": "Steps 12 · CFG 1.5 · euler · 1376×2048",
-   "modelHint": "Krea 2 Turbo ",
-   "modelLabel": "Krea 2 Turbo",
-   "baseModel": "Krea 2 Turbo",
-   "likes": 1197,
-   "createdAt": "2026-11-21T23:41:13.683Z",
+   "sourceUrl": "https://civitai.com/images/149770626",
+   "author": "Adel_AI",
+   "authorUrl": "https://civitai.com/user/Adel_AI",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bdcef985-3b97-49bc-83bd-d1e69ffa92f7/width=640/bdcef985-3b97-49bc-83bd-d1e69ffa92f7.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bdcef985-3b97-49bc-83bd-d1e69ffa92f7/original=true/bdcef985-3b97-49bc-83bd-d1e69ffa92f7.jpeg",
+   "width": 768,
+   "height": 1024,
+   "prompt": "Bradhamel art style. A serene waterfront promenade lined with towering, stylized trees featuring large, fan-like blue-green canopies and slender brown trunks, rendered in soft watercolor washes and delicate ink outlines; a lone figure in a long coat stands leaning against the nearest tree trunk on a wet pavement reflecting the sky and foliage, while distant figures stroll along the path toward a calm body of water under a hazy, light-blue sky with faint architectural sketches floating in the background; the composition is framed by the perspective of the walkway receding into the horizon, with dappled light and subtle shadows enhancing depth and mood, all executed in a dreamy, illustrative medium with visible sketch lines and textured paper grain.",
+   "negative": "unknown",
+   "settings": "Steps 10 · CFG 1 · er_sde_simple · 512×512",
+   "modelHint": "Krea 2 Kreation_v5b_mxfp8",
+   "modelLabel": "Krea 2 · Kreation_v5b_mxfp8",
+   "baseModel": "Krea 2",
+   "likes": 1198,
+   "createdAt": "2026-11-21T17:17:46.062Z",
    "model": "krea",
    "modelName": "Krea",
-   "subject": "Illustration",
+   "subject": "Architecture",
    "segments": [
     [
-     "Dark atmospheric oil painting of one single giant rusted-metal serpent train coiling upward out of desolate urban ruins.",
+     "Bradhamel art style.",
      "style"
     ],
     [
-     "Its segmented armored freight-car body ends in a massive open mechanical jaw lined with mangled metal teeth,",
-     "subject"
-    ],
-    [
-     "red glass eyes,",
-     "subject"
-    ],
-    [
-     "with a tiny hooded cultist in flowing crimson robes standing atop its metal skull in a calm,",
-     "subject"
-    ],
-    [
-     "commanding posture with arms raised.",
-     "subject"
-    ],
-    [
-     "Visual style:",
-     "style"
-    ],
-    [
-     "detailed traditional oil painting fused with 1980s retro-anime dark fantasy OVA art,",
-     "style"
-    ],
-    [
-     "crisp painted edges,",
-     "style"
-    ],
-    [
-     "strong rim lighting separating foreground from background,",
-     "light"
-    ],
-    [
-     "dramatic chiaroscuro lighting,",
-     "light"
-    ],
-    [
-     "vast atmospheric perspective,",
+     "A serene waterfront promenade lined with towering,",
      "mood"
     ],
     [
-     "towering monumental scale,",
-     "other"
-    ],
-    [
-     "bleak dystopian atmosphere,",
-     "mood"
-    ],
-    [
-     "sublime awe mixed with creeping dread,",
+     "stylized trees featuring large,",
      "subject"
     ],
     [
-     "sharp silhouette definition,",
+     "fan-like blue-green canopies and slender brown trunks,",
+     "subject"
+    ],
+    [
+     "rendered in soft watercolor washes and delicate ink outlines;",
+     "style"
+    ],
+    [
+     "a lone figure in a long coat stands leaning against the nearest tree trunk on a wet pavement reflecting the sky and foliage,",
+     "subject"
+    ],
+    [
+     "while distant figures stroll along the path toward a calm body of water under a hazy,",
+     "subject"
+    ],
+    [
+     "light-blue sky with faint architectural sketches floating in the background;",
+     "light"
+    ],
+    [
+     "the composition is framed by the perspective of the walkway receding into the horizon,",
      "format"
     ],
     [
-     "grim painterly anime realism.",
+     "with dappled light and subtle shadows enhancing depth and mood,",
+     "light"
+    ],
+    [
+     "all executed in a dreamy,",
+     "mood"
+    ],
+    [
+     "illustrative medium with visible sketch lines and textured paper grain.",
      "style"
     ]
    ],
-   "addedAt": "2026-11-27T16:50:58.015Z"
+   "addedAt": "2026-11-28T15:42:34.182Z"
+  },
+  {
+   "id": "civitai-150389101",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/150389101",
+   "author": "kananavarts",
+   "authorUrl": "https://civitai.com/user/kananavarts",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c45a722c-8796-46da-88fb-590157a242eb/width=640/c45a722c-8796-46da-88fb-590157a242eb.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c45a722c-8796-46da-88fb-590157a242eb/original=true/c45a722c-8796-46da-88fb-590157a242eb.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "A cinematic, high-detail 3D fantasy cartoon captures two adorable yet ferocious furry monsters locked in a face-to-face roar on a rocky, debris-strewn battlefield, surrounded by flying dust, vivid rim light, glowing skies, and dramatic depth of field. A pink-and-green, plush, horn-eared creature with a pale spotted belly and sharp grin squares off against a blue-and-yellow rival with matching claws, horns, and fierce eyes, their colorful rivalry blazing as they lean low, snarl, and nearly collide.",
+   "settings": "GPT-Image-2 · 1024×1536",
+   "modelHint": "OpenAI ",
+   "modelLabel": "OpenAI",
+   "baseModel": "OpenAI",
+   "likes": 370,
+   "createdAt": "2026-11-27T22:00:00.000Z",
+   "model": "gpt-image",
+   "modelName": "GPT Image",
+   "subject": "Character",
+   "segments": [
+    [
+     "A cinematic,",
+     "style"
+    ],
+    [
+     "high-detail 3D fantasy cartoon captures two adorable yet ferocious furry monsters locked in a face-to-face roar on a rocky,",
+     "subject"
+    ],
+    [
+     "debris-strewn battlefield,",
+     "subject"
+    ],
+    [
+     "surrounded by flying dust,",
+     "style"
+    ],
+    [
+     "vivid rim light,",
+     "light"
+    ],
+    [
+     "glowing skies,",
+     "light"
+    ],
+    [
+     "and dramatic depth of field.",
+     "camera"
+    ],
+    [
+     "A pink-and-green, plush,",
+     "other"
+    ],
+    [
+     "horn-eared creature with a pale spotted belly and sharp grin squares off against a blue-and-yellow rival with matching claws,",
+     "subject"
+    ],
+    [
+     "horns,",
+     "other"
+    ],
+    [
+     "and fierce eyes,",
+     "other"
+    ],
+    [
+     "their colorful rivalry blazing as they lean low, snarl,",
+     "subject"
+    ],
+    [
+     "and nearly collide.",
+     "other"
+    ]
+   ],
+   "addedAt": "2026-11-28T15:42:34.182Z"
+  },
+  {
+   "id": "civitai-149926875",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149926875",
+   "author": "AureneStellaris",
+   "authorUrl": "https://civitai.com/user/AureneStellaris",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/466115a2-93f2-41e7-a065-974df78a6d63/width=640/466115a2-93f2-41e7-a065-974df78a6d63.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/466115a2-93f2-41e7-a065-974df78a6d63/original=true/466115a2-93f2-41e7-a065-974df78a6d63.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "Create a funny 1-panel coloured anime comic featuring Yellowthing, using her respective character reference image\n for their appearances.\nmake yellowthing a melting chibi not ready for the world but a female hand takes her hand to take her to go have fun anyways.\nExpressive hand-drawn anime comic style, vibrant colours, loose sketch-like linework, exaggerated comedic expressions, No monochrome. white background,",
+   "settings": "GPT-Image-2.5-sunburst · 1024×1536",
+   "modelHint": "OpenAI ",
+   "modelLabel": "OpenAI",
+   "baseModel": "OpenAI",
+   "likes": 68,
+   "createdAt": "2026-11-23T03:12:59.036Z",
+   "model": "gpt-image",
+   "modelName": "GPT Image",
+   "subject": "Character",
+   "segments": [
+    [
+     "Create a funny 1-panel coloured anime comic featuring Yellowthing,",
+     "style"
+    ],
+    [
+     "using her respective character reference image for their appearances.",
+     "subject"
+    ],
+    [
+     "make yellowthing a melting chibi not ready for the world but a female hand takes her hand to take her to go have fun anyways.",
+     "subject"
+    ],
+    [
+     "Expressive hand-drawn anime comic style,",
+     "style"
+    ],
+    [
+     "vibrant colours,",
+     "mood"
+    ],
+    [
+     "loose sketch-like linework,",
+     "style"
+    ],
+    [
+     "exaggerated comedic expressions,",
+     "other"
+    ],
+    [
+     "No monochrome.",
+     "mood"
+    ],
+    [
+     "white background,",
+     "format"
+    ]
+   ],
+   "addedAt": "2026-11-28T15:42:34.182Z"
+  },
+  {
+   "id": "civitai-150067575",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/150067575",
+   "author": "AureneStellaris",
+   "authorUrl": "https://civitai.com/user/AureneStellaris",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a66920c-fe0c-4967-8e01-ed46c5c32c60/width=640/4a66920c-fe0c-4967-8e01-ed46c5c32c60.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a66920c-fe0c-4967-8e01-ed46c5c32c60/original=true/4a66920c-fe0c-4967-8e01-ed46c5c32c60.jpeg",
+   "width": 1536,
+   "height": 864,
+   "prompt": "Recreate the comedic sleeping bag scene in image 1... and replace the characters with these girls in their respective image reference\nmake the character on the right, the one kicking in the other character in the sleeping bag into the yellow haired girl, and replace the one on the left, the one getting kicked from behind to jan-chan the pink haired cat girl who is out of it this time, she is in her own sleeping bag.. while there is a small box of a LIVE camera livestream of the black haired girl in her own sleeping bag sleeping in another room..",
+   "settings": "GPT-Image-2.5-sunburst · 1536×864",
+   "modelHint": "OpenAI ",
+   "modelLabel": "OpenAI",
+   "baseModel": "OpenAI",
+   "likes": 61,
+   "createdAt": "2026-11-24T10:38:12.187Z",
+   "model": "gpt-image",
+   "modelName": "GPT Image",
+   "subject": "Architecture",
+   "segments": [
+    [
+     "Recreate the comedic sleeping bag scene in image 1...",
+     "subject"
+    ],
+    [
+     "and replace the characters with these girls in their respective image reference make the character on the right,",
+     "subject"
+    ],
+    [
+     "the one kicking in the other character in the sleeping bag into the yellow haired girl,",
+     "subject"
+    ],
+    [
+     "and replace the one on the left,",
+     "subject"
+    ],
+    [
+     "the one getting kicked from behind to jan-chan the pink haired cat girl who is out of it this time,",
+     "subject"
+    ],
+    [
+     "she is in her own sleeping bag..",
+     "subject"
+    ],
+    [
+     "while there is a small box of a LIVE camera livestream of the black haired girl in her own sleeping bag sleeping in another room..",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-28T15:42:34.182Z"
+  },
+  {
+   "id": "civitai-150407654",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/150407654",
+   "author": "c7al9ex1an0im5e",
+   "authorUrl": "https://civitai.com/user/c7al9ex1an0im5e",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85b3eb55-c35e-49b9-abcf-5d384ed20308/width=640/85b3eb55-c35e-49b9-abcf-5d384ed20308.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85b3eb55-c35e-49b9-abcf-5d384ed20308/original=true/85b3eb55-c35e-49b9-abcf-5d384ed20308.jpeg",
+   "width": 1024,
+   "height": 1024,
+   "prompt": "Generate an image in a realistic style. The maze is filled with winter theme, the walls is filled with bushes and covered with snow. The path is filled bushes covered with snows. This realistic maze shows a path to find buzz. the maze to find yellow buzz, yellow buzz, a yellow buzz (object) is in the center of the maze, maze find the yellow buzz, yellow lightning bolt (object), maze style",
+   "negative": "((extra fingers)), ((extra hand)), ((extra legs)), ((extra Body Parts)), ((ugly face)), close up, two heads, two faces, plastic, Deformed, bad anatomy, bad eyes, crossed eyes, disfigured, poorly drawn face, mutation, mutated, ((extra limb)), ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, ((mutated hands and fingers)), ((out of frame)),low-res, out of frame double, two heads, blurred, ugly, disfigured, too many fingers, deformed, repetitive, black and white, grainy, extra limbs, bad anatomy High pass",
+   "settings": "Steps 20 · CFG 7 · Euler a · 1024×1024",
+   "modelHint": "SDXL 1.0 ",
+   "modelLabel": "SDXL 1.0",
+   "baseModel": "SDXL 1.0",
+   "likes": 57,
+   "createdAt": "2026-11-27T20:15:41.019Z",
+   "model": "sdxl",
+   "modelName": "Stable Diffusion / SDXL",
+   "subject": "Other",
+   "segments": [
+    [
+     "Generate an image in a realistic style.",
+     "style"
+    ],
+    [
+     "The maze is filled with winter theme,",
+     "subject"
+    ],
+    [
+     "the walls is filled with bushes and covered with snow.",
+     "subject"
+    ],
+    [
+     "The path is filled bushes covered with snows.",
+     "subject"
+    ],
+    [
+     "This realistic maze shows a path to find buzz.",
+     "style"
+    ],
+    [
+     "the maze to find yellow buzz, yellow buzz,",
+     "subject"
+    ],
+    [
+     "a yellow buzz (object) is in the center of the maze,",
+     "subject"
+    ],
+    [
+     "maze find the yellow buzz,",
+     "subject"
+    ],
+    [
+     "yellow lightning bolt (object),",
+     "other"
+    ],
+    [
+     "maze style",
+     "style"
+    ]
+   ],
+   "addedAt": "2026-11-28T15:42:34.182Z"
+  },
+  {
+   "id": "civitai-150408843",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/150408843",
+   "author": "Warrior_Peacefrog",
+   "authorUrl": "https://civitai.com/user/Warrior_Peacefrog",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0eaad09e-a8be-4827-813b-732f27b9516a/width=640/0eaad09e-a8be-4827-813b-732f27b9516a.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0eaad09e-a8be-4827-813b-732f27b9516a/original=true/0eaad09e-a8be-4827-813b-732f27b9516a.jpeg",
+   "width": 1024,
+   "height": 1024,
+   "prompt": "Subject: A cyberpunk woman, Pr0xy, with short black hair, light brown eyes, and a light blush. She wears a green crop top shirt revealing underboob and black leather pants. She is sitting on a futuristic motorcycle, pointing a gun directly at the viewer.\nSetting: A neon-lit cyberpunk city street at night, with holographic signs and rain-slicked pavement reflecting the ambient light.\nStyle: Pastel_Cel art style, characterized by soft pastel color palettes, clean lines, and cel-shaded rendering with vibrant neon accents.\nLighting: Dramatic neon lighting with purple and blue hues, casting sharp shadows and highlighting the character's features and the motorcycle's metallic surfaces.\nComposition: Close-up shot from a low front angle, focusing on the character's face and the gun pointed at the viewer, with the motorcycle and background slightly blurred to emphasize depth of field.",
+   "settings": "Steps 25 · CFG 3.5 · euler · 1024×1024",
+   "modelHint": "Qwen ",
+   "modelLabel": "Qwen",
+   "baseModel": "Qwen",
+   "likes": 55,
+   "createdAt": "2026-11-27T20:35:46.439Z",
+   "model": "qwen-image",
+   "modelName": "Qwen Image",
+   "subject": "Portrait",
+   "segments": [
+    [
+     "Subject:",
+     "subject"
+    ],
+    [
+     "A cyberpunk woman, Pr0xy,",
+     "subject"
+    ],
+    [
+     "with short black hair,",
+     "subject"
+    ],
+    [
+     "light brown eyes,",
+     "light"
+    ],
+    [
+     "and a light blush.",
+     "light"
+    ],
+    [
+     "She wears a green crop top shirt revealing underboob and black leather pants.",
+     "subject"
+    ],
+    [
+     "She is sitting on a futuristic motorcycle,",
+     "subject"
+    ],
+    [
+     "pointing a gun directly at the viewer. Setting:",
+     "subject"
+    ],
+    [
+     "A neon-lit cyberpunk city street at night,",
+     "light"
+    ],
+    [
+     "with holographic signs and rain-slicked pavement reflecting the ambient light.",
+     "light"
+    ],
+    [
+     "Style:",
+     "style"
+    ],
+    [
+     "Pastel_Cel art style,",
+     "style"
+    ],
+    [
+     "characterized by soft pastel color palettes,",
+     "mood"
+    ],
+    [
+     "clean lines,",
+     "other"
+    ],
+    [
+     "and cel-shaded rendering with vibrant neon accents. Lighting:",
+     "light"
+    ],
+    [
+     "Dramatic neon lighting with purple and blue hues,",
+     "light"
+    ],
+    [
+     "casting sharp shadows and highlighting the character's features and the motorcycle's metallic surfaces.",
+     "light"
+    ],
+    [
+     "Composition:",
+     "format"
+    ],
+    [
+     "Close-up shot from a low front angle,",
+     "camera"
+    ],
+    [
+     "focusing on the character's face and the gun pointed at the viewer,",
+     "subject"
+    ],
+    [
+     "with the motorcycle and background slightly blurred to emphasize depth of field.",
+     "camera"
+    ]
+   ],
+   "addedAt": "2026-11-28T15:42:34.182Z"
+  },
+  {
+   "id": "civitai-149990570",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149990570",
+   "author": "MAIST",
+   "authorUrl": "https://civitai.com/user/MAIST",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/90920fe2-b6b7-4d8c-a457-70666ffcceab/width=640/90920fe2-b6b7-4d8c-a457-70666ffcceab.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/90920fe2-b6b7-4d8c-a457-70666ffcceab/original=true/90920fe2-b6b7-4d8c-a457-70666ffcceab.jpeg",
+   "width": 1728,
+   "height": 2304,
+   "prompt": "Close to : skydivers, in freefall, first in jumpsuit, second in t-shirt, surprise, talk, in sky, photorealist, add,",
+   "settings": "1728×2304",
+   "modelHint": "Seedream ",
+   "modelLabel": "Seedream",
+   "baseModel": "Seedream",
+   "likes": 39,
+   "createdAt": "2026-11-23T17:46:45.223Z",
+   "model": "seedream",
+   "modelName": "Seedream",
+   "subject": "Landscape",
+   "segments": [
+    [
+     "Close to : skydivers, in freefall,",
+     "subject"
+    ],
+    [
+     "first in jumpsuit,",
+     "subject"
+    ],
+    [
+     "second in t-shirt, surprise, talk, in sky, photorealist, add,",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-28T15:42:34.182Z"
+  },
+  {
+   "id": "civitai-150305801",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/150305801",
+   "author": "schmede",
+   "authorUrl": "https://civitai.com/user/schmede",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0924acb-d89c-4662-a114-a10168d502dd/width=640/c0924acb-d89c-4662-a114-a10168d502dd.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c0924acb-d89c-4662-a114-a10168d502dd/original=true/c0924acb-d89c-4662-a114-a10168d502dd.jpeg",
+   "width": 2848,
+   "height": 1600,
+   "prompt": "A photorealistic still from a late-1990s syndicated fantasy-adventure television series set in a mythic ancient Greece, filmed on location in New Zealand on 35mm film: warm, dappled forest sunlight, soft green shade and golden highlights, warm saturated 90s colour, soft focus and fine film grain. Real, practical, handmade leather-and-metal costumes and props, natural skin texture.\n\nThe woman from [Image 1], in her early twenties — her face, her hazel eyes and her caramel honey-brown hair in a thick braid over one shoulder, exactly as in [Image 1] — as the warm-hearted travelling bard who has become an Amazon warrior: wearing exactly the top in [Image 2]: a sleeveless, cropped olive-green top of rough, distressed fabric woven in a criss-cross pattern, laced at the front and baring her midriff; with a short olive-green and brown Amazon skirt of layered leather strips on a tooled leather belt, brown leather armbands and soft brown leather boots.\n\nHer weapon is exactly the long wooden fighting staff in [Image 2], bound with cord at the grip. She holds it upright in one hand, its foot planted on the ground beside her; her other hand rests on her hip.\n\nShe stands in an Amazon village in a sun-dappled forest, thatched wooden huts and hanging woven banners behind her. A warm, gentle, kind smile. Close medium shot from the knees up, facing the camera or turned three-quarters. She is the only person in the image. No text.",
+   "settings": "2848×1600",
+   "modelHint": "Seedream ",
+   "modelLabel": "Seedream",
+   "baseModel": "Seedream",
+   "likes": 15,
+   "createdAt": "2026-11-26T20:34:06.675Z",
+   "model": "seedream",
+   "modelName": "Seedream",
+   "subject": "Character",
+   "segments": [
+    [
+     "A photorealistic still from a late-1990s syndicated fantasy-adventure television series set in a mythic ancient Greece,",
+     "subject"
+    ],
+    [
+     "filmed on location in New Zealand on 35mm film:",
+     "camera"
+    ],
+    [
+     "warm,",
+     "mood"
+    ],
+    [
+     "dappled forest sunlight,",
+     "light"
+    ],
+    [
+     "soft green shade and golden highlights,",
+     "subject"
+    ],
+    [
+     "warm saturated 90s colour,",
+     "mood"
+    ],
+    [
+     "soft focus and fine film grain.",
+     "camera"
+    ],
+    [
+     "Real, practical,",
+     "subject"
+    ],
+    [
+     "handmade leather-and-metal costumes and props,",
+     "subject"
+    ],
+    [
+     "natural skin texture.",
+     "subject"
+    ],
+    [
+     "The woman from [Image 1],",
+     "subject"
+    ],
+    [
+     "in her early twenties — her face,",
+     "subject"
+    ],
+    [
+     "her hazel eyes and her caramel honey-brown hair in a thick braid over one shoulder,",
+     "subject"
+    ],
+    [
+     "exactly as in [Image 1] — as the warm-hearted travelling bard who has become an Amazon warrior:",
+     "subject"
+    ],
+    [
+     "wearing exactly the top in [Image 2]: a sleeveless,",
+     "subject"
+    ],
+    [
+     "cropped olive-green top of rough,",
+     "subject"
+    ],
+    [
+     "distressed fabric woven in a criss-cross pattern,",
+     "subject"
+    ],
+    [
+     "laced at the front and baring her midriff;",
+     "subject"
+    ],
+    [
+     "with a short olive-green and brown Amazon skirt of layered leather strips on a tooled leather belt,",
+     "subject"
+    ],
+    [
+     "brown leather armbands and soft brown leather boots.",
+     "subject"
+    ],
+    [
+     "Her weapon is exactly the long wooden fighting staff in [Image 2],",
+     "subject"
+    ],
+    [
+     "bound with cord at the grip.",
+     "subject"
+    ],
+    [
+     "She holds it upright in one hand,",
+     "subject"
+    ],
+    [
+     "its foot planted on the ground beside her;",
+     "subject"
+    ],
+    [
+     "her other hand rests on her hip.",
+     "subject"
+    ],
+    [
+     "She stands in an Amazon village in a sun-dappled forest,",
+     "subject"
+    ],
+    [
+     "thatched wooden huts and hanging woven banners behind her.",
+     "subject"
+    ],
+    [
+     "A warm,",
+     "mood"
+    ],
+    [
+     "gentle, kind smile.",
+     "other"
+    ],
+    [
+     "Close medium shot from the knees up,",
+     "camera"
+    ],
+    [
+     "facing the camera or turned three-quarters.",
+     "subject"
+    ],
+    [
+     "She is the only person in the image.",
+     "subject"
+    ],
+    [
+     "No text.",
+     "format"
+    ]
+   ],
+   "addedAt": "2026-11-28T15:42:34.182Z"
   },
   {
    "id": "civitai-149792286",
@@ -110,7 +648,7 @@
    "modelHint": "Krea 2 Turbo krea2_turbo_fp8_scaled",
    "modelLabel": "Krea 2 Turbo · krea2_turbo_fp8_scaled",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1183,
+   "likes": 1412,
    "createdAt": "2026-11-21T22:02:15.709Z",
    "model": "krea",
    "modelName": "Krea",
@@ -188,6 +726,151 @@
    "addedAt": "2026-11-27T16:50:58.015Z"
   },
   {
+   "id": "civitai-149799116",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149799116",
+   "author": "KuroKenzo",
+   "authorUrl": "https://civitai.com/user/KuroKenzo",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a933edc-db94-4f49-8e03-de5107d9f160/width=640/6a933edc-db94-4f49-8e03-de5107d9f160.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6a933edc-db94-4f49-8e03-de5107d9f160/original=true/6a933edc-db94-4f49-8e03-de5107d9f160.jpeg",
+   "width": 1376,
+   "height": 2048,
+   "prompt": "Dark atmospheric oil painting of one single giant rusted-metal serpent train coiling upward out of desolate urban ruins. Its segmented armored freight-car body ends in a massive open mechanical jaw lined with mangled metal teeth, red glass eyes, with a tiny hooded cultist in flowing crimson robes standing atop its metal skull in a calm, commanding posture with arms raised. Visual style: detailed traditional oil painting fused with 1980s retro-anime dark fantasy OVA art, crisp painted edges, strong rim lighting separating foreground from background, dramatic chiaroscuro lighting, vast atmospheric perspective, towering monumental scale, bleak dystopian atmosphere, sublime awe mixed with creeping dread, sharp silhouette definition, grim painterly anime realism.",
+   "settings": "Steps 12 · CFG 1.5 · euler · 1376×2048",
+   "modelHint": "Krea 2 Turbo ",
+   "modelLabel": "Krea 2 Turbo",
+   "baseModel": "Krea 2 Turbo",
+   "likes": 1366,
+   "createdAt": "2026-11-21T23:41:13.683Z",
+   "model": "krea",
+   "modelName": "Krea",
+   "subject": "Illustration",
+   "segments": [
+    [
+     "Dark atmospheric oil painting of one single giant rusted-metal serpent train coiling upward out of desolate urban ruins.",
+     "style"
+    ],
+    [
+     "Its segmented armored freight-car body ends in a massive open mechanical jaw lined with mangled metal teeth,",
+     "subject"
+    ],
+    [
+     "red glass eyes,",
+     "subject"
+    ],
+    [
+     "with a tiny hooded cultist in flowing crimson robes standing atop its metal skull in a calm,",
+     "subject"
+    ],
+    [
+     "commanding posture with arms raised.",
+     "subject"
+    ],
+    [
+     "Visual style:",
+     "style"
+    ],
+    [
+     "detailed traditional oil painting fused with 1980s retro-anime dark fantasy OVA art,",
+     "style"
+    ],
+    [
+     "crisp painted edges,",
+     "style"
+    ],
+    [
+     "strong rim lighting separating foreground from background,",
+     "light"
+    ],
+    [
+     "dramatic chiaroscuro lighting,",
+     "light"
+    ],
+    [
+     "vast atmospheric perspective,",
+     "mood"
+    ],
+    [
+     "towering monumental scale,",
+     "other"
+    ],
+    [
+     "bleak dystopian atmosphere,",
+     "mood"
+    ],
+    [
+     "sublime awe mixed with creeping dread,",
+     "subject"
+    ],
+    [
+     "sharp silhouette definition,",
+     "format"
+    ],
+    [
+     "grim painterly anime realism.",
+     "style"
+    ]
+   ],
+   "addedAt": "2026-11-27T16:50:58.015Z"
+  },
+  {
+   "id": "civitai-150270439",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/150270439",
+   "author": "RefugeeNT",
+   "authorUrl": "https://civitai.com/user/RefugeeNT",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c32c78c-f78c-4355-bd0f-8214c9994f46/width=640/8c32c78c-f78c-4355-bd0f-8214c9994f46.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c32c78c-f78c-4355-bd0f-8214c9994f46/original=true/8c32c78c-f78c-4355-bd0f-8214c9994f46.jpeg",
+   "width": 1248,
+   "height": 1824,
+   "prompt": "highres,masterpiece,absurdres,best quality,amazing quality,very aesthetic,ultra detailed,anime coloring,\n2girls,hikari \\(blue archive\\),nozomi \\(blue archive\\),sharp ears,green hair,summer dresses,polka dot dresses,girls running around, they face each other, (spinning on the grass:0.8),spinning around in one place,happy expression,looking at viewer, their hands linked with each other,spinning around together,kuru kuru,motion lines,action-packed,\nplain, wind,depth of field,morning,outdoors,looks at viewer,\n(light theme:0.7),(blue theme:0.4),side view,(high angle:0.8),dynamic angle,depth of field,cinematic lighting,<lora:BOA_r1:0.5>,",
+   "negative": "bad quality,worst quality,jpeg artifacts, low quality,worst detail,lowres, worst quality, bad quality, bad anatomy, sketch, blurry,first person view,animal features,solo,people in the background,",
+   "settings": "Steps 25 · CFG 3.3 · Euler a · 832×1216",
+   "modelHint": "Illustrious waiIllustriousSDXL_v170",
+   "modelLabel": "Illustrious · waiIllustriousSDXL_v170",
+   "baseModel": "Illustrious",
+   "likes": 766,
+   "createdAt": "2026-11-26T12:00:17.921Z",
+   "model": "sdxl",
+   "modelName": "Stable Diffusion / SDXL",
+   "subject": "Portrait",
+   "segments": [
+    [
+     "highres,masterpiece,absurdres,best quality,amazing quality,very aesthetic,ultra detailed,anime coloring,",
+     "style"
+    ],
+    [
+     "2girls,hikari \\(blue archive\\),nozomi \\(blue archive\\),sharp ears,green hair,summer dresses,polka dot dresses,girls running around,",
+     "format"
+    ],
+    [
+     "they face each other,",
+     "subject"
+    ],
+    [
+     "(spinning on the grass:0.8),spinning around in one place,happy expression,looking at viewer,",
+     "subject"
+    ],
+    [
+     "their hands linked with each other,spinning around together,kuru kuru,motion lines,action-packed,",
+     "subject"
+    ],
+    [
+     "plain,",
+     "other"
+    ],
+    [
+     "wind,depth of field,morning,outdoors,looks at viewer,",
+     "camera"
+    ],
+    [
+     "(light theme:0.7),(blue theme:0.4),side view,(high angle:0.8),dynamic angle,depth of field,cinematic lighting,<lora:BOA_r1:0.5>,",
+     "camera"
+    ]
+   ],
+   "addedAt": "2026-11-27T16:50:58.015Z"
+  },
+  {
    "id": "civitai-150202613",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/150202613",
@@ -202,7 +885,7 @@
    "modelHint": "MOSS Image ",
    "modelLabel": "MOSS Image",
    "baseModel": "MOSS Image",
-   "likes": 647,
+   "likes": 711,
    "createdAt": "2026-11-25T22:00:00.000Z",
    "model": "moss-image",
    "modelName": "MOSS Image",
@@ -352,63 +1035,6 @@
    "addedAt": "2026-11-27T16:50:58.015Z"
   },
   {
-   "id": "civitai-150270439",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/150270439",
-   "author": "RefugeeNT",
-   "authorUrl": "https://civitai.com/user/RefugeeNT",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c32c78c-f78c-4355-bd0f-8214c9994f46/width=640/8c32c78c-f78c-4355-bd0f-8214c9994f46.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8c32c78c-f78c-4355-bd0f-8214c9994f46/original=true/8c32c78c-f78c-4355-bd0f-8214c9994f46.jpeg",
-   "width": 1248,
-   "height": 1824,
-   "prompt": "highres,masterpiece,absurdres,best quality,amazing quality,very aesthetic,ultra detailed,anime coloring,\n2girls,hikari \\(blue archive\\),nozomi \\(blue archive\\),sharp ears,green hair,summer dresses,polka dot dresses,girls running around, they face each other, (spinning on the grass:0.8),spinning around in one place,happy expression,looking at viewer, their hands linked with each other,spinning around together,kuru kuru,motion lines,action-packed,\nplain, wind,depth of field,morning,outdoors,looks at viewer,\n(light theme:0.7),(blue theme:0.4),side view,(high angle:0.8),dynamic angle,depth of field,cinematic lighting,<lora:BOA_r1:0.5>,",
-   "negative": "bad quality,worst quality,jpeg artifacts, low quality,worst detail,lowres, worst quality, bad quality, bad anatomy, sketch, blurry,first person view,animal features,solo,people in the background,",
-   "settings": "Steps 25 · CFG 3.3 · Euler a · 832×1216",
-   "modelHint": "Illustrious waiIllustriousSDXL_v170",
-   "modelLabel": "Illustrious · waiIllustriousSDXL_v170",
-   "baseModel": "Illustrious",
-   "likes": 583,
-   "createdAt": "2026-11-26T12:00:17.921Z",
-   "model": "sdxl",
-   "modelName": "Stable Diffusion / SDXL",
-   "subject": "Portrait",
-   "segments": [
-    [
-     "highres,masterpiece,absurdres,best quality,amazing quality,very aesthetic,ultra detailed,anime coloring,",
-     "style"
-    ],
-    [
-     "2girls,hikari \\(blue archive\\),nozomi \\(blue archive\\),sharp ears,green hair,summer dresses,polka dot dresses,girls running around,",
-     "format"
-    ],
-    [
-     "they face each other,",
-     "subject"
-    ],
-    [
-     "(spinning on the grass:0.8),spinning around in one place,happy expression,looking at viewer,",
-     "subject"
-    ],
-    [
-     "their hands linked with each other,spinning around together,kuru kuru,motion lines,action-packed,",
-     "subject"
-    ],
-    [
-     "plain,",
-     "other"
-    ],
-    [
-     "wind,depth of field,morning,outdoors,looks at viewer,",
-     "camera"
-    ],
-    [
-     "(light theme:0.7),(blue theme:0.4),side view,(high angle:0.8),dynamic angle,depth of field,cinematic lighting,<lora:BOA_r1:0.5>,",
-     "camera"
-    ]
-   ],
-   "addedAt": "2026-11-27T16:50:58.015Z"
-  },
-  {
    "id": "civitai-149849170",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149849170",
@@ -424,7 +1050,7 @@
    "modelHint": "Illustrious novaFurryXL_ilV180B",
    "modelLabel": "Illustrious · novaFurryXL_ilV180B",
    "baseModel": "Illustrious",
-   "likes": 577,
+   "likes": 701,
    "createdAt": "2026-11-22T10:31:14.679Z",
    "model": "sdxl",
    "modelName": "Stable Diffusion / SDXL",
@@ -525,7 +1151,7 @@
    "modelHint": "Anima ",
    "modelLabel": "Anima",
    "baseModel": "Anima",
-   "likes": 570,
+   "likes": 691,
    "createdAt": "2026-11-23T18:50:06.123Z",
    "model": "anima",
    "modelName": "Anima",
@@ -639,34 +1265,6 @@
    "addedAt": "2026-11-27T16:50:58.015Z"
   },
   {
-   "id": "civitai-149798047",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149798047",
-   "author": "Tekvorian",
-   "authorUrl": "https://civitai.com/user/Tekvorian",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8bddf6bf-8cc3-48a3-b879-d7c4b81c494f/width=640/8bddf6bf-8cc3-48a3-b879-d7c4b81c494f.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8bddf6bf-8cc3-48a3-b879-d7c4b81c494f/original=true/8bddf6bf-8cc3-48a3-b879-d7c4b81c494f.jpeg",
-   "width": 1920,
-   "height": 1080,
-   "prompt": "🏆🌈 THE TINIEST CHAMPIONS — THE BIGGEST CELEBRATION!",
-   "settings": "1920×1080",
-   "modelHint": " ",
-   "modelLabel": "Unknown model",
-   "baseModel": null,
-   "likes": 547,
-   "createdAt": "2026-11-21T23:20:39.457Z",
-   "model": "other",
-   "modelName": "Other",
-   "subject": "Other",
-   "segments": [
-    [
-     "🏆🌈 THE TINIEST CHAMPIONS — THE BIGGEST CELEBRATION!",
-     "subject"
-    ]
-   ],
-   "addedAt": "2026-11-27T16:50:58.015Z"
-  },
-  {
    "id": "civitai-149847698",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149847698",
@@ -681,7 +1279,7 @@
    "modelHint": " ",
    "modelLabel": "Unknown model",
    "baseModel": null,
-   "likes": 496,
+   "likes": 632,
    "createdAt": "2026-11-22T10:07:30.856Z",
    "model": "other",
    "modelName": "Other",
@@ -799,6 +1397,34 @@
    "addedAt": "2026-11-27T16:50:58.015Z"
   },
   {
+   "id": "civitai-149798047",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149798047",
+   "author": "Tekvorian",
+   "authorUrl": "https://civitai.com/user/Tekvorian",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8bddf6bf-8cc3-48a3-b879-d7c4b81c494f/width=640/8bddf6bf-8cc3-48a3-b879-d7c4b81c494f.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8bddf6bf-8cc3-48a3-b879-d7c4b81c494f/original=true/8bddf6bf-8cc3-48a3-b879-d7c4b81c494f.jpeg",
+   "width": 1920,
+   "height": 1080,
+   "prompt": "🏆🌈 THE TINIEST CHAMPIONS — THE BIGGEST CELEBRATION!",
+   "settings": "1920×1080",
+   "modelHint": " ",
+   "modelLabel": "Unknown model",
+   "baseModel": null,
+   "likes": 626,
+   "createdAt": "2026-11-21T23:20:39.457Z",
+   "model": "other",
+   "modelName": "Other",
+   "subject": "Other",
+   "segments": [
+    [
+     "🏆🌈 THE TINIEST CHAMPIONS — THE BIGGEST CELEBRATION!",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-27T16:50:58.015Z"
+  },
+  {
    "id": "civitai-150116192",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/150116192",
@@ -813,7 +1439,7 @@
    "modelHint": " ",
    "modelLabel": "Unknown model",
    "baseModel": null,
-   "likes": 476,
+   "likes": 583,
    "createdAt": "2026-11-24T22:29:56.643Z",
    "model": "other",
    "modelName": "Other",
@@ -1050,7 +1676,7 @@
    "modelHint": "Flux.1 D ",
    "modelLabel": "Flux.1 D",
    "baseModel": "Flux.1 D",
-   "likes": 95,
+   "likes": 96,
    "createdAt": "2026-11-26T15:21:09.167Z",
    "model": "flux",
    "modelName": "FLUX",
@@ -1119,6 +1745,75 @@
     [
      "A small red heart icon is in the bottom left corner.",
      "subject"
+    ]
+   ],
+   "addedAt": "2026-11-27T16:50:58.015Z"
+  },
+  {
+   "id": "civitai-150359055",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/150359055",
+   "author": "jo_be",
+   "authorUrl": "https://civitai.com/user/jo_be",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b708705e-ba78-41ba-834b-7e3430940bee/width=640/b708705e-ba78-41ba-834b-7e3430940bee.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b708705e-ba78-41ba-834b-7e3430940bee/original=true/b708705e-ba78-41ba-834b-7e3430940bee.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "Masterpiece, 8k, HDR. The composition should feature a wide angle view of a crown hall of a castle with intricate details in a world in novuschroma53 style. A stunningly beautiful, dark medium haired, 21yo girl in novuschroma53 style presenting a highly sophisticated beautiful dress in great detail.\nIntricate details with a sense of depth of field, dynamic pose, artistic photography, depth of field,",
+   "negative": "lowres, bad anatomy, worst quality, low quality, normal quality, bad hands, mutated, extra fingers, artifacts, disfigured, people, light_particles, dust_particles, heart_in_mouth, bullet, shell_casing, neutral pose,",
+   "settings": "Steps 30 · CFG 7 · Euler a · 832×1216",
+   "modelHint": "SDXL 1.0 ",
+   "modelLabel": "SDXL 1.0",
+   "baseModel": "SDXL 1.0",
+   "likes": 48,
+   "createdAt": "2026-11-27T09:09:24.413Z",
+   "model": "sdxl",
+   "modelName": "Stable Diffusion / SDXL",
+   "subject": "Portrait",
+   "segments": [
+    [
+     "Masterpiece,",
+     "style"
+    ],
+    [
+     "8k,",
+     "format"
+    ],
+    [
+     "HDR.",
+     "subject"
+    ],
+    [
+     "The composition should feature a wide angle view of a crown hall of a castle with intricate details in a world in novuschroma53 style.",
+     "camera"
+    ],
+    [
+     "A stunningly beautiful,",
+     "subject"
+    ],
+    [
+     "dark medium haired,",
+     "subject"
+    ],
+    [
+     "21yo girl in novuschroma53 style presenting a highly sophisticated beautiful dress in great detail.",
+     "style"
+    ],
+    [
+     "Intricate details with a sense of depth of field,",
+     "camera"
+    ],
+    [
+     "dynamic pose,",
+     "other"
+    ],
+    [
+     "artistic photography,",
+     "style"
+    ],
+    [
+     "depth of field,",
+     "camera"
     ]
    ],
    "addedAt": "2026-11-27T16:50:58.015Z"
@@ -1342,7 +2037,7 @@
    "modelHint": "Seedream ",
    "modelLabel": "Seedream",
    "baseModel": "Seedream",
-   "likes": 40,
+   "likes": 41,
    "createdAt": "2026-11-22T09:40:01.976Z",
    "model": "seedream",
    "modelName": "Seedream",
@@ -1368,70 +2063,113 @@
    "addedAt": "2026-11-27T16:50:58.015Z"
   },
   {
-   "id": "civitai-150359055",
+   "id": "civitai-150235102",
    "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/150359055",
-   "author": "jo_be",
-   "authorUrl": "https://civitai.com/user/jo_be",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b708705e-ba78-41ba-834b-7e3430940bee/width=640/b708705e-ba78-41ba-834b-7e3430940bee.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b708705e-ba78-41ba-834b-7e3430940bee/original=true/b708705e-ba78-41ba-834b-7e3430940bee.jpeg",
-   "width": 832,
-   "height": 1216,
-   "prompt": "Masterpiece, 8k, HDR. The composition should feature a wide angle view of a crown hall of a castle with intricate details in a world in novuschroma53 style. A stunningly beautiful, dark medium haired, 21yo girl in novuschroma53 style presenting a highly sophisticated beautiful dress in great detail.\nIntricate details with a sense of depth of field, dynamic pose, artistic photography, depth of field,",
-   "negative": "lowres, bad anatomy, worst quality, low quality, normal quality, bad hands, mutated, extra fingers, artifacts, disfigured, people, light_particles, dust_particles, heart_in_mouth, bullet, shell_casing, neutral pose,",
-   "settings": "Steps 30 · CFG 7 · Euler a · 832×1216",
-   "modelHint": "SDXL 1.0 ",
-   "modelLabel": "SDXL 1.0",
-   "baseModel": "SDXL 1.0",
-   "likes": 30,
-   "createdAt": "2026-11-27T09:09:24.413Z",
-   "model": "sdxl",
-   "modelName": "Stable Diffusion / SDXL",
+   "sourceUrl": "https://civitai.com/images/150235102",
+   "author": "Nnnightt__",
+   "authorUrl": "https://civitai.com/user/Nnnightt__",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f0b24c0-e84d-4ac9-aa0f-680e8c02e9d9/width=640/3f0b24c0-e84d-4ac9-aa0f-680e8c02e9d9.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f0b24c0-e84d-4ac9-aa0f-680e8c02e9d9/original=true/3f0b24c0-e84d-4ac9-aa0f-680e8c02e9d9.jpeg",
+   "width": 1728,
+   "height": 2304,
+   "prompt": "A realistic photograph, shot on an 85mm lens with shallow depth of field and soft natural daylight. A beautiful, cute and playful Thai woman in her late 20s with a mature adult face and a slender womanly figure, with long, voluminous, glossy brown hair in big soft waves, wearing round thin-framed glasses, a loose cream knit cardigan over a fitted top and a flowy midi skirt. She gives a cheeky, mischievous closed-mouth grin with one cheek puffed and a playful wink, one hand twirling a strand of her hair. In her other hand she cheerfully holds up a hand-written cardboard sign with the words \"THANKS FOR BUZZ\", but the sign is held upside down: it is rotated 180 degrees, so the tops of the letters point down toward the ground and the first word \"THANKS\" is at the bottom of the sign. The letters are not mirrored or reversed, only turned upside down. She has no idea. Bright balcony with soft green bokeh behind her. Realistic skin texture, candid lifestyle photography. Fun, charming, eye-catching.",
+   "settings": "Seedream-V50Pro · 1728×2304",
+   "modelHint": "Seedream ",
+   "modelLabel": "Seedream",
+   "baseModel": "Seedream",
+   "likes": 24,
+   "createdAt": "2026-11-26T02:07:02.766Z",
+   "model": "seedream",
+   "modelName": "Seedream",
    "subject": "Portrait",
    "segments": [
     [
-     "Masterpiece,",
+     "A realistic photograph,",
      "style"
     ],
     [
-     "8k,",
-     "format"
-    ],
-    [
-     "HDR.",
-     "subject"
-    ],
-    [
-     "The composition should feature a wide angle view of a crown hall of a castle with intricate details in a world in novuschroma53 style.",
+     "shot on an 85mm lens with shallow depth of field and soft natural daylight.",
      "camera"
     ],
     [
-     "A stunningly beautiful,",
+     "A beautiful,",
      "subject"
     ],
     [
-     "dark medium haired,",
+     "cute and playful Thai woman in her late 20s with a mature adult face and a slender womanly figure,",
      "subject"
     ],
     [
-     "21yo girl in novuschroma53 style presenting a highly sophisticated beautiful dress in great detail.",
-     "style"
+     "with long, voluminous,",
+     "subject"
     ],
     [
-     "Intricate details with a sense of depth of field,",
-     "camera"
+     "glossy brown hair in big soft waves,",
+     "subject"
     ],
     [
-     "dynamic pose,",
+     "wearing round thin-framed glasses,",
+     "subject"
+    ],
+    [
+     "a loose cream knit cardigan over a fitted top and a flowy midi skirt.",
+     "subject"
+    ],
+    [
+     "She gives a cheeky,",
+     "subject"
+    ],
+    [
+     "mischievous closed-mouth grin with one cheek puffed and a playful wink,",
+     "mood"
+    ],
+    [
+     "one hand twirling a strand of her hair.",
+     "subject"
+    ],
+    [
+     "In her other hand she cheerfully holds up a hand-written cardboard sign with the words \"THANKS FOR BUZZ\",",
+     "subject"
+    ],
+    [
+     "but the sign is held upside down:",
+     "subject"
+    ],
+    [
+     "it is rotated 180 degrees,",
+     "subject"
+    ],
+    [
+     "so the tops of the letters point down toward the ground and the first word \"THANKS\" is at the bottom of the sign.",
+     "subject"
+    ],
+    [
+     "The letters are not mirrored or reversed,",
+     "subject"
+    ],
+    [
+     "only turned upside down.",
      "other"
     ],
     [
-     "artistic photography,",
+     "She has no idea.",
+     "other"
+    ],
+    [
+     "Bright balcony with soft green bokeh behind her.",
+     "camera"
+    ],
+    [
+     "Realistic skin texture,",
      "style"
     ],
     [
-     "depth of field,",
-     "camera"
+     "candid lifestyle photography.",
+     "style"
+    ],
+    [
+     "Fun, charming, eye-catching.",
+     "other"
     ]
    ],
    "addedAt": "2026-11-27T16:50:58.015Z"
@@ -1757,118 +2495,6 @@
    "addedAt": "2026-11-27T16:50:58.015Z"
   },
   {
-   "id": "civitai-150235102",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/150235102",
-   "author": "Nnnightt__",
-   "authorUrl": "https://civitai.com/user/Nnnightt__",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f0b24c0-e84d-4ac9-aa0f-680e8c02e9d9/width=640/3f0b24c0-e84d-4ac9-aa0f-680e8c02e9d9.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f0b24c0-e84d-4ac9-aa0f-680e8c02e9d9/original=true/3f0b24c0-e84d-4ac9-aa0f-680e8c02e9d9.jpeg",
-   "width": 1728,
-   "height": 2304,
-   "prompt": "A realistic photograph, shot on an 85mm lens with shallow depth of field and soft natural daylight. A beautiful, cute and playful Thai woman in her late 20s with a mature adult face and a slender womanly figure, with long, voluminous, glossy brown hair in big soft waves, wearing round thin-framed glasses, a loose cream knit cardigan over a fitted top and a flowy midi skirt. She gives a cheeky, mischievous closed-mouth grin with one cheek puffed and a playful wink, one hand twirling a strand of her hair. In her other hand she cheerfully holds up a hand-written cardboard sign with the words \"THANKS FOR BUZZ\", but the sign is held upside down: it is rotated 180 degrees, so the tops of the letters point down toward the ground and the first word \"THANKS\" is at the bottom of the sign. The letters are not mirrored or reversed, only turned upside down. She has no idea. Bright balcony with soft green bokeh behind her. Realistic skin texture, candid lifestyle photography. Fun, charming, eye-catching.",
-   "settings": "Seedream-V50Pro · 1728×2304",
-   "modelHint": "Seedream ",
-   "modelLabel": "Seedream",
-   "baseModel": "Seedream",
-   "likes": 15,
-   "createdAt": "2026-11-26T02:07:02.766Z",
-   "model": "seedream",
-   "modelName": "Seedream",
-   "subject": "Portrait",
-   "segments": [
-    [
-     "A realistic photograph,",
-     "style"
-    ],
-    [
-     "shot on an 85mm lens with shallow depth of field and soft natural daylight.",
-     "camera"
-    ],
-    [
-     "A beautiful,",
-     "subject"
-    ],
-    [
-     "cute and playful Thai woman in her late 20s with a mature adult face and a slender womanly figure,",
-     "subject"
-    ],
-    [
-     "with long, voluminous,",
-     "subject"
-    ],
-    [
-     "glossy brown hair in big soft waves,",
-     "subject"
-    ],
-    [
-     "wearing round thin-framed glasses,",
-     "subject"
-    ],
-    [
-     "a loose cream knit cardigan over a fitted top and a flowy midi skirt.",
-     "subject"
-    ],
-    [
-     "She gives a cheeky,",
-     "subject"
-    ],
-    [
-     "mischievous closed-mouth grin with one cheek puffed and a playful wink,",
-     "mood"
-    ],
-    [
-     "one hand twirling a strand of her hair.",
-     "subject"
-    ],
-    [
-     "In her other hand she cheerfully holds up a hand-written cardboard sign with the words \"THANKS FOR BUZZ\",",
-     "subject"
-    ],
-    [
-     "but the sign is held upside down:",
-     "subject"
-    ],
-    [
-     "it is rotated 180 degrees,",
-     "subject"
-    ],
-    [
-     "so the tops of the letters point down toward the ground and the first word \"THANKS\" is at the bottom of the sign.",
-     "subject"
-    ],
-    [
-     "The letters are not mirrored or reversed,",
-     "subject"
-    ],
-    [
-     "only turned upside down.",
-     "other"
-    ],
-    [
-     "She has no idea.",
-     "other"
-    ],
-    [
-     "Bright balcony with soft green bokeh behind her.",
-     "camera"
-    ],
-    [
-     "Realistic skin texture,",
-     "style"
-    ],
-    [
-     "candid lifestyle photography.",
-     "style"
-    ],
-    [
-     "Fun, charming, eye-catching.",
-     "other"
-    ]
-   ],
-   "addedAt": "2026-11-27T16:50:58.015Z"
-  },
-  {
    "id": "civitai-150209505",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/150209505",
@@ -2032,7 +2658,7 @@
    "modelHint": "Qwen Qwen-Rapid-AIO-NSFW-v23",
    "modelLabel": "Qwen · Qwen-Rapid-AIO-NSFW-v23",
    "baseModel": "Qwen",
-   "likes": 1,
+   "likes": 2,
    "createdAt": "2026-11-23T20:17:37.152Z",
    "model": "qwen-image",
    "modelName": "Qwen Image",
@@ -2080,7 +2706,7 @@
    "modelHint": "Krea 2 Turbo krea2_turbo_int8_convrot",
    "modelLabel": "Krea 2 Turbo · krea2_turbo_int8_convrot",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1282,
+   "likes": 1496,
    "createdAt": "2026-11-22T07:07:57.724Z",
    "model": "krea",
    "modelName": "Krea",
@@ -2216,7 +2842,7 @@
    "modelHint": "Krea 2 Turbo ",
    "modelLabel": "Krea 2 Turbo",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1272,
+   "likes": 1453,
    "createdAt": "2026-11-22T00:06:00.000Z",
    "model": "krea",
    "modelName": "Krea",
@@ -2388,7 +3014,7 @@
    "modelHint": "Krea 2 Turbo ",
    "modelLabel": "Krea 2 Turbo",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1186,
+   "likes": 1302,
    "createdAt": "2026-11-21T22:00:00.000Z",
    "model": "krea",
    "modelName": "Krea",
@@ -2528,7 +3154,7 @@
    "modelHint": "Krea 2 Turbo ",
    "modelLabel": "Krea 2 Turbo",
    "baseModel": "Krea 2 Turbo",
-   "likes": 1181,
+   "likes": 1302,
    "createdAt": "2026-11-21T22:00:00.000Z",
    "model": "krea",
    "modelName": "Krea",
@@ -3117,7 +3743,7 @@
    "modelHint": "SDXL 1.0 ",
    "modelLabel": "SDXL 1.0",
    "baseModel": "SDXL 1.0",
-   "likes": 44,
+   "likes": 45,
    "createdAt": "2026-11-25T21:41:45.252Z",
    "model": "sdxl",
    "modelName": "Stable Diffusion / SDXL",
@@ -4302,6 +4928,70 @@
    "addedAt": "2026-11-26T17:05:28.935Z"
   },
   {
+   "id": "civitai-150247750",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/150247750",
+   "author": "netojsnster701",
+   "authorUrl": "https://civitai.com/user/netojsnster701",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/731a96c8-c273-4c9c-b4ca-e2500355a7e8/width=640/731a96c8-c273-4c9c-b4ca-e2500355a7e8.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/731a96c8-c273-4c9c-b4ca-e2500355a7e8/original=true/731a96c8-c273-4c9c-b4ca-e2500355a7e8.jpeg",
+   "width": 832,
+   "height": 1216,
+   "prompt": "A wide street level view of a massive futuristic city. Hexagonal glass ceiling panels let in bright light, illuminating massive mechanical structures and platforms hanging above. Palm trees line the street. Vehicles and people aged 20-30 walk below. The art style is painterly with strong ink outlines (comic book aesthetic), high contrast between the deep shadows under the structures and the bright sky, dynamic perspective looking up at the architecture, and a gritty, atmospheric industrial mood. High detail on the mechanical parts and vegetation.",
+   "settings": "Steps 25 · CFG 3.5 · euler · 832×1216",
+   "modelHint": "Qwen ",
+   "modelLabel": "Qwen",
+   "baseModel": "Qwen",
+   "likes": 4,
+   "createdAt": "2026-11-26T05:23:27.906Z",
+   "model": "qwen-image",
+   "modelName": "Qwen Image",
+   "subject": "Architecture",
+   "segments": [
+    [
+     "A wide street level view of a massive futuristic city.",
+     "subject"
+    ],
+    [
+     "Hexagonal glass ceiling panels let in bright light,",
+     "light"
+    ],
+    [
+     "illuminating massive mechanical structures and platforms hanging above.",
+     "subject"
+    ],
+    [
+     "Palm trees line the street.",
+     "subject"
+    ],
+    [
+     "Vehicles and people aged 20-30 walk below.",
+     "subject"
+    ],
+    [
+     "The art style is painterly with strong ink outlines (comic book aesthetic),",
+     "style"
+    ],
+    [
+     "high contrast between the deep shadows under the structures and the bright sky,",
+     "light"
+    ],
+    [
+     "dynamic perspective looking up at the architecture, and a gritty,",
+     "subject"
+    ],
+    [
+     "atmospheric industrial mood.",
+     "mood"
+    ],
+    [
+     "High detail on the mechanical parts and vegetation.",
+     "subject"
+    ]
+   ],
+   "addedAt": "2026-11-26T17:05:28.935Z"
+  },
+  {
    "id": "civitai-150219875",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/150219875",
@@ -4450,70 +5140,6 @@
    "addedAt": "2026-11-26T17:05:28.935Z"
   },
   {
-   "id": "civitai-150247750",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/150247750",
-   "author": "netojsnster701",
-   "authorUrl": "https://civitai.com/user/netojsnster701",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/731a96c8-c273-4c9c-b4ca-e2500355a7e8/width=640/731a96c8-c273-4c9c-b4ca-e2500355a7e8.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/731a96c8-c273-4c9c-b4ca-e2500355a7e8/original=true/731a96c8-c273-4c9c-b4ca-e2500355a7e8.jpeg",
-   "width": 832,
-   "height": 1216,
-   "prompt": "A wide street level view of a massive futuristic city. Hexagonal glass ceiling panels let in bright light, illuminating massive mechanical structures and platforms hanging above. Palm trees line the street. Vehicles and people aged 20-30 walk below. The art style is painterly with strong ink outlines (comic book aesthetic), high contrast between the deep shadows under the structures and the bright sky, dynamic perspective looking up at the architecture, and a gritty, atmospheric industrial mood. High detail on the mechanical parts and vegetation.",
-   "settings": "Steps 25 · CFG 3.5 · euler · 832×1216",
-   "modelHint": "Qwen ",
-   "modelLabel": "Qwen",
-   "baseModel": "Qwen",
-   "likes": 2,
-   "createdAt": "2026-11-26T05:23:27.906Z",
-   "model": "qwen-image",
-   "modelName": "Qwen Image",
-   "subject": "Architecture",
-   "segments": [
-    [
-     "A wide street level view of a massive futuristic city.",
-     "subject"
-    ],
-    [
-     "Hexagonal glass ceiling panels let in bright light,",
-     "light"
-    ],
-    [
-     "illuminating massive mechanical structures and platforms hanging above.",
-     "subject"
-    ],
-    [
-     "Palm trees line the street.",
-     "subject"
-    ],
-    [
-     "Vehicles and people aged 20-30 walk below.",
-     "subject"
-    ],
-    [
-     "The art style is painterly with strong ink outlines (comic book aesthetic),",
-     "style"
-    ],
-    [
-     "high contrast between the deep shadows under the structures and the bright sky,",
-     "light"
-    ],
-    [
-     "dynamic perspective looking up at the architecture, and a gritty,",
-     "subject"
-    ],
-    [
-     "atmospheric industrial mood.",
-     "mood"
-    ],
-    [
-     "High detail on the mechanical parts and vegetation.",
-     "subject"
-    ]
-   ],
-   "addedAt": "2026-11-26T17:05:28.935Z"
-  },
-  {
    "id": "civitai-150229728",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/150229728",
@@ -4598,7 +5224,7 @@
    "modelHint": "Anima Nautilus_Grimoire_v2",
    "modelLabel": "Anima · Nautilus_Grimoire_v2",
    "baseModel": "Anima",
-   "likes": 875,
+   "likes": 1053,
    "createdAt": "2026-11-22T17:49:23.388Z",
    "model": "anima",
    "modelName": "Anima",
@@ -4742,7 +5368,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 291,
+   "likes": 303,
    "createdAt": "2026-11-24T13:02:58.974Z",
    "model": "gpt-image",
    "modelName": "GPT Image",
@@ -4798,7 +5424,7 @@
    "modelHint": "Nano Banana ",
    "modelLabel": "Nano Banana",
    "baseModel": "Nano Banana",
-   "likes": 82,
+   "likes": 83,
    "createdAt": "2026-11-24T00:14:45.735Z",
    "model": "nano-banana",
    "modelName": "Nano Banana (Gemini Image)",
@@ -4890,7 +5516,7 @@
    "modelHint": "Nano Banana ",
    "modelLabel": "Nano Banana",
    "baseModel": "Nano Banana",
-   "likes": 75,
+   "likes": 76,
    "createdAt": "2026-11-24T20:14:35.291Z",
    "model": "nano-banana",
    "modelName": "Nano Banana (Gemini Image)",
@@ -5034,7 +5660,7 @@
    "modelHint": "Nano Banana ",
    "modelLabel": "Nano Banana",
    "baseModel": "Nano Banana",
-   "likes": 65,
+   "likes": 66,
    "createdAt": "2026-11-25T00:00:13.764Z",
    "model": "nano-banana",
    "modelName": "Nano Banana (Gemini Image)",
@@ -5627,7 +6253,7 @@
    "modelHint": "Flux.1 D flux_dev",
    "modelLabel": "Flux.1 D · flux_dev",
    "baseModel": "Flux.1 D",
-   "likes": 39,
+   "likes": 41,
    "createdAt": "2026-11-24T07:01:18.464Z",
    "model": "flux",
    "modelName": "FLUX",
@@ -5867,7 +6493,7 @@
    "modelHint": "Seedream ",
    "modelLabel": "Seedream",
    "baseModel": "Seedream",
-   "likes": 25,
+   "likes": 26,
    "createdAt": "2026-11-23T22:00:00.000Z",
    "model": "seedream",
    "modelName": "Seedream",
@@ -6697,7 +7323,7 @@
    "modelHint": "Krea 2 vxpKrea2Nsfw_beta31INT8",
    "modelLabel": "Krea 2 · vxpKrea2Nsfw_beta31INT8",
    "baseModel": "Krea 2",
-   "likes": 1312,
+   "likes": 1436,
    "createdAt": "2026-11-21T22:00:00.000Z",
    "model": "krea",
    "modelName": "Krea",
@@ -7401,7 +8027,7 @@
    "modelHint": "Nano Banana ",
    "modelLabel": "Nano Banana",
    "baseModel": "Nano Banana",
-   "likes": 60,
+   "likes": 62,
    "createdAt": "2026-11-23T05:44:26.994Z",
    "model": "nano-banana",
    "modelName": "Nano Banana (Gemini Image)",
@@ -8229,6 +8855,70 @@
    "addedAt": "2026-11-23T18:27:49.276Z"
   },
   {
+   "id": "civitai-149816808",
+   "source": "civitai",
+   "sourceUrl": "https://civitai.com/images/149816808",
+   "author": "dhananjayh28390",
+   "authorUrl": "https://civitai.com/user/dhananjayh28390",
+   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5431c16a-ade5-4a29-9383-9784ed98c16f/width=640/5431c16a-ade5-4a29-9383-9784ed98c16f.jpeg",
+   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5431c16a-ade5-4a29-9383-9784ed98c16f/original=true/5431c16a-ade5-4a29-9383-9784ed98c16f.jpeg",
+   "width": 1024,
+   "height": 1536,
+   "prompt": "“Funny photorealistic scene of a tiny rubber duck in a bathtub holding a miniature toy gun like a tough action hero, playful bathroom setting, splashing water, exaggerated dramatic pose, comedic expression, bright soft lighting, absurd and humorous mood, highly detailed, whimsical, cinematic.”",
+   "settings": "1024×1536",
+   "modelHint": "OpenAI ",
+   "modelLabel": "OpenAI",
+   "baseModel": "OpenAI",
+   "likes": 1338,
+   "createdAt": "2026-11-22T03:02:25.974Z",
+   "model": "gpt-image",
+   "modelName": "GPT Image",
+   "subject": "3D & miniature",
+   "segments": [
+    [
+     "“Funny photorealistic scene of a tiny rubber duck in a bathtub holding a miniature toy gun like a tough action hero,",
+     "subject"
+    ],
+    [
+     "playful bathroom setting,",
+     "mood"
+    ],
+    [
+     "splashing water,",
+     "subject"
+    ],
+    [
+     "exaggerated dramatic pose,",
+     "mood"
+    ],
+    [
+     "comedic expression,",
+     "subject"
+    ],
+    [
+     "bright soft lighting,",
+     "light"
+    ],
+    [
+     "absurd and humorous mood,",
+     "mood"
+    ],
+    [
+     "highly detailed,",
+     "format"
+    ],
+    [
+     "whimsical,",
+     "mood"
+    ],
+    [
+     "cinematic.”",
+     "style"
+    ]
+   ],
+   "addedAt": "2026-11-23T18:27:49.276Z"
+  },
+  {
    "id": "civitai-149149506",
    "source": "civitai",
    "sourceUrl": "https://civitai.com/images/149149506",
@@ -8424,70 +9114,6 @@
     [
      "no logos.",
      "other"
-    ]
-   ],
-   "addedAt": "2026-11-23T18:27:49.276Z"
-  },
-  {
-   "id": "civitai-149816808",
-   "source": "civitai",
-   "sourceUrl": "https://civitai.com/images/149816808",
-   "author": "dhananjayh28390",
-   "authorUrl": "https://civitai.com/user/dhananjayh28390",
-   "image": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5431c16a-ade5-4a29-9383-9784ed98c16f/width=640/5431c16a-ade5-4a29-9383-9784ed98c16f.jpeg",
-   "imageFull": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5431c16a-ade5-4a29-9383-9784ed98c16f/original=true/5431c16a-ade5-4a29-9383-9784ed98c16f.jpeg",
-   "width": 1024,
-   "height": 1536,
-   "prompt": "“Funny photorealistic scene of a tiny rubber duck in a bathtub holding a miniature toy gun like a tough action hero, playful bathroom setting, splashing water, exaggerated dramatic pose, comedic expression, bright soft lighting, absurd and humorous mood, highly detailed, whimsical, cinematic.”",
-   "settings": "1024×1536",
-   "modelHint": "OpenAI ",
-   "modelLabel": "OpenAI",
-   "baseModel": "OpenAI",
-   "likes": 1132,
-   "createdAt": "2026-11-22T03:02:25.974Z",
-   "model": "gpt-image",
-   "modelName": "GPT Image",
-   "subject": "3D & miniature",
-   "segments": [
-    [
-     "“Funny photorealistic scene of a tiny rubber duck in a bathtub holding a miniature toy gun like a tough action hero,",
-     "subject"
-    ],
-    [
-     "playful bathroom setting,",
-     "mood"
-    ],
-    [
-     "splashing water,",
-     "subject"
-    ],
-    [
-     "exaggerated dramatic pose,",
-     "mood"
-    ],
-    [
-     "comedic expression,",
-     "subject"
-    ],
-    [
-     "bright soft lighting,",
-     "light"
-    ],
-    [
-     "absurd and humorous mood,",
-     "mood"
-    ],
-    [
-     "highly detailed,",
-     "format"
-    ],
-    [
-     "whimsical,",
-     "mood"
-    ],
-    [
-     "cinematic.”",
-     "style"
     ]
    ],
    "addedAt": "2026-11-23T18:27:49.276Z"
@@ -8711,7 +9337,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 799,
+   "likes": 944,
    "createdAt": "2026-11-21T21:15:00.000Z",
    "model": "gpt-image",
    "modelName": "GPT Image",
@@ -8929,7 +9555,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 418,
+   "likes": 452,
    "createdAt": "2026-11-22T21:15:00.000Z",
    "model": "gpt-image",
    "modelName": "GPT Image",
@@ -8985,7 +9611,7 @@
    "modelHint": "OpenAI ",
    "modelLabel": "OpenAI",
    "baseModel": "OpenAI",
-   "likes": 239,
+   "likes": 260,
    "createdAt": "2026-11-22T14:28:55.051Z",
    "model": "gpt-image",
    "modelName": "GPT Image",
@@ -9014,7 +9640,7 @@
    "modelHint": "SDXL 1.0 animagineXLV31_v30",
    "modelLabel": "SDXL 1.0 · animagineXLV31_v30",
    "baseModel": "SDXL 1.0",
-   "likes": 163,
+   "likes": 164,
    "createdAt": "2026-11-23T10:02:04.968Z",
    "model": "sdxl",
    "modelName": "Stable Diffusion / SDXL",
@@ -9206,7 +9832,7 @@
    "modelHint": "Flux.1 D lyh_reniji_00001_",
    "modelLabel": "Flux.1 D · lyh_reniji_00001_",
    "baseModel": "Flux.1 D",
-   "likes": 42,
+   "likes": 44,
    "createdAt": "2026-11-21T23:34:54.257Z",
    "model": "flux",
    "modelName": "FLUX",
@@ -9546,7 +10172,7 @@
    "modelHint": "Seedream ",
    "modelLabel": "Seedream",
    "baseModel": "Seedream",
-   "likes": 27,
+   "likes": 28,
    "createdAt": "2026-11-23T00:55:56.927Z",
    "model": "seedream",
    "modelName": "Seedream",
@@ -11465,7 +12091,7 @@
    "modelHint": "Nano Banana ",
    "modelLabel": "Nano Banana",
    "baseModel": "Nano Banana",
-   "likes": 37,
+   "likes": 41,
    "createdAt": "2026-11-21T22:00:00.000Z",
    "model": "nano-banana",
    "modelName": "Nano Banana (Gemini Image)",
